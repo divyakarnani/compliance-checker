@@ -21,7 +21,7 @@ _executor = ThreadPoolExecutor(max_workers=8)
 
 app = FastAPI(title="EU Fashion Compliance Checker")
 
-FRONTEND_DIR = Path(__file__).resolve().parent.parent / "frontend"
+FRONTEND_DIR = Path(__file__).parent.parent / "frontend"
 
 llm = OpenAI()
 
