@@ -11,8 +11,8 @@ from fastapi.staticfiles import StaticFiles
 from pathlib import Path
 from openai import OpenAI
 
-from backend.ingest import ensure_ingested
-from backend.analyze import (
+from ingest import ensure_ingested
+from analyze import (
     build_chat_context, CHAT_SYSTEM_PROMPT,
     analyze_claim, _parse_claims, _parse_certifications,
 )
