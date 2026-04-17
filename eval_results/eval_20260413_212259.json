@@ -1,0 +1,1829 @@
+{
+  "timestamp": "2026-04-13T21:22:59.615815",
+  "total_cases": 50,
+  "scores": {
+    "risk_correct": 45,
+    "regulation_correct": 46,
+    "issues_correct": 42,
+    "all_correct": 38
+  },
+  "percentages": {
+    "risk": 90.0,
+    "regulation": 92.0,
+    "issues": 84.0,
+    "all": 76.0
+  },
+  "gate_distribution": {
+    "BLACKLIST": 24,
+    "NEUTRALITY": 8,
+    "CERTIFIED": 8,
+    "COMPARATIVE": 3,
+    "LLM": 7
+  },
+  "results": [
+    {
+      "case_id": "1",
+      "claim": "eco-friendly",
+      "certifications": "",
+      "result": {
+        "claim_type": "BLACKLISTED",
+        "overall_risk": "HIGH",
+        "findings": [
+          {
+            "risk": "HIGH",
+            "regulation": "ECGT Directive (EU) 2024/825",
+            "article": "Annex I point 4a / Recital 9",
+            "issue": "'eco-friendly' is explicitly listed in ECGT Recital 9 as a banned generic environmental claim. Prohibited from September 27 2026 in all EU consumer-facing communications.",
+            "fix": "Remove entirely. Cannot be used without EU Ecolabel or equivalent ISO 14024 Type I certification.",
+            "compliant_rewrite": null
+          }
+        ],
+        "gate_resolved_at": 1,
+        "claim": "eco-friendly",
+        "product_name": "Eval Product"
+      },
+      "scores": {
+        "risk_pass": true,
+        "expected_risk": "HIGH",
+        "got_risk": "HIGH",
+        "reg_pass": true,
+        "expected_reg": "ECGT Directive (EU) 2024/825",
+        "got_reg": "ECGT Directive (EU) 2024/825",
+        "issues_pass": true,
+        "expected_article": "Annex I point 4a / Recital 9",
+        "gate": 1,
+        "all_pass": true
+      }
+    },
+    {
+      "case_id": "2",
+      "claim": "environmentally friendly",
+      "certifications": "",
+      "result": {
+        "claim_type": "BLACKLISTED",
+        "overall_risk": "HIGH",
+        "findings": [
+          {
+            "risk": "HIGH",
+            "regulation": "ECGT Directive (EU) 2024/825",
+            "article": "Annex I point 4a / Recital 9",
+            "issue": "'environmentally friendly' is explicitly listed in ECGT Recital 9 as a banned generic environmental claim. Prohibited from September 27 2026 in all EU consumer-facing communications.",
+            "fix": "Remove entirely. Cannot be used without EU Ecolabel or equivalent ISO 14024 Type I certification.",
+            "compliant_rewrite": null
+          }
+        ],
+        "gate_resolved_at": 1,
+        "claim": "environmentally friendly",
+        "product_name": "Eval Product"
+      },
+      "scores": {
+        "risk_pass": true,
+        "expected_risk": "HIGH",
+        "got_risk": "HIGH",
+        "reg_pass": true,
+        "expected_reg": "ECGT Directive (EU) 2024/825",
+        "got_reg": "ECGT Directive (EU) 2024/825",
+        "issues_pass": true,
+        "expected_article": "Annex I point 4a / Recital 9",
+        "gate": 1,
+        "all_pass": true
+      }
+    },
+    {
+      "case_id": "3",
+      "claim": "green",
+      "certifications": "",
+      "result": {
+        "claim_type": "BLACKLISTED",
+        "overall_risk": "HIGH",
+        "findings": [
+          {
+            "risk": "HIGH",
+            "regulation": "ECGT Directive (EU) 2024/825",
+            "article": "Annex I point 4a / Recital 9",
+            "issue": "'green' is explicitly listed in ECGT Recital 9 as a banned generic environmental claim. Prohibited from September 27 2026 in all EU consumer-facing communications.",
+            "fix": "Remove entirely. Cannot be used without EU Ecolabel or equivalent ISO 14024 Type I certification.",
+            "compliant_rewrite": null
+          }
+        ],
+        "gate_resolved_at": 1,
+        "claim": "green",
+        "product_name": "Eval Product"
+      },
+      "scores": {
+        "risk_pass": true,
+        "expected_risk": "HIGH",
+        "got_risk": "HIGH",
+        "reg_pass": true,
+        "expected_reg": "ECGT Directive (EU) 2024/825",
+        "got_reg": "ECGT Directive (EU) 2024/825",
+        "issues_pass": true,
+        "expected_article": "Annex I point 4a / Recital 9",
+        "gate": 1,
+        "all_pass": true
+      }
+    },
+    {
+      "case_id": "4",
+      "claim": "nature's friend",
+      "certifications": "",
+      "result": {
+        "claim_type": "BLACKLISTED",
+        "overall_risk": "HIGH",
+        "findings": [
+          {
+            "risk": "HIGH",
+            "regulation": "ECGT Directive (EU) 2024/825",
+            "article": "Annex I point 4a / Recital 9",
+            "issue": "'nature's friend' is explicitly listed in ECGT Recital 9 as a banned generic environmental claim. Prohibited from September 27 2026 in all EU consumer-facing communications.",
+            "fix": "Remove entirely. Cannot be used without EU Ecolabel or equivalent ISO 14024 Type I certification.",
+            "compliant_rewrite": null
+          }
+        ],
+        "gate_resolved_at": 1,
+        "claim": "nature's friend",
+        "product_name": "Eval Product"
+      },
+      "scores": {
+        "risk_pass": true,
+        "expected_risk": "HIGH",
+        "got_risk": "HIGH",
+        "reg_pass": true,
+        "expected_reg": "ECGT Directive (EU) 2024/825",
+        "got_reg": "ECGT Directive (EU) 2024/825",
+        "issues_pass": true,
+        "expected_article": "Annex I point 4a / Recital 9",
+        "gate": 1,
+        "all_pass": true
+      }
+    },
+    {
+      "case_id": "5",
+      "claim": "ecological",
+      "certifications": "",
+      "result": {
+        "claim_type": "BLACKLISTED",
+        "overall_risk": "HIGH",
+        "findings": [
+          {
+            "risk": "HIGH",
+            "regulation": "ECGT Directive (EU) 2024/825",
+            "article": "Annex I point 4a / Recital 9",
+            "issue": "'ecological' is explicitly listed in ECGT Recital 9 as a banned generic environmental claim. Prohibited from September 27 2026 in all EU consumer-facing communications.",
+            "fix": "Remove entirely. Cannot be used without EU Ecolabel or equivalent ISO 14024 Type I certification.",
+            "compliant_rewrite": null
+          }
+        ],
+        "gate_resolved_at": 1,
+        "claim": "ecological",
+        "product_name": "Eval Product"
+      },
+      "scores": {
+        "risk_pass": true,
+        "expected_risk": "HIGH",
+        "got_risk": "HIGH",
+        "reg_pass": true,
+        "expected_reg": "ECGT Directive (EU) 2024/825",
+        "got_reg": "ECGT Directive (EU) 2024/825",
+        "issues_pass": true,
+        "expected_article": "Annex I point 4a / Recital 9",
+        "gate": 1,
+        "all_pass": true
+      }
+    },
+    {
+      "case_id": "6",
+      "claim": "climate friendly",
+      "certifications": "",
+      "result": {
+        "claim_type": "BLACKLISTED",
+        "overall_risk": "HIGH",
+        "findings": [
+          {
+            "risk": "HIGH",
+            "regulation": "ECGT Directive (EU) 2024/825",
+            "article": "Annex I point 4a / Recital 9",
+            "issue": "'climate friendly' is explicitly listed in ECGT Recital 9 as a banned generic environmental claim. Prohibited from September 27 2026 in all EU consumer-facing communications.",
+            "fix": "Remove entirely. Cannot be used without EU Ecolabel or equivalent ISO 14024 Type I certification.",
+            "compliant_rewrite": null
+          }
+        ],
+        "gate_resolved_at": 1,
+        "claim": "climate friendly",
+        "product_name": "Eval Product"
+      },
+      "scores": {
+        "risk_pass": true,
+        "expected_risk": "HIGH",
+        "got_risk": "HIGH",
+        "reg_pass": true,
+        "expected_reg": "ECGT Directive (EU) 2024/825",
+        "got_reg": "ECGT Directive (EU) 2024/825",
+        "issues_pass": true,
+        "expected_article": "Annex I point 4a / Recital 9",
+        "gate": 1,
+        "all_pass": true
+      }
+    },
+    {
+      "case_id": "7",
+      "claim": "carbon friendly",
+      "certifications": "",
+      "result": {
+        "claim_type": "BLACKLISTED",
+        "overall_risk": "HIGH",
+        "findings": [
+          {
+            "risk": "HIGH",
+            "regulation": "ECGT Directive (EU) 2024/825",
+            "article": "Annex I point 4a / Recital 9",
+            "issue": "'carbon friendly' is explicitly listed in ECGT Recital 9 as a banned generic environmental claim. Prohibited from September 27 2026 in all EU consumer-facing communications.",
+            "fix": "Remove entirely. Cannot be used without EU Ecolabel or equivalent ISO 14024 Type I certification.",
+            "compliant_rewrite": null
+          }
+        ],
+        "gate_resolved_at": 1,
+        "claim": "carbon friendly",
+        "product_name": "Eval Product"
+      },
+      "scores": {
+        "risk_pass": true,
+        "expected_risk": "HIGH",
+        "got_risk": "HIGH",
+        "reg_pass": true,
+        "expected_reg": "ECGT Directive (EU) 2024/825",
+        "got_reg": "ECGT Directive (EU) 2024/825",
+        "issues_pass": true,
+        "expected_article": "Annex I point 4a / Recital 9",
+        "gate": 1,
+        "all_pass": true
+      }
+    },
+    {
+      "case_id": "8",
+      "claim": "gentle on the environment",
+      "certifications": "",
+      "result": {
+        "claim_type": "BLACKLISTED",
+        "overall_risk": "HIGH",
+        "findings": [
+          {
+            "risk": "HIGH",
+            "regulation": "ECGT Directive (EU) 2024/825",
+            "article": "Annex I point 4a / Recital 9",
+            "issue": "'gentle on the environment' is explicitly listed in ECGT Recital 9 as a banned generic environmental claim. Prohibited from September 27 2026 in all EU consumer-facing communications.",
+            "fix": "Remove entirely. Cannot be used without EU Ecolabel or equivalent ISO 14024 Type I certification.",
+            "compliant_rewrite": null
+          }
+        ],
+        "gate_resolved_at": 1,
+        "claim": "gentle on the environment",
+        "product_name": "Eval Product"
+      },
+      "scores": {
+        "risk_pass": true,
+        "expected_risk": "HIGH",
+        "got_risk": "HIGH",
+        "reg_pass": true,
+        "expected_reg": "ECGT Directive (EU) 2024/825",
+        "got_reg": "ECGT Directive (EU) 2024/825",
+        "issues_pass": true,
+        "expected_article": "Annex I point 4a / Recital 9",
+        "gate": 1,
+        "all_pass": true
+      }
+    },
+    {
+      "case_id": "9",
+      "claim": "biodegradable",
+      "certifications": "",
+      "result": {
+        "claim_type": "BLACKLISTED",
+        "overall_risk": "HIGH",
+        "findings": [
+          {
+            "risk": "HIGH",
+            "regulation": "ECGT Directive (EU) 2024/825",
+            "article": "Annex I point 4a / Recital 9",
+            "issue": "'biodegradable' is explicitly listed in ECGT Recital 9 as a banned generic environmental claim. Prohibited from September 27 2026 in all EU consumer-facing communications.",
+            "fix": "Remove entirely. Cannot be used without EU Ecolabel or equivalent ISO 14024 Type I certification.",
+            "compliant_rewrite": null
+          }
+        ],
+        "gate_resolved_at": 1,
+        "claim": "biodegradable",
+        "product_name": "Eval Product"
+      },
+      "scores": {
+        "risk_pass": true,
+        "expected_risk": "HIGH",
+        "got_risk": "HIGH",
+        "reg_pass": true,
+        "expected_reg": "ECGT Directive (EU) 2024/825",
+        "got_reg": "ECGT Directive (EU) 2024/825",
+        "issues_pass": true,
+        "expected_article": "Annex I point 4a / Recital 9",
+        "gate": 1,
+        "all_pass": true
+      }
+    },
+    {
+      "case_id": "10",
+      "claim": "biobased",
+      "certifications": "",
+      "result": {
+        "claim_type": "BLACKLISTED",
+        "overall_risk": "HIGH",
+        "findings": [
+          {
+            "risk": "HIGH",
+            "regulation": "ECGT Directive (EU) 2024/825",
+            "article": "Annex I point 4a / Recital 9",
+            "issue": "'biobased' is explicitly listed in ECGT Recital 9 as a banned generic environmental claim. Prohibited from September 27 2026 in all EU consumer-facing communications.",
+            "fix": "Remove entirely. Cannot be used without EU Ecolabel or equivalent ISO 14024 Type I certification.",
+            "compliant_rewrite": null
+          }
+        ],
+        "gate_resolved_at": 1,
+        "claim": "biobased",
+        "product_name": "Eval Product"
+      },
+      "scores": {
+        "risk_pass": true,
+        "expected_risk": "HIGH",
+        "got_risk": "HIGH",
+        "reg_pass": true,
+        "expected_reg": "ECGT Directive (EU) 2024/825",
+        "got_reg": "ECGT Directive (EU) 2024/825",
+        "issues_pass": true,
+        "expected_article": "Annex I point 4a / Recital 9",
+        "gate": 1,
+        "all_pass": true
+      }
+    },
+    {
+      "case_id": "11",
+      "claim": "carbon neutral",
+      "certifications": "",
+      "result": {
+        "claim_type": "NEUTRALITY",
+        "overall_risk": "HIGH",
+        "findings": [
+          {
+            "risk": "HIGH",
+            "regulation": "ECGT Directive (EU) 2024/825",
+            "article": "Annex I point 4a / Recital 9",
+            "issue": "Generic environmental claim 'carbon neutral' — banned under Annex I point 4a unless recognised excellent environmental performance demonstrated via EU Ecolabel or equivalent ISO 14024 Type I scheme.",
+            "fix": "No standard certification unlocks this claim. EU Ecolabel would be required.",
+            "compliant_rewrite": null
+          },
+          {
+            "risk": "HIGH",
+            "regulation": "ECGT Directive (EU) 2024/825",
+            "article": "Annex I point 4c / Recital 12",
+            "issue": "Offset-based neutrality claim 'carbon neutral' — banned under Annex I point 4c if based on carbon credits outside the product's own value chain. Cannot be remedied by any certification.",
+            "fix": "Remove entirely unless claim is based solely on verified actual emissions reductions within the product's own value chain, independently verified, with methodology publicly disclosed.",
+            "compliant_rewrite": null
+          }
+        ],
+        "gate_resolved_at": 2,
+        "claim": "carbon neutral",
+        "product_name": "Eval Product"
+      },
+      "scores": {
+        "risk_pass": true,
+        "expected_risk": "HIGH",
+        "got_risk": "HIGH",
+        "reg_pass": true,
+        "expected_reg": "ECGT Directive (EU) 2024/825",
+        "got_reg": "ECGT Directive (EU) 2024/825",
+        "issues_pass": true,
+        "expected_article": "Annex I point 4a and 4c / Recital 9 and 12",
+        "gate": 2,
+        "all_pass": true
+      }
+    },
+    {
+      "case_id": "12",
+      "claim": "carbon neutral via certified carbon credits",
+      "certifications": "Carbon credits",
+      "result": {
+        "claim_type": "NEUTRALITY",
+        "overall_risk": "HIGH",
+        "findings": [
+          {
+            "risk": "HIGH",
+            "regulation": "ECGT Directive (EU) 2024/825",
+            "article": "Annex I point 4a / Recital 9",
+            "issue": "Generic environmental claim 'carbon neutral' — banned under Annex I point 4a unless recognised excellent environmental performance demonstrated via EU Ecolabel or equivalent ISO 14024 Type I scheme.",
+            "fix": "No standard certification unlocks this claim. EU Ecolabel would be required.",
+            "compliant_rewrite": null
+          },
+          {
+            "risk": "HIGH",
+            "regulation": "ECGT Directive (EU) 2024/825",
+            "article": "Annex I point 4c / Recital 12",
+            "issue": "Offset-based neutrality claim 'carbon neutral' — banned under Annex I point 4c if based on carbon credits outside the product's own value chain. Cannot be remedied by any certification.",
+            "fix": "Remove entirely unless claim is based solely on verified actual emissions reductions within the product's own value chain, independently verified, with methodology publicly disclosed.",
+            "compliant_rewrite": null
+          }
+        ],
+        "gate_resolved_at": 2,
+        "claim": "carbon neutral via certified carbon credits",
+        "product_name": "Eval Product"
+      },
+      "scores": {
+        "risk_pass": true,
+        "expected_risk": "HIGH",
+        "got_risk": "HIGH",
+        "reg_pass": true,
+        "expected_reg": "ECGT Directive (EU) 2024/825",
+        "got_reg": "ECGT Directive (EU) 2024/825",
+        "issues_pass": true,
+        "expected_article": "Annex I point 4c / Recital 12",
+        "gate": 2,
+        "all_pass": true
+      }
+    },
+    {
+      "case_id": "13",
+      "claim": "climate neutral",
+      "certifications": "",
+      "result": {
+        "claim_type": "NEUTRALITY",
+        "overall_risk": "HIGH",
+        "findings": [
+          {
+            "risk": "HIGH",
+            "regulation": "ECGT Directive (EU) 2024/825",
+            "article": "Annex I point 4a / Recital 9",
+            "issue": "Generic environmental claim 'climate neutral' — banned under Annex I point 4a unless recognised excellent environmental performance demonstrated via EU Ecolabel or equivalent ISO 14024 Type I scheme.",
+            "fix": "No standard certification unlocks this claim. EU Ecolabel would be required.",
+            "compliant_rewrite": null
+          },
+          {
+            "risk": "HIGH",
+            "regulation": "ECGT Directive (EU) 2024/825",
+            "article": "Annex I point 4c / Recital 12",
+            "issue": "Offset-based neutrality claim 'climate neutral' — banned under Annex I point 4c if based on carbon credits outside the product's own value chain. Cannot be remedied by any certification.",
+            "fix": "Remove entirely unless claim is based solely on verified actual emissions reductions within the product's own value chain, independently verified, with methodology publicly disclosed.",
+            "compliant_rewrite": null
+          }
+        ],
+        "gate_resolved_at": 2,
+        "claim": "climate neutral",
+        "product_name": "Eval Product"
+      },
+      "scores": {
+        "risk_pass": true,
+        "expected_risk": "HIGH",
+        "got_risk": "HIGH",
+        "reg_pass": true,
+        "expected_reg": "ECGT Directive (EU) 2024/825",
+        "got_reg": "ECGT Directive (EU) 2024/825",
+        "issues_pass": true,
+        "expected_article": "Annex I point 4a and 4c",
+        "gate": 2,
+        "all_pass": true
+      }
+    },
+    {
+      "case_id": "14",
+      "claim": "climate positive",
+      "certifications": "",
+      "result": {
+        "claim_type": "NEUTRALITY",
+        "overall_risk": "HIGH",
+        "findings": [
+          {
+            "risk": "HIGH",
+            "regulation": "ECGT Directive (EU) 2024/825",
+            "article": "Annex I point 4a / Recital 9",
+            "issue": "Generic environmental claim 'climate positive' — banned under Annex I point 4a unless recognised excellent environmental performance demonstrated via EU Ecolabel or equivalent ISO 14024 Type I scheme.",
+            "fix": "No standard certification unlocks this claim. EU Ecolabel would be required.",
+            "compliant_rewrite": null
+          },
+          {
+            "risk": "HIGH",
+            "regulation": "ECGT Directive (EU) 2024/825",
+            "article": "Annex I point 4c / Recital 12",
+            "issue": "Offset-based neutrality claim 'climate positive' — banned under Annex I point 4c if based on carbon credits outside the product's own value chain. Cannot be remedied by any certification.",
+            "fix": "Remove entirely unless claim is based solely on verified actual emissions reductions within the product's own value chain, independently verified, with methodology publicly disclosed.",
+            "compliant_rewrite": null
+          }
+        ],
+        "gate_resolved_at": 2,
+        "claim": "climate positive",
+        "product_name": "Eval Product"
+      },
+      "scores": {
+        "risk_pass": true,
+        "expected_risk": "HIGH",
+        "got_risk": "HIGH",
+        "reg_pass": true,
+        "expected_reg": "ECGT Directive (EU) 2024/825",
+        "got_reg": "ECGT Directive (EU) 2024/825",
+        "issues_pass": true,
+        "expected_article": "Annex I point 4a and 4c / Recital 9 and 12",
+        "gate": 2,
+        "all_pass": true
+      }
+    },
+    {
+      "case_id": "15",
+      "claim": "net zero",
+      "certifications": "",
+      "result": {
+        "claim_type": "NEUTRALITY",
+        "overall_risk": "HIGH",
+        "findings": [
+          {
+            "risk": "HIGH",
+            "regulation": "ECGT Directive (EU) 2024/825",
+            "article": "Annex I point 4a / Recital 9",
+            "issue": "Generic environmental claim 'net zero' — banned under Annex I point 4a unless recognised excellent environmental performance demonstrated via EU Ecolabel or equivalent ISO 14024 Type I scheme.",
+            "fix": "No standard certification unlocks this claim. EU Ecolabel would be required.",
+            "compliant_rewrite": null
+          },
+          {
+            "risk": "HIGH",
+            "regulation": "ECGT Directive (EU) 2024/825",
+            "article": "Annex I point 4c / Recital 12",
+            "issue": "Offset-based neutrality claim 'net zero' — banned under Annex I point 4c if based on carbon credits outside the product's own value chain. Cannot be remedied by any certification.",
+            "fix": "Remove entirely unless claim is based solely on verified actual emissions reductions within the product's own value chain, independently verified, with methodology publicly disclosed.",
+            "compliant_rewrite": null
+          }
+        ],
+        "gate_resolved_at": 2,
+        "claim": "net zero",
+        "product_name": "Eval Product"
+      },
+      "scores": {
+        "risk_pass": true,
+        "expected_risk": "HIGH",
+        "got_risk": "HIGH",
+        "reg_pass": true,
+        "expected_reg": "ECGT Directive (EU) 2024/825",
+        "got_reg": "ECGT Directive (EU) 2024/825",
+        "issues_pass": true,
+        "expected_article": "Annex I point 4a and 4c",
+        "gate": 2,
+        "all_pass": true
+      }
+    },
+    {
+      "case_id": "16",
+      "claim": "sustainably made",
+      "certifications": "",
+      "result": {
+        "claim_type": "BLACKLISTED",
+        "overall_risk": "HIGH",
+        "findings": [
+          {
+            "risk": "HIGH",
+            "regulation": "ECGT Directive (EU) 2024/825",
+            "article": "Annex I point 4a / Recital 9",
+            "issue": "'sustainably' is explicitly listed in ECGT Recital 9 as a banned generic environmental claim. Prohibited from September 27 2026 in all EU consumer-facing communications.",
+            "fix": "Remove entirely. Cannot be used without EU Ecolabel or equivalent ISO 14024 Type I certification.",
+            "compliant_rewrite": null
+          }
+        ],
+        "gate_resolved_at": 1,
+        "claim": "sustainably made",
+        "product_name": "Eval Product"
+      },
+      "scores": {
+        "risk_pass": true,
+        "expected_risk": "HIGH",
+        "got_risk": "HIGH",
+        "reg_pass": true,
+        "expected_reg": "ECGT Directive (EU) 2024/825",
+        "got_reg": "ECGT Directive (EU) 2024/825",
+        "issues_pass": true,
+        "expected_article": "Annex I point 4a / Article 2(p)",
+        "gate": 1,
+        "all_pass": true
+      }
+    },
+    {
+      "case_id": "17",
+      "claim": "sustainably made",
+      "certifications": "GOTS",
+      "result": {
+        "claim_type": "BLACKLISTED",
+        "overall_risk": "HIGH",
+        "findings": [
+          {
+            "risk": "HIGH",
+            "regulation": "ECGT Directive (EU) 2024/825",
+            "article": "Annex I point 4a / Recital 9",
+            "issue": "'sustainably' is explicitly listed in ECGT Recital 9 as a banned generic environmental claim. Prohibited from September 27 2026 in all EU consumer-facing communications.",
+            "fix": "Remove entirely. Cannot be used without EU Ecolabel or equivalent ISO 14024 Type I certification.",
+            "compliant_rewrite": null
+          }
+        ],
+        "gate_resolved_at": 1,
+        "claim": "sustainably made",
+        "product_name": "Eval Product"
+      },
+      "scores": {
+        "risk_pass": false,
+        "expected_risk": "MEDIUM",
+        "got_risk": "HIGH",
+        "reg_pass": true,
+        "expected_reg": "ECGT Directive (EU) 2024/825",
+        "got_reg": "ECGT Directive (EU) 2024/825",
+        "issues_pass": true,
+        "expected_article": "Annex I point 4a / Article 2(p)",
+        "gate": 1,
+        "all_pass": false
+      }
+    },
+    {
+      "case_id": "18",
+      "claim": "100% of energy used to produce this packaging comes from renewable sources",
+      "certifications": "",
+      "result": {
+        "claim_type": "AMBIGUOUS",
+        "overall_risk": "HIGH",
+        "findings": [
+          {
+            "risk": "HIGH",
+            "regulation": "ECGT Directive (EU) 2024/825",
+            "article": "Annex I, point 4a",
+            "issue": "The claim '100% of energy used to produce this packaging comes from renewable sources' is a generic environmental claim. Without certification or evidence of recognised excellent environmental performance, it may be misleading.",
+            "fix": "Provide evidence of recognised excellent environmental performance or certification to substantiate the claim.",
+            "compliant_rewrite": null
+          }
+        ],
+        "gate_resolved_at": 5,
+        "claim": "100% of energy used to produce this packaging comes from renewable sources",
+        "product_name": "Eval Product"
+      },
+      "scores": {
+        "risk_pass": false,
+        "expected_risk": "LOW",
+        "got_risk": "HIGH",
+        "reg_pass": true,
+        "expected_reg": "ECGT Directive (EU) 2024/825",
+        "got_reg": "ECGT Directive (EU) 2024/825",
+        "issues_pass": false,
+        "expected_article": "Recital 9",
+        "gate": 5,
+        "all_pass": false
+      }
+    },
+    {
+      "case_id": "19",
+      "claim": "climate-friendly packaging",
+      "certifications": "",
+      "result": {
+        "claim_type": "BLACKLISTED",
+        "overall_risk": "HIGH",
+        "findings": [
+          {
+            "risk": "HIGH",
+            "regulation": "ECGT Directive (EU) 2024/825",
+            "article": "Annex I point 4a / Recital 9",
+            "issue": "'climate friendly' is explicitly listed in ECGT Recital 9 as a banned generic environmental claim. Prohibited from September 27 2026 in all EU consumer-facing communications.",
+            "fix": "Remove entirely. Cannot be used without EU Ecolabel or equivalent ISO 14024 Type I certification.",
+            "compliant_rewrite": null
+          }
+        ],
+        "gate_resolved_at": 1,
+        "claim": "climate-friendly packaging",
+        "product_name": "Eval Product"
+      },
+      "scores": {
+        "risk_pass": true,
+        "expected_risk": "HIGH",
+        "got_risk": "HIGH",
+        "reg_pass": true,
+        "expected_reg": "ECGT Directive (EU) 2024/825",
+        "got_reg": "ECGT Directive (EU) 2024/825",
+        "issues_pass": true,
+        "expected_article": "Annex I point 4a / Recital 9",
+        "gate": 1,
+        "all_pass": true
+      }
+    },
+    {
+      "case_id": "20",
+      "claim": "GOTS certified organic cotton",
+      "certifications": "GOTS",
+      "result": {
+        "claim_type": "CERTIFIED_SPECIFIC",
+        "overall_risk": "LOW",
+        "findings": [
+          {
+            "risk": "LOW",
+            "regulation": "ECGT Directive (EU) 2024/825",
+            "article": "Annex I point 4a / Article 2(p)",
+            "issue": null,
+            "fix": "Compliant. Specific claim covered by GOTS certification. Ensure GOTS is displayed on same medium as this claim.",
+            "compliant_rewrite": null
+          }
+        ],
+        "gate_resolved_at": 3,
+        "claim": "GOTS certified organic cotton",
+        "product_name": "Eval Product"
+      },
+      "scores": {
+        "risk_pass": true,
+        "expected_risk": "LOW",
+        "got_risk": "LOW",
+        "reg_pass": true,
+        "expected_reg": "ECGT Directive (EU) 2024/825 / UCPD",
+        "got_reg": "ECGT Directive (EU) 2024/825",
+        "issues_pass": true,
+        "expected_article": "None",
+        "gate": 3,
+        "all_pass": true
+      }
+    },
+    {
+      "case_id": "21",
+      "claim": "GRS certified recycled polyester",
+      "certifications": "GRS",
+      "result": {
+        "claim_type": "CERTIFIED_SPECIFIC",
+        "overall_risk": "LOW",
+        "findings": [
+          {
+            "risk": "LOW",
+            "regulation": "ECGT Directive (EU) 2024/825",
+            "article": "Annex I point 4a / Article 2(p)",
+            "issue": null,
+            "fix": "Compliant. Specific claim covered by GRS certification. Ensure GRS is displayed on same medium as this claim.",
+            "compliant_rewrite": null
+          }
+        ],
+        "gate_resolved_at": 3,
+        "claim": "GRS certified recycled polyester",
+        "product_name": "Eval Product"
+      },
+      "scores": {
+        "risk_pass": true,
+        "expected_risk": "LOW",
+        "got_risk": "LOW",
+        "reg_pass": true,
+        "expected_reg": "ECGT Directive (EU) 2024/825",
+        "got_reg": "ECGT Directive (EU) 2024/825",
+        "issues_pass": true,
+        "expected_article": "None",
+        "gate": 3,
+        "all_pass": true
+      }
+    },
+    {
+      "case_id": "22",
+      "claim": "Bluesign certified production",
+      "certifications": "Bluesign",
+      "result": {
+        "claim_type": "CERTIFIED_SPECIFIC",
+        "overall_risk": "LOW",
+        "findings": [
+          {
+            "risk": "LOW",
+            "regulation": "ECGT Directive (EU) 2024/825",
+            "article": "Annex I point 4a / Article 2(p)",
+            "issue": null,
+            "fix": "Compliant. Specific claim covered by Bluesign certification. Ensure Bluesign is displayed on same medium as this claim.",
+            "compliant_rewrite": null
+          }
+        ],
+        "gate_resolved_at": 3,
+        "claim": "Bluesign certified production",
+        "product_name": "Eval Product"
+      },
+      "scores": {
+        "risk_pass": true,
+        "expected_risk": "LOW",
+        "got_risk": "LOW",
+        "reg_pass": true,
+        "expected_reg": "ECGT Directive (EU) 2024/825",
+        "got_reg": "ECGT Directive (EU) 2024/825",
+        "issues_pass": true,
+        "expected_article": "None",
+        "gate": 3,
+        "all_pass": true
+      }
+    },
+    {
+      "case_id": "23",
+      "claim": "FSC certified viscose",
+      "certifications": "FSC",
+      "result": {
+        "claim_type": "CERTIFIED_SPECIFIC",
+        "overall_risk": "LOW",
+        "findings": [
+          {
+            "risk": "LOW",
+            "regulation": "ECGT Directive (EU) 2024/825",
+            "article": "Annex I point 4a / Article 2(p)",
+            "issue": null,
+            "fix": "Compliant. Specific claim covered by FSC certification. Ensure FSC is displayed on same medium as this claim.",
+            "compliant_rewrite": null
+          }
+        ],
+        "gate_resolved_at": 3,
+        "claim": "FSC certified viscose",
+        "product_name": "Eval Product"
+      },
+      "scores": {
+        "risk_pass": true,
+        "expected_risk": "LOW",
+        "got_risk": "LOW",
+        "reg_pass": true,
+        "expected_reg": "ECGT Directive (EU) 2024/825",
+        "got_reg": "ECGT Directive (EU) 2024/825",
+        "issues_pass": true,
+        "expected_article": "None",
+        "gate": 3,
+        "all_pass": true
+      }
+    },
+    {
+      "case_id": "24",
+      "claim": "TENCEL lyocell — closed loop production 99% solvent reused",
+      "certifications": "TENCEL",
+      "result": {
+        "claim_type": "CERTIFIED_SPECIFIC",
+        "overall_risk": "LOW",
+        "findings": [
+          {
+            "risk": "LOW",
+            "regulation": "ECGT Directive (EU) 2024/825",
+            "article": "Annex I point 4a / Article 2(p)",
+            "issue": null,
+            "fix": "Compliant. Specific claim covered by TENCEL certification. Ensure TENCEL is displayed on same medium as this claim.",
+            "compliant_rewrite": null
+          }
+        ],
+        "gate_resolved_at": 3,
+        "claim": "TENCEL lyocell — closed loop production 99% solvent reused",
+        "product_name": "Eval Product"
+      },
+      "scores": {
+        "risk_pass": true,
+        "expected_risk": "LOW",
+        "got_risk": "LOW",
+        "reg_pass": true,
+        "expected_reg": "ECGT Directive (EU) 2024/825",
+        "got_reg": "ECGT Directive (EU) 2024/825",
+        "issues_pass": true,
+        "expected_article": "None",
+        "gate": 3,
+        "all_pass": true
+      }
+    },
+    {
+      "case_id": "25",
+      "claim": "organic cotton",
+      "certifications": "GOTS",
+      "result": {
+        "claim_type": "CERTIFIED_SPECIFIC",
+        "overall_risk": "LOW",
+        "findings": [
+          {
+            "risk": "LOW",
+            "regulation": "ECGT Directive (EU) 2024/825",
+            "article": "Annex I point 4a / Article 2(p)",
+            "issue": null,
+            "fix": "Compliant. Specific claim covered by GOTS certification. Ensure GOTS is displayed on same medium as this claim.",
+            "compliant_rewrite": null
+          }
+        ],
+        "gate_resolved_at": 3,
+        "claim": "organic cotton",
+        "product_name": "Eval Product"
+      },
+      "scores": {
+        "risk_pass": true,
+        "expected_risk": "LOW",
+        "got_risk": "LOW",
+        "reg_pass": true,
+        "expected_reg": "ECGT Directive (EU) 2024/825 / UCPD Article 2",
+        "got_reg": "ECGT Directive (EU) 2024/825",
+        "issues_pass": true,
+        "expected_article": "None",
+        "gate": 3,
+        "all_pass": true
+      }
+    },
+    {
+      "case_id": "26",
+      "claim": "organic",
+      "certifications": "",
+      "result": {
+        "claim_type": "AMBIGUOUS",
+        "overall_risk": "MEDIUM",
+        "findings": [
+          {
+            "risk": "MEDIUM",
+            "regulation": "ECGT Directive (EU) 2024/825",
+            "article": "UCPD Article 6 as amended by ECGT",
+            "issue": "The claim 'organic' is unsubstantiated without certification, which is required to support such a claim.",
+            "fix": "Obtain appropriate certification for the 'organic' claim or remove the claim.",
+            "compliant_rewrite": null
+          }
+        ],
+        "gate_resolved_at": 5,
+        "claim": "organic",
+        "product_name": "Eval Product"
+      },
+      "scores": {
+        "risk_pass": true,
+        "expected_risk": "MEDIUM",
+        "got_risk": "MEDIUM",
+        "reg_pass": false,
+        "expected_reg": "UCPD Article 6",
+        "got_reg": "ECGT Directive (EU) 2024/825",
+        "issues_pass": false,
+        "expected_article": "None",
+        "gate": 5,
+        "all_pass": false
+      }
+    },
+    {
+      "case_id": "27",
+      "claim": "80% less water than conventional denim — based on internal testing",
+      "certifications": "",
+      "result": {
+        "claim_type": "COMPARATIVE",
+        "overall_risk": "HIGH",
+        "findings": [
+          {
+            "risk": "HIGH",
+            "regulation": "UCPD Directive 2005/29/EC as amended by ECGT",
+            "article": "Article 6(1)",
+            "issue": "Comparative claim requires independent third-party verification. The claim is based on internal testing and lacks evidence of independent third-party verification.",
+            "fix": "Commission independent verification from a recognised provider (Carbonfact, Ecochain, Higg Index, SGS, Bureau Veritas).",
+            "compliant_rewrite": null
+          },
+          {
+            "risk": "HIGH",
+            "regulation": "UCPD Directive 2005/29/EC as amended by ECGT",
+            "article": "Article 7(7)",
+            "issue": "Comparison baseline is not specifically defined. The term 'conventional denim' is not a specifically defined baseline.",
+            "fix": "Replace vague comparator with specific named baseline: product, year, and measurement scope must be stated.",
+            "compliant_rewrite": null
+          },
+          {
+            "risk": "MEDIUM",
+            "regulation": "UCPD Directive 2005/29/EC as amended by ECGT",
+            "article": "Article 7(7)",
+            "issue": "Methodology is not publicly accessible. There is no publicly accessible measurement methodology provided.",
+            "fix": "Publish full methodology as a public URL or product page footnote.",
+            "compliant_rewrite": null
+          }
+        ],
+        "gate_resolved_at": 4,
+        "claim": "80% less water than conventional denim — based on internal testing",
+        "product_name": "Eval Product"
+      },
+      "scores": {
+        "risk_pass": true,
+        "expected_risk": "HIGH",
+        "got_risk": "HIGH",
+        "reg_pass": false,
+        "expected_reg": "UCPD Directive 2005/29/EC",
+        "got_reg": "UCPD Directive 2005/29/EC as amended by ECGT",
+        "issues_pass": true,
+        "expected_article": "Article 6(1) and Article 7(7)",
+        "gate": 4,
+        "all_pass": false
+      }
+    },
+    {
+      "case_id": "28",
+      "claim": "80% less water than conventional denim — verified by SGS lifecycle assessment published at URL",
+      "certifications": "SGS LCA",
+      "result": {
+        "claim_type": "COMPARATIVE",
+        "overall_risk": "LOW",
+        "findings": [
+          {
+            "risk": "LOW",
+            "regulation": "UCPD Directive 2005/29/EC",
+            "article": "Article 6(1) / Article 7(7)",
+            "issue": null,
+            "fix": "Compliant. Third-party verification and published methodology present.",
+            "compliant_rewrite": null
+          }
+        ],
+        "gate_resolved_at": 4,
+        "claim": "80% less water than conventional denim — verified by SGS lifecycle assessment published at URL",
+        "product_name": "Eval Product"
+      },
+      "scores": {
+        "risk_pass": true,
+        "expected_risk": "LOW",
+        "got_risk": "LOW",
+        "reg_pass": true,
+        "expected_reg": "UCPD Directive 2005/29/EC",
+        "got_reg": "UCPD Directive 2005/29/EC",
+        "issues_pass": true,
+        "expected_article": "Article 7(7)",
+        "gate": 4,
+        "all_pass": true
+      }
+    },
+    {
+      "case_id": "29",
+      "claim": "we are committed to becoming climate positive by 2030",
+      "certifications": "",
+      "result": {
+        "claim_type": "NEUTRALITY",
+        "overall_risk": "HIGH",
+        "findings": [
+          {
+            "risk": "HIGH",
+            "regulation": "ECGT Directive (EU) 2024/825",
+            "article": "Annex I point 4a / Recital 9",
+            "issue": "Generic environmental claim 'climate positive' — banned under Annex I point 4a unless recognised excellent environmental performance demonstrated via EU Ecolabel or equivalent ISO 14024 Type I scheme.",
+            "fix": "No standard certification unlocks this claim. EU Ecolabel would be required.",
+            "compliant_rewrite": null
+          },
+          {
+            "risk": "HIGH",
+            "regulation": "ECGT Directive (EU) 2024/825",
+            "article": "Annex I point 4c / Recital 12",
+            "issue": "Offset-based neutrality claim 'climate positive' — banned under Annex I point 4c if based on carbon credits outside the product's own value chain. Cannot be remedied by any certification.",
+            "fix": "Remove entirely unless claim is based solely on verified actual emissions reductions within the product's own value chain, independently verified, with methodology publicly disclosed.",
+            "compliant_rewrite": null
+          }
+        ],
+        "gate_resolved_at": 2,
+        "claim": "we are committed to becoming climate positive by 2030",
+        "product_name": "Eval Product"
+      },
+      "scores": {
+        "risk_pass": true,
+        "expected_risk": "HIGH",
+        "got_risk": "HIGH",
+        "reg_pass": true,
+        "expected_reg": "UCPD Directive 2005/29/EC as amended by ECGT",
+        "got_reg": "ECGT Directive (EU) 2024/825",
+        "issues_pass": false,
+        "expected_article": "Article 6(2)(d)",
+        "gate": 2,
+        "all_pass": false
+      }
+    },
+    {
+      "case_id": "30",
+      "claim": "committed to net zero by 2040 with SBTi target",
+      "certifications": "SBTi",
+      "result": {
+        "claim_type": "NEUTRALITY",
+        "overall_risk": "HIGH",
+        "findings": [
+          {
+            "risk": "HIGH",
+            "regulation": "ECGT Directive (EU) 2024/825",
+            "article": "Annex I point 4a / Recital 9",
+            "issue": "Generic environmental claim 'net zero' — banned under Annex I point 4a unless recognised excellent environmental performance demonstrated via EU Ecolabel or equivalent ISO 14024 Type I scheme.",
+            "fix": "No standard certification unlocks this claim. EU Ecolabel would be required.",
+            "compliant_rewrite": null
+          },
+          {
+            "risk": "HIGH",
+            "regulation": "ECGT Directive (EU) 2024/825",
+            "article": "Annex I point 4c / Recital 12",
+            "issue": "Offset-based neutrality claim 'net zero' — banned under Annex I point 4c if based on carbon credits outside the product's own value chain. Cannot be remedied by any certification.",
+            "fix": "Remove entirely unless claim is based solely on verified actual emissions reductions within the product's own value chain, independently verified, with methodology publicly disclosed.",
+            "compliant_rewrite": null
+          }
+        ],
+        "gate_resolved_at": 2,
+        "claim": "committed to net zero by 2040 with SBTi target",
+        "product_name": "Eval Product"
+      },
+      "scores": {
+        "risk_pass": true,
+        "expected_risk": "HIGH",
+        "got_risk": "HIGH",
+        "reg_pass": true,
+        "expected_reg": "UCPD Directive 2005/29/EC as amended by ECGT",
+        "got_reg": "ECGT Directive (EU) 2024/825",
+        "issues_pass": false,
+        "expected_article": "Article 6(2)(d)",
+        "gate": 2,
+        "all_pass": false
+      }
+    },
+    {
+      "case_id": "31",
+      "claim": "RefScale verified — 56% less carbon than conventional dress",
+      "certifications": "",
+      "result": {
+        "claim_type": "COMPARATIVE",
+        "overall_risk": "HIGH",
+        "findings": [
+          {
+            "risk": "HIGH",
+            "regulation": "ECGT Directive (EU) 2024/825",
+            "article": "Annex I point 4b",
+            "issue": "Self-created sustainability label 'RefScale' is not based on a certification scheme with independent third-party verification. Violates Annex I point 4b.",
+            "fix": "Replace with a recognised third-party certification scheme.",
+            "compliant_rewrite": null
+          },
+          {
+            "risk": "HIGH",
+            "regulation": "UCPD Directive 2005/29/EC as amended by ECGT",
+            "article": "Article 6(1)",
+            "issue": "Comparative claim requires independent third-party verification. No evidence of independent third-party verification from recognised LCA providers is provided.",
+            "fix": "Commission independent verification from a recognised provider (Carbonfact, Ecochain, Higg Index, SGS, Bureau Veritas).",
+            "compliant_rewrite": null
+          },
+          {
+            "risk": "HIGH",
+            "regulation": "UCPD Directive 2005/29/EC as amended by ECGT",
+            "article": "Article 7(7)",
+            "issue": "Comparison baseline is not specifically defined. The term 'conventional dress' is not a specifically defined baseline.",
+            "fix": "Replace vague comparator with specific named baseline: product, year, and measurement scope must be stated.",
+            "compliant_rewrite": null
+          },
+          {
+            "risk": "MEDIUM",
+            "regulation": "UCPD Directive 2005/29/EC as amended by ECGT",
+            "article": "Article 7(7)",
+            "issue": "Methodology is not publicly accessible. No publicly accessible measurement methodology is provided.",
+            "fix": "Publish full methodology as a public URL or product page footnote.",
+            "compliant_rewrite": null
+          }
+        ],
+        "gate_resolved_at": 4,
+        "claim": "RefScale verified — 56% less carbon than conventional dress",
+        "product_name": "Eval Product"
+      },
+      "scores": {
+        "risk_pass": true,
+        "expected_risk": "HIGH",
+        "got_risk": "HIGH",
+        "reg_pass": true,
+        "expected_reg": "ECGT Directive (EU) 2024/825",
+        "got_reg": "ECGT Directive (EU) 2024/825",
+        "issues_pass": true,
+        "expected_article": "Annex I point 4b",
+        "gate": 4,
+        "all_pass": true
+      }
+    },
+    {
+      "case_id": "32",
+      "claim": "B Corp certified",
+      "certifications": "B Corp",
+      "result": {
+        "claim_type": "AMBIGUOUS",
+        "overall_risk": "MEDIUM",
+        "findings": [
+          {
+            "risk": "MEDIUM",
+            "regulation": "ECGT Directive (EU) 2024/825",
+            "article": "Article 6_part2, Annex I point 4b",
+            "issue": "B Corp certification is under review for ECGT compliance, and making an environmental claim about the entire business when it concerns only a specific aspect may be misleading.",
+            "fix": "Ensure that the B Corp certification is clearly explained, specifying which aspects of the business it covers, and verify compliance with ECGT requirements once the review is complete.",
+            "compliant_rewrite": null
+          }
+        ],
+        "gate_resolved_at": 5,
+        "claim": "B Corp certified",
+        "product_name": "Eval Product"
+      },
+      "scores": {
+        "risk_pass": true,
+        "expected_risk": "MEDIUM",
+        "got_risk": "MEDIUM",
+        "reg_pass": true,
+        "expected_reg": "ECGT Directive (EU) 2024/825",
+        "got_reg": "ECGT Directive (EU) 2024/825",
+        "issues_pass": true,
+        "expected_article": "Annex I point 4b",
+        "gate": 5,
+        "all_pass": true
+      }
+    },
+    {
+      "case_id": "33",
+      "claim": "naturally biodegradable wool",
+      "certifications": "",
+      "result": {
+        "claim_type": "BLACKLISTED",
+        "overall_risk": "HIGH",
+        "findings": [
+          {
+            "risk": "HIGH",
+            "regulation": "ECGT Directive (EU) 2024/825",
+            "article": "Annex I point 4a / Recital 9",
+            "issue": "'biodegradable' is explicitly listed in ECGT Recital 9 as a banned generic environmental claim. Prohibited from September 27 2026 in all EU consumer-facing communications.",
+            "fix": "Remove entirely. Cannot be used without EU Ecolabel or equivalent ISO 14024 Type I certification.",
+            "compliant_rewrite": null
+          }
+        ],
+        "gate_resolved_at": 1,
+        "claim": "naturally biodegradable wool",
+        "product_name": "Eval Product"
+      },
+      "scores": {
+        "risk_pass": true,
+        "expected_risk": "HIGH",
+        "got_risk": "HIGH",
+        "reg_pass": true,
+        "expected_reg": "ECGT Directive (EU) 2024/825",
+        "got_reg": "ECGT Directive (EU) 2024/825",
+        "issues_pass": true,
+        "expected_article": "Annex I point 4a / Recital 9",
+        "gate": 1,
+        "all_pass": true
+      }
+    },
+    {
+      "case_id": "34",
+      "claim": "eco-friendly",
+      "certifications": "EU Ecolabel",
+      "result": {
+        "claim_type": "BLACKLISTED",
+        "overall_risk": "LOW",
+        "findings": [
+          {
+            "risk": "LOW",
+            "regulation": "ECGT Directive (EU) 2024/825",
+            "article": "Annex I point 4a / Article 2(s)",
+            "issue": "Generic claim 'eco-friendly' is normally banned under Recital 9, but EU Ecolabel demonstrates recognised excellent environmental performance per Article 2(s), unlocking this claim.",
+            "fix": "Compliant. Ensure EU Ecolabel certification is displayed on same medium.",
+            "compliant_rewrite": null
+          }
+        ],
+        "gate_resolved_at": 1,
+        "claim": "eco-friendly",
+        "product_name": "Eval Product"
+      },
+      "scores": {
+        "risk_pass": true,
+        "expected_risk": "LOW",
+        "got_risk": "LOW",
+        "reg_pass": true,
+        "expected_reg": "ECGT Directive (EU) 2024/825",
+        "got_reg": "ECGT Directive (EU) 2024/825",
+        "issues_pass": true,
+        "expected_article": "Annex I point 4a / Article 2(s)",
+        "gate": 1,
+        "all_pass": true
+      }
+    },
+    {
+      "case_id": "35",
+      "claim": "green",
+      "certifications": "Nordic Swan",
+      "result": {
+        "claim_type": "BLACKLISTED",
+        "overall_risk": "LOW",
+        "findings": [
+          {
+            "risk": "LOW",
+            "regulation": "ECGT Directive (EU) 2024/825",
+            "article": "Annex I point 4a / Article 2(s)",
+            "issue": "Generic claim 'green' is normally banned under Recital 9, but Nordic Swan demonstrates recognised excellent environmental performance per Article 2(s), unlocking this claim.",
+            "fix": "Compliant. Ensure Nordic Swan certification is displayed on same medium.",
+            "compliant_rewrite": null
+          }
+        ],
+        "gate_resolved_at": 1,
+        "claim": "green",
+        "product_name": "Eval Product"
+      },
+      "scores": {
+        "risk_pass": true,
+        "expected_risk": "LOW",
+        "got_risk": "LOW",
+        "reg_pass": true,
+        "expected_reg": "ECGT Directive (EU) 2024/825",
+        "got_reg": "ECGT Directive (EU) 2024/825",
+        "issues_pass": true,
+        "expected_article": "Annex I point 4a / Article 2(s)",
+        "gate": 1,
+        "all_pass": true
+      }
+    },
+    {
+      "case_id": "36",
+      "claim": "EcoDesigned collection",
+      "certifications": "",
+      "result": {
+        "claim_type": "AMBIGUOUS",
+        "overall_risk": "HIGH",
+        "findings": [
+          {
+            "risk": "HIGH",
+            "regulation": "ECGT Directive (EU) 2024/825",
+            "article": "Annex I point 4a",
+            "issue": "Making a generic environmental claim for which the trader is not able to demonstrate recognised excellent environmental performance relevant to the claim.",
+            "fix": "Provide evidence of recognised excellent environmental performance, such as compliance with Regulation (EC) No 66/2010 or an EN ISO 14024 type I ecolabelling scheme.",
+            "compliant_rewrite": null
+          }
+        ],
+        "gate_resolved_at": 5,
+        "claim": "EcoDesigned collection",
+        "product_name": "Eval Product"
+      },
+      "scores": {
+        "risk_pass": true,
+        "expected_risk": "HIGH",
+        "got_risk": "HIGH",
+        "reg_pass": true,
+        "expected_reg": "ECGT Directive (EU) 2024/825",
+        "got_reg": "ECGT Directive (EU) 2024/825",
+        "issues_pass": true,
+        "expected_article": "Annex I point 4a / Article 2(p) and Q3",
+        "gate": 5,
+        "all_pass": true
+      }
+    },
+    {
+      "case_id": "37",
+      "claim": "sustainable collection",
+      "certifications": "",
+      "result": {
+        "claim_type": "BLACKLISTED",
+        "overall_risk": "HIGH",
+        "findings": [
+          {
+            "risk": "HIGH",
+            "regulation": "ECGT Directive (EU) 2024/825",
+            "article": "Annex I point 4a / Recital 9",
+            "issue": "'sustainable' is explicitly listed in ECGT Recital 9 as a banned generic environmental claim. Prohibited from September 27 2026 in all EU consumer-facing communications.",
+            "fix": "Remove entirely. Cannot be used without EU Ecolabel or equivalent ISO 14024 Type I certification.",
+            "compliant_rewrite": null
+          }
+        ],
+        "gate_resolved_at": 1,
+        "claim": "sustainable collection",
+        "product_name": "Eval Product"
+      },
+      "scores": {
+        "risk_pass": true,
+        "expected_risk": "HIGH",
+        "got_risk": "HIGH",
+        "reg_pass": true,
+        "expected_reg": "ECGT Directive (EU) 2024/825",
+        "got_reg": "ECGT Directive (EU) 2024/825",
+        "issues_pass": true,
+        "expected_article": "Annex I point 4a / Q3",
+        "gate": 1,
+        "all_pass": true
+      }
+    },
+    {
+      "case_id": "38",
+      "claim": "green leaf logo on packaging without text",
+      "certifications": "",
+      "result": {
+        "claim_type": "BLACKLISTED",
+        "overall_risk": "HIGH",
+        "findings": [
+          {
+            "risk": "HIGH",
+            "regulation": "ECGT Directive (EU) 2024/825",
+            "article": "Annex I point 4a / Recital 9",
+            "issue": "'green' is explicitly listed in ECGT Recital 9 as a banned generic environmental claim. Prohibited from September 27 2026 in all EU consumer-facing communications.",
+            "fix": "Remove entirely. Cannot be used without EU Ecolabel or equivalent ISO 14024 Type I certification.",
+            "compliant_rewrite": null
+          }
+        ],
+        "gate_resolved_at": 1,
+        "claim": "green leaf logo on packaging without text",
+        "product_name": "Eval Product"
+      },
+      "scores": {
+        "risk_pass": false,
+        "expected_risk": "LOW",
+        "got_risk": "HIGH",
+        "reg_pass": true,
+        "expected_reg": "ECGT Directive (EU) 2024/825",
+        "got_reg": "ECGT Directive (EU) 2024/825",
+        "issues_pass": false,
+        "expected_article": "Article 2(o) / Q5",
+        "gate": 1,
+        "all_pass": false
+      }
+    },
+    {
+      "case_id": "39",
+      "claim": "green leaf logo combined with sustainably made text",
+      "certifications": "",
+      "result": {
+        "claim_type": "BLACKLISTED",
+        "overall_risk": "HIGH",
+        "findings": [
+          {
+            "risk": "HIGH",
+            "regulation": "ECGT Directive (EU) 2024/825",
+            "article": "Annex I point 4a / Recital 9",
+            "issue": "'green' is explicitly listed in ECGT Recital 9 as a banned generic environmental claim. Prohibited from September 27 2026 in all EU consumer-facing communications.",
+            "fix": "Remove entirely. Cannot be used without EU Ecolabel or equivalent ISO 14024 Type I certification.",
+            "compliant_rewrite": null
+          }
+        ],
+        "gate_resolved_at": 1,
+        "claim": "green leaf logo combined with sustainably made text",
+        "product_name": "Eval Product"
+      },
+      "scores": {
+        "risk_pass": true,
+        "expected_risk": "HIGH",
+        "got_risk": "HIGH",
+        "reg_pass": true,
+        "expected_reg": "ECGT Directive (EU) 2024/825",
+        "got_reg": "ECGT Directive (EU) 2024/825",
+        "issues_pass": true,
+        "expected_article": "Annex I point 4a / Q5",
+        "gate": 1,
+        "all_pass": true
+      }
+    },
+    {
+      "case_id": "40",
+      "claim": "chrome-free leather — better for the environment",
+      "certifications": "",
+      "result": {
+        "claim_type": "BLACKLISTED",
+        "overall_risk": "HIGH",
+        "findings": [
+          {
+            "risk": "HIGH",
+            "regulation": "ECGT Directive (EU) 2024/825",
+            "article": "Annex I point 4a / Recital 9",
+            "issue": "'better for the environment' is explicitly listed in ECGT Recital 9 as a banned generic environmental claim. Prohibited from September 27 2026 in all EU consumer-facing communications.",
+            "fix": "Remove entirely. Cannot be used without EU Ecolabel or equivalent ISO 14024 Type I certification.",
+            "compliant_rewrite": null
+          }
+        ],
+        "gate_resolved_at": 1,
+        "claim": "chrome-free leather — better for the environment",
+        "product_name": "Eval Product"
+      },
+      "scores": {
+        "risk_pass": true,
+        "expected_risk": "HIGH",
+        "got_risk": "HIGH",
+        "reg_pass": true,
+        "expected_reg": "ECGT Directive (EU) 2024/825",
+        "got_reg": "ECGT Directive (EU) 2024/825",
+        "issues_pass": false,
+        "expected_article": "Annex I point 4d / Recital 13",
+        "gate": 1,
+        "all_pass": false
+      }
+    },
+    {
+      "case_id": "41",
+      "claim": "recycled polyester",
+      "certifications": "GRS",
+      "result": {
+        "claim_type": "CERTIFIED_SPECIFIC",
+        "overall_risk": "LOW",
+        "findings": [
+          {
+            "risk": "LOW",
+            "regulation": "ECGT Directive (EU) 2024/825",
+            "article": "Annex I point 4a / Article 2(p)",
+            "issue": null,
+            "fix": "Compliant. Specific claim covered by GRS certification. Ensure GRS is displayed on same medium as this claim.",
+            "compliant_rewrite": null
+          }
+        ],
+        "gate_resolved_at": 3,
+        "claim": "recycled polyester",
+        "product_name": "Eval Product"
+      },
+      "scores": {
+        "risk_pass": true,
+        "expected_risk": "LOW",
+        "got_risk": "LOW",
+        "reg_pass": true,
+        "expected_reg": "ECGT Directive (EU) 2024/825 / UCPD",
+        "got_reg": "ECGT Directive (EU) 2024/825",
+        "issues_pass": true,
+        "expected_article": "None",
+        "gate": 3,
+        "all_pass": true
+      }
+    },
+    {
+      "case_id": "42",
+      "claim": "100% recycled materials",
+      "certifications": "GRS",
+      "result": {
+        "claim_type": "CERTIFIED_SPECIFIC",
+        "overall_risk": "LOW",
+        "findings": [
+          {
+            "risk": "LOW",
+            "regulation": "ECGT Directive (EU) 2024/825",
+            "article": "Annex I point 4a / Article 2(p)",
+            "issue": null,
+            "fix": "Compliant. Specific claim covered by GRS certification. Ensure GRS is displayed on same medium as this claim.",
+            "compliant_rewrite": null
+          }
+        ],
+        "gate_resolved_at": 3,
+        "claim": "100% recycled materials",
+        "product_name": "Eval Product"
+      },
+      "scores": {
+        "risk_pass": true,
+        "expected_risk": "LOW",
+        "got_risk": "LOW",
+        "reg_pass": false,
+        "expected_reg": "UCPD Article 6",
+        "got_reg": "ECGT Directive (EU) 2024/825",
+        "issues_pass": true,
+        "expected_article": "None",
+        "gate": 3,
+        "all_pass": false
+      }
+    },
+    {
+      "case_id": "43",
+      "claim": "made with sustainable materials",
+      "certifications": "",
+      "result": {
+        "claim_type": "BLACKLISTED",
+        "overall_risk": "HIGH",
+        "findings": [
+          {
+            "risk": "HIGH",
+            "regulation": "ECGT Directive (EU) 2024/825",
+            "article": "Annex I point 4a / Recital 9",
+            "issue": "'sustainable' is explicitly listed in ECGT Recital 9 as a banned generic environmental claim. Prohibited from September 27 2026 in all EU consumer-facing communications.",
+            "fix": "Remove entirely. Cannot be used without EU Ecolabel or equivalent ISO 14024 Type I certification.",
+            "compliant_rewrite": null
+          }
+        ],
+        "gate_resolved_at": 1,
+        "claim": "made with sustainable materials",
+        "product_name": "Eval Product"
+      },
+      "scores": {
+        "risk_pass": true,
+        "expected_risk": "HIGH",
+        "got_risk": "HIGH",
+        "reg_pass": true,
+        "expected_reg": "ECGT Directive (EU) 2024/825",
+        "got_reg": "ECGT Directive (EU) 2024/825",
+        "issues_pass": true,
+        "expected_article": "Annex I point 4a / Article 2(p)",
+        "gate": 1,
+        "all_pass": true
+      }
+    },
+    {
+      "case_id": "44",
+      "claim": "vegan",
+      "certifications": "",
+      "result": {
+        "claim_type": "AMBIGUOUS",
+        "overall_risk": "LOW",
+        "findings": [
+          {
+            "risk": "LOW",
+            "regulation": "ECGT Directive (EU) 2024/825",
+            "article": "N/A",
+            "issue": null,
+            "fix": "Compliant",
+            "compliant_rewrite": null
+          }
+        ],
+        "gate_resolved_at": 5,
+        "claim": "vegan",
+        "product_name": "Eval Product"
+      },
+      "scores": {
+        "risk_pass": true,
+        "expected_risk": "LOW",
+        "got_risk": "LOW",
+        "reg_pass": true,
+        "expected_reg": "ECGT Directive (EU) 2024/825",
+        "got_reg": "ECGT Directive (EU) 2024/825",
+        "issues_pass": false,
+        "expected_article": "Article 2(o) / Q15",
+        "gate": 5,
+        "all_pass": false
+      }
+    },
+    {
+      "case_id": "45",
+      "claim": "vegan — better for the planet",
+      "certifications": "",
+      "result": {
+        "claim_type": "BLACKLISTED",
+        "overall_risk": "HIGH",
+        "findings": [
+          {
+            "risk": "HIGH",
+            "regulation": "ECGT Directive (EU) 2024/825",
+            "article": "Annex I point 4a / Recital 9",
+            "issue": "'better for the planet' is explicitly listed in ECGT Recital 9 as a banned generic environmental claim. Prohibited from September 27 2026 in all EU consumer-facing communications.",
+            "fix": "Remove entirely. Cannot be used without EU Ecolabel or equivalent ISO 14024 Type I certification.",
+            "compliant_rewrite": null
+          }
+        ],
+        "gate_resolved_at": 1,
+        "claim": "vegan — better for the planet",
+        "product_name": "Eval Product"
+      },
+      "scores": {
+        "risk_pass": true,
+        "expected_risk": "HIGH",
+        "got_risk": "HIGH",
+        "reg_pass": true,
+        "expected_reg": "ECGT Directive (EU) 2024/825",
+        "got_reg": "ECGT Directive (EU) 2024/825",
+        "issues_pass": true,
+        "expected_article": "Annex I point 4a / Q15",
+        "gate": 1,
+        "all_pass": true
+      }
+    },
+    {
+      "case_id": "46",
+      "claim": "uses less energy than previous model",
+      "certifications": "",
+      "result": {
+        "claim_type": "AMBIGUOUS",
+        "overall_risk": "MEDIUM",
+        "findings": [
+          {
+            "risk": "MEDIUM",
+            "regulation": "UCPD Directive 2005/29/EC as amended by ECGT Directive (EU) 2024/825",
+            "article": "Article 6, Misleading actions",
+            "issue": "The claim 'uses less energy than previous model' is a comparative claim that requires a specific baseline and disclosed methodology to ensure it is not misleading.",
+            "fix": "Provide a specific baseline model for comparison and disclose the methodology used to determine energy usage reduction.",
+            "compliant_rewrite": null
+          }
+        ],
+        "gate_resolved_at": 5,
+        "claim": "uses less energy than previous model",
+        "product_name": "Eval Product"
+      },
+      "scores": {
+        "risk_pass": false,
+        "expected_risk": "LOW",
+        "got_risk": "MEDIUM",
+        "reg_pass": false,
+        "expected_reg": "UCPD Directive 2005/29/EC",
+        "got_reg": "UCPD Directive 2005/29/EC as amended by ECGT Directive (EU) 2024/825",
+        "issues_pass": false,
+        "expected_article": "Article 7(7)",
+        "gate": 5,
+        "all_pass": false
+      }
+    },
+    {
+      "case_id": "47",
+      "claim": "energy efficient",
+      "certifications": "",
+      "result": {
+        "claim_type": "BLACKLISTED",
+        "overall_risk": "HIGH",
+        "findings": [
+          {
+            "risk": "HIGH",
+            "regulation": "ECGT Directive (EU) 2024/825",
+            "article": "Annex I point 4a / Recital 9",
+            "issue": "'energy efficient' is explicitly listed in ECGT Recital 9 as a banned generic environmental claim. Prohibited from September 27 2026 in all EU consumer-facing communications.",
+            "fix": "Remove entirely. Cannot be used without EU Ecolabel or equivalent ISO 14024 Type I certification.",
+            "compliant_rewrite": null
+          }
+        ],
+        "gate_resolved_at": 1,
+        "claim": "energy efficient",
+        "product_name": "Eval Product"
+      },
+      "scores": {
+        "risk_pass": true,
+        "expected_risk": "HIGH",
+        "got_risk": "HIGH",
+        "reg_pass": true,
+        "expected_reg": "ECGT Directive (EU) 2024/825",
+        "got_reg": "ECGT Directive (EU) 2024/825",
+        "issues_pass": true,
+        "expected_article": "Annex I point 4a / Recital 9",
+        "gate": 1,
+        "all_pass": true
+      }
+    },
+    {
+      "case_id": "48",
+      "claim": "responsibly sourced materials",
+      "certifications": "FSC",
+      "result": {
+        "claim_type": "BLACKLISTED",
+        "overall_risk": "HIGH",
+        "findings": [
+          {
+            "risk": "HIGH",
+            "regulation": "ECGT Directive (EU) 2024/825",
+            "article": "Annex I point 4a / Recital 9",
+            "issue": "'responsibly' is explicitly listed in ECGT Recital 9 as a banned generic environmental claim. Prohibited from September 27 2026 in all EU consumer-facing communications.",
+            "fix": "Remove entirely. Cannot be used without EU Ecolabel or equivalent ISO 14024 Type I certification.",
+            "compliant_rewrite": null
+          }
+        ],
+        "gate_resolved_at": 1,
+        "claim": "responsibly sourced materials",
+        "product_name": "Eval Product"
+      },
+      "scores": {
+        "risk_pass": false,
+        "expected_risk": "MEDIUM",
+        "got_risk": "HIGH",
+        "reg_pass": true,
+        "expected_reg": "ECGT Directive (EU) 2024/825",
+        "got_reg": "ECGT Directive (EU) 2024/825",
+        "issues_pass": true,
+        "expected_article": "Annex I point 4a / Article 2(p)",
+        "gate": 1,
+        "all_pass": false
+      }
+    },
+    {
+      "case_id": "49",
+      "claim": "designed for circularity",
+      "certifications": "",
+      "result": {
+        "claim_type": "AMBIGUOUS",
+        "overall_risk": "HIGH",
+        "findings": [
+          {
+            "risk": "HIGH",
+            "regulation": "ECGT Directive (EU) 2024/825",
+            "article": "Annex I point 4a",
+            "issue": "Making a generic environmental claim for which the trader is not able to demonstrate recognised excellent environmental performance relevant to the claim.",
+            "fix": "Provide evidence of recognised excellent environmental performance relevant to circularity, such as compliance with Regulation (EC) No 66/2010 or an equivalent ecolabelling scheme.",
+            "compliant_rewrite": null
+          }
+        ],
+        "gate_resolved_at": 5,
+        "claim": "designed for circularity",
+        "product_name": "Eval Product"
+      },
+      "scores": {
+        "risk_pass": true,
+        "expected_risk": "HIGH",
+        "got_risk": "HIGH",
+        "reg_pass": true,
+        "expected_reg": "ECGT Directive (EU) 2024/825",
+        "got_reg": "ECGT Directive (EU) 2024/825",
+        "issues_pass": true,
+        "expected_article": "Annex I point 4a / Article 2(p)",
+        "gate": 5,
+        "all_pass": true
+      }
+    },
+    {
+      "case_id": "50",
+      "claim": "this product is carbon compensated",
+      "certifications": "",
+      "result": {
+        "claim_type": "NEUTRALITY",
+        "overall_risk": "HIGH",
+        "findings": [
+          {
+            "risk": "HIGH",
+            "regulation": "ECGT Directive (EU) 2024/825",
+            "article": "Annex I point 4a / Recital 9",
+            "issue": "Generic environmental claim 'carbon compensated' — banned under Annex I point 4a unless recognised excellent environmental performance demonstrated via EU Ecolabel or equivalent ISO 14024 Type I scheme.",
+            "fix": "No standard certification unlocks this claim. EU Ecolabel would be required.",
+            "compliant_rewrite": null
+          },
+          {
+            "risk": "HIGH",
+            "regulation": "ECGT Directive (EU) 2024/825",
+            "article": "Annex I point 4c / Recital 12",
+            "issue": "Offset-based neutrality claim 'carbon compensated' — banned under Annex I point 4c if based on carbon credits outside the product's own value chain. Cannot be remedied by any certification.",
+            "fix": "Remove entirely unless claim is based solely on verified actual emissions reductions within the product's own value chain, independently verified, with methodology publicly disclosed.",
+            "compliant_rewrite": null
+          }
+        ],
+        "gate_resolved_at": 2,
+        "claim": "this product is carbon compensated",
+        "product_name": "Eval Product"
+      },
+      "scores": {
+        "risk_pass": true,
+        "expected_risk": "HIGH",
+        "got_risk": "HIGH",
+        "reg_pass": true,
+        "expected_reg": "ECGT Directive (EU) 2024/825",
+        "got_reg": "ECGT Directive (EU) 2024/825",
+        "issues_pass": true,
+        "expected_article": "Annex I point 4c / Recital 12",
+        "gate": 2,
+        "all_pass": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,1055 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EU Fashion Compliance Checker</title>
+<style>
+  :root {
+    --bg: #f7f7f5;
+    --surface: #ffffff;
+    --border: #e2e0d9;
+    --text: #1a1a1a;
+    --text-muted: #6b6b6b;
+    --accent: #2d5a3d;
+    --accent-light: #e8f0eb;
+    --red: #c4342d;
+    --red-bg: #fef2f1;
+    --red-border: #f5c6c4;
+    --yellow: #b5850a;
+    --yellow-bg: #fef9ee;
+    --yellow-border: #f0dea0;
+    --green: #2d7a3d;
+    --green-bg: #eef7f0;
+    --green-border: #b8dcc2;
+    --radius: 8px;
+    --font: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    --mono: 'SF Mono', SFMono-Regular, ui-monospace, monospace;
+    --sidebar-w: 340px;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: var(--font);
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.6;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+  }
+
+  /* ── Sidebar ── */
+  .sidebar {
+    width: var(--sidebar-w);
+    min-width: var(--sidebar-w);
+    background: var(--surface);
+    border-right: 1px solid var(--border);
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow: hidden;
+  }
+
+  .sidebar-header {
+    padding: 20px;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .sidebar-header h1 {
+    font-size: 17px;
+    font-weight: 700;
+    letter-spacing: -0.3px;
+    color: var(--accent);
+  }
+
+  .sidebar-header p {
+    font-size: 12px;
+    color: var(--text-muted);
+    margin-top: 4px;
+  }
+
+  .sidebar-section {
+    padding: 16px 20px;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .sidebar-section h3 {
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: var(--text-muted);
+    margin-bottom: 10px;
+  }
+
+  .drop-zone {
+    border: 2px dashed var(--border);
+    border-radius: 6px;
+    padding: 16px 12px;
+    text-align: center;
+    cursor: pointer;
+    transition: border-color 0.15s, background 0.15s;
+  }
+
+  .drop-zone:hover, .drop-zone.dragover {
+    border-color: var(--accent);
+    background: var(--accent-light);
+  }
+
+  .drop-zone .label {
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--accent);
+  }
+
+  .drop-zone .hint {
+    font-size: 11px;
+    color: var(--text-muted);
+    margin-top: 4px;
+  }
+
+  .file-info {
+    margin-top: 8px;
+    font-size: 12px;
+    color: var(--accent);
+    font-weight: 500;
+  }
+
+  /* Summary bar */
+  .summary-bar {
+    display: none;
+    padding: 12px 20px;
+    border-bottom: 1px solid var(--border);
+    background: var(--bg);
+  }
+
+  .summary-bar.visible { display: block; }
+
+  .summary-text {
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: var(--text);
+  }
+
+  .summary-badges {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+  }
+
+  .badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    padding: 3px 10px;
+    border-radius: 12px;
+    font-size: 12px;
+    font-weight: 600;
+  }
+
+  .badge.high { background: var(--red-bg); color: var(--red); border: 1px solid var(--red-border); }
+  .badge.medium { background: var(--yellow-bg); color: var(--yellow); border: 1px solid var(--yellow-border); }
+  .badge.low { background: var(--green-bg); color: var(--green); border: 1px solid var(--green-border); }
+  .badge.none { background: var(--bg); color: var(--text-muted); border: 1px solid var(--border); }
+
+  .audit-btn {
+    margin-top: 10px;
+    width: 100%;
+    padding: 9px 16px;
+    background: var(--accent);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: opacity 0.15s;
+  }
+
+  .audit-btn:hover { opacity: 0.9; }
+  .audit-btn:disabled { opacity: 0.5; cursor: not-allowed; }
+
+  /* Product catalog */
+  .catalog {
+    flex: 1;
+    overflow-y: auto;
+    padding: 0;
+  }
+
+  .catalog-header {
+    padding: 12px 20px 8px;
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: var(--text-muted);
+    position: sticky;
+    top: 0;
+    background: var(--surface);
+    z-index: 1;
+  }
+
+  .catalog-empty {
+    font-size: 13px;
+    color: var(--text-muted);
+    font-style: italic;
+    padding: 8px 20px;
+  }
+
+  .product-card {
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background 0.1s;
+    border-bottom: 1px solid var(--border);
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .product-card:hover { background: var(--bg); }
+  .product-card.highlighted { background: var(--accent-light); border-left: 3px solid var(--accent); }
+  .product-card.selected { background: var(--accent-light); }
+
+  .product-card .product-info { flex: 1; min-width: 0; }
+
+  .product-card .pname {
+    font-size: 13px;
+    font-weight: 600;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .product-card .pclaims {
+    font-size: 11px;
+    color: var(--text-muted);
+    margin-top: 2px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  .product-card .risk-badge {
+    flex-shrink: 0;
+    padding: 2px 8px;
+    border-radius: 10px;
+    font-size: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+    margin-top: 2px;
+  }
+
+  .risk-badge.high { background: var(--red-bg); color: var(--red); border: 1px solid var(--red-border); }
+  .risk-badge.medium { background: var(--yellow-bg); color: var(--yellow); border: 1px solid var(--yellow-border); }
+  .risk-badge.low { background: var(--green-bg); color: var(--green); border: 1px solid var(--green-border); }
+  .risk-badge.unaudited { background: var(--bg); color: var(--text-muted); border: 1px solid var(--border); }
+
+  /* ── Main Chat Area ── */
+  .main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    min-width: 0;
+  }
+
+  .chat-header {
+    padding: 16px 24px;
+    border-bottom: 1px solid var(--border);
+    background: var(--surface);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .chat-header h2 {
+    font-size: 15px;
+    font-weight: 600;
+  }
+
+  .chat-header .status {
+    font-size: 12px;
+    color: var(--text-muted);
+  }
+
+  .messages {
+    flex: 1;
+    overflow-y: auto;
+    padding: 24px;
+  }
+
+  /* Starter questions */
+  .starters {
+    max-width: 760px;
+    margin: 40px auto 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+  }
+
+  .starters-title {
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--text);
+    text-align: center;
+    letter-spacing: -0.3px;
+  }
+
+  .starters-subtitle {
+    font-size: 14px;
+    color: var(--text-muted);
+    text-align: center;
+    margin-bottom: 8px;
+  }
+
+  .starters-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    width: 100%;
+    max-width: 580px;
+  }
+
+  .starter-btn {
+    padding: 14px 16px;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    font-size: 13px;
+    font-family: var(--font);
+    color: var(--text);
+    cursor: pointer;
+    text-align: left;
+    line-height: 1.4;
+    transition: border-color 0.15s, background 0.15s;
+  }
+
+  .starter-btn:hover {
+    border-color: var(--accent);
+    background: var(--accent-light);
+  }
+
+  /* Messages */
+  .message {
+    max-width: 760px;
+    margin: 0 auto 20px;
+    display: flex;
+    gap: 12px;
+  }
+
+  .message .avatar {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: 700;
+    flex-shrink: 0;
+    margin-top: 2px;
+  }
+
+  .message.user .avatar { background: var(--accent-light); color: var(--accent); }
+  .message.assistant .avatar { background: var(--accent); color: white; }
+
+  .message .body { flex: 1; min-width: 0; }
+
+  .message .role-label {
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 4px;
+    color: var(--text-muted);
+  }
+
+  .message .content {
+    font-size: 14px;
+    line-height: 1.7;
+    word-wrap: break-word;
+  }
+
+  /* Markdown styles */
+  .message .content p { margin-bottom: 10px; }
+  .message .content p:last-child { margin-bottom: 0; }
+  .message .content strong { font-weight: 600; }
+  .message .content ul, .message .content ol { margin: 8px 0 8px 20px; }
+  .message .content li { margin-bottom: 4px; }
+  .message .content blockquote {
+    border-left: 3px solid var(--accent);
+    background: var(--bg);
+    padding: 8px 12px;
+    margin: 8px 0;
+    font-size: 13px;
+    color: var(--text-muted);
+  }
+  .message .content code {
+    background: var(--bg);
+    padding: 2px 5px;
+    border-radius: 3px;
+    font-family: var(--mono);
+    font-size: 13px;
+  }
+  .message .content pre {
+    background: var(--bg);
+    padding: 12px;
+    border-radius: 6px;
+    overflow-x: auto;
+    margin: 8px 0;
+  }
+  .message .content pre code { padding: 0; background: none; }
+  .message .content h3, .message .content h4 {
+    margin: 14px 0 6px;
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+  .streaming-cursor::after {
+    content: '';
+    display: inline-block;
+    width: 6px;
+    height: 16px;
+    background: var(--accent);
+    margin-left: 2px;
+    vertical-align: text-bottom;
+    animation: blink 0.8s step-end infinite;
+  }
+  @keyframes blink { 50% { opacity: 0; } }
+
+  /* Input bar */
+  .input-bar {
+    padding: 16px 24px;
+    border-top: 1px solid var(--border);
+    background: var(--surface);
+  }
+
+  .input-bar form {
+    max-width: 760px;
+    margin: 0 auto;
+    display: flex;
+    gap: 10px;
+  }
+
+  .input-bar input {
+    flex: 1;
+    padding: 10px 16px;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    font-size: 14px;
+    font-family: var(--font);
+    outline: none;
+    transition: border-color 0.15s;
+  }
+
+  .input-bar input:focus { border-color: var(--accent); }
+
+  .input-bar button {
+    padding: 10px 20px;
+    background: var(--accent);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: opacity 0.15s;
+    white-space: nowrap;
+  }
+
+  .input-bar button:hover { opacity: 0.9; }
+  .input-bar button:disabled { opacity: 0.5; cursor: not-allowed; }
+
+  /* Audit progress */
+  .audit-progress {
+    display: none;
+    margin-top: 8px;
+    font-size: 12px;
+    color: var(--text-muted);
+  }
+
+  .audit-progress.visible { display: block; }
+
+  .progress-bar {
+    height: 4px;
+    background: var(--border);
+    border-radius: 2px;
+    margin-top: 6px;
+    overflow: hidden;
+  }
+
+  .progress-fill {
+    height: 100%;
+    background: var(--accent);
+    border-radius: 2px;
+    transition: width 0.3s;
+    width: 0%;
+  }
+
+  /* Mobile toggle */
+  .sidebar-toggle {
+    display: none;
+    position: fixed;
+    top: 12px;
+    left: 12px;
+    z-index: 100;
+    width: 36px;
+    height: 36px;
+    border-radius: 6px;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    cursor: pointer;
+    font-size: 18px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  @media (max-width: 768px) {
+    .sidebar {
+      position: fixed;
+      left: -100%;
+      top: 0;
+      z-index: 99;
+      transition: left 0.2s ease;
+      box-shadow: 2px 0 12px rgba(0,0,0,0.1);
+    }
+    .sidebar.open { left: 0; }
+    .sidebar-toggle { display: flex; }
+    .messages { padding: 16px; }
+    .input-bar { padding: 12px 16px; }
+    .starters-grid { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+
+<button class="sidebar-toggle" id="sidebarToggle" onclick="toggleSidebar()">&#9776;</button>
+
+<!-- Sidebar -->
+<aside class="sidebar" id="sidebar">
+  <div class="sidebar-header">
+    <h1>EU Compliance</h1>
+    <p>Fashion claims checker</p>
+  </div>
+
+  <div class="sidebar-section">
+    <h3>Upload Products</h3>
+    <div class="drop-zone" id="dropZone">
+      <div class="label">Drop CSV or click to browse</div>
+      <div class="hint">Columns: name, claims, materials, certifications</div>
+    </div>
+    <input type="file" id="fileInput" accept=".csv" hidden>
+    <div class="file-info" id="fileInfo"></div>
+  </div>
+
+  <div class="summary-bar" id="summaryBar">
+    <div class="summary-text" id="summaryText"></div>
+    <div class="summary-badges" id="summaryBadges"></div>
+    <button class="audit-btn" id="auditBtn" onclick="runFullAudit()">Run full audit</button>
+    <div class="audit-progress" id="auditProgress">
+      <span id="auditProgressText">Auditing...</span>
+      <div class="progress-bar"><div class="progress-fill" id="progressFill"></div></div>
+    </div>
+  </div>
+
+  <div class="catalog" id="catalog">
+    <div class="catalog-header">Product Catalog</div>
+    <div class="catalog-empty" id="catalogEmpty">No products loaded yet</div>
+    <div id="catalogList"></div>
+  </div>
+</aside>
+
+<!-- Main Chat -->
+<div class="main">
+  <div class="chat-header">
+    <h2>Compliance Chat</h2>
+    <span class="status" id="chatStatus">Ready</span>
+  </div>
+
+  <div class="messages" id="messages">
+    <div class="starters" id="starters">
+      <div class="starters-title">EU Fashion Compliance</div>
+      <div class="starters-subtitle">Upload your product catalog and ask about compliance risks</div>
+      <div class="starters-grid" id="startersGrid"></div>
+    </div>
+  </div>
+
+  <div class="input-bar">
+    <form id="chatForm" onsubmit="sendMessage(event)">
+      <input type="text" id="chatInput" placeholder="Ask about a claim or your products..."
+             autocomplete="off">
+      <button type="submit" id="sendBtn">Send</button>
+    </form>
+  </div>
+</div>
+
+<script>
+// ── State ──
+let conversationHistory = [];
+let loadedProducts = [];
+let auditResults = null;
+let isStreaming = false;
+let selectedProductIndex = -1;
+
+// ── Elements ──
+const dropZone = document.getElementById('dropZone');
+const fileInput = document.getElementById('fileInput');
+const fileInfo = document.getElementById('fileInfo');
+const messagesEl = document.getElementById('messages');
+const chatInput = document.getElementById('chatInput');
+const sendBtn = document.getElementById('sendBtn');
+const catalogList = document.getElementById('catalogList');
+const catalogEmpty = document.getElementById('catalogEmpty');
+const chatStatus = document.getElementById('chatStatus');
+const summaryBar = document.getElementById('summaryBar');
+const summaryText = document.getElementById('summaryText');
+const summaryBadges = document.getElementById('summaryBadges');
+const auditBtn = document.getElementById('auditBtn');
+const startersGrid = document.getElementById('startersGrid');
+const starters = document.getElementById('starters');
+
+// ── Default starter questions ──
+const DEFAULT_STARTERS = [
+  "Which products are highest risk before September 2026?",
+  "What do I need to change on my denim line?",
+  "Give me replacement language for all HIGH risk claims",
+  "Which products are safe to sell in France right now?",
+];
+
+function renderStarters(questions) {
+  startersGrid.innerHTML = '';
+  for (const q of questions) {
+    const btn = document.createElement('button');
+    btn.className = 'starter-btn';
+    btn.textContent = q;
+    btn.onclick = () => sendStarterQuestion(q);
+    startersGrid.appendChild(btn);
+  }
+}
+
+function sendStarterQuestion(text) {
+  chatInput.value = text;
+  sendMessage(new Event('submit'));
+}
+
+renderStarters(DEFAULT_STARTERS);
+
+// ── File Upload ──
+dropZone.addEventListener('click', () => fileInput.click());
+dropZone.addEventListener('dragover', e => { e.preventDefault(); dropZone.classList.add('dragover'); });
+dropZone.addEventListener('dragleave', () => dropZone.classList.remove('dragover'));
+dropZone.addEventListener('drop', e => {
+  e.preventDefault();
+  dropZone.classList.remove('dragover');
+  if (e.dataTransfer.files.length) handleFile(e.dataTransfer.files[0]);
+});
+fileInput.addEventListener('change', () => { if (fileInput.files.length) handleFile(fileInput.files[0]); });
+
+async function handleFile(file) {
+  if (!file.name.endsWith('.csv')) {
+    fileInfo.textContent = 'Please upload a .csv file';
+    return;
+  }
+  fileInfo.textContent = `Uploading ${file.name}...`;
+
+  const formData = new FormData();
+  formData.append('file', file);
+
+  try {
+    const res = await fetch('/upload', { method: 'POST', body: formData });
+    const data = await res.json();
+    loadedProducts = data.products;
+    auditResults = null;
+    fileInfo.textContent = `${file.name} — ${data.count} products`;
+
+    // Show summary bar
+    summaryBar.classList.add('visible');
+    summaryText.textContent = `${data.count} products loaded`;
+    summaryBadges.innerHTML = '<span class="badge none">Not yet audited</span>';
+    auditBtn.style.display = '';
+    auditBtn.disabled = false;
+
+    // Populate catalog
+    renderCatalog();
+
+    // Close sidebar on mobile
+    document.getElementById('sidebar').classList.remove('open');
+  } catch (err) {
+    fileInfo.textContent = 'Upload failed: ' + err.message;
+  }
+}
+
+function renderCatalog() {
+  catalogEmpty.style.display = loadedProducts.length ? 'none' : '';
+  catalogList.innerHTML = '';
+
+  for (let i = 0; i < loadedProducts.length; i++) {
+    const p = loadedProducts[i];
+    const name = p.name || p.product_name || `Product ${i+1}`;
+    const claims = p.claims || p.marketing_claims || 'No claims';
+    const risk = auditResults ? auditResults.results[i].overall_risk : null;
+
+    const card = document.createElement('div');
+    card.className = 'product-card';
+    card.dataset.index = i;
+    card.dataset.name = name;
+    card.onclick = () => selectProduct(i);
+
+    let badgeHtml = '';
+    if (risk) {
+      const cls = risk.toLowerCase();
+      badgeHtml = `<span class="risk-badge ${cls}">${risk}</span>`;
+    } else {
+      badgeHtml = `<span class="risk-badge unaudited">—</span>`;
+    }
+
+    card.innerHTML = `
+      <div class="product-info">
+        <div class="pname">${esc(name)}</div>
+        <div class="pclaims">${esc(claims)}</div>
+      </div>
+      ${badgeHtml}`;
+
+    catalogList.appendChild(card);
+  }
+}
+
+function selectProduct(index) {
+  selectedProductIndex = index;
+
+  // Highlight in sidebar
+  document.querySelectorAll('.product-card').forEach(c => c.classList.remove('selected'));
+  const card = catalogList.querySelector(`[data-index="${index}"]`);
+  if (card) card.classList.add('selected');
+
+  // Send chat message about this product
+  const p = loadedProducts[index];
+  const name = p.name || p.product_name || `Product ${index+1}`;
+  chatInput.value = `Analyze the compliance of "${name}" — what are the risks and what needs to change?`;
+  sendMessage(new Event('submit'));
+}
+
+// ── Full Audit ──
+async function runFullAudit() {
+  if (!loadedProducts.length) return;
+
+  auditBtn.disabled = true;
+  auditBtn.textContent = 'Auditing...';
+  const progressEl = document.getElementById('auditProgress');
+  const progressFill = document.getElementById('progressFill');
+  const progressText = document.getElementById('auditProgressText');
+  progressEl.classList.add('visible');
+  progressFill.style.width = '10%';
+  progressText.textContent = `Analyzing ${loadedProducts.length} products...`;
+
+  try {
+    progressFill.style.width = '30%';
+
+    const res = await fetch('/audit', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ products: loadedProducts }),
+    });
+
+    progressFill.style.width = '90%';
+    const data = await res.json();
+    auditResults = data;
+
+    progressFill.style.width = '100%';
+
+    // Update summary
+    const s = data.summary;
+    summaryText.textContent = `${s.total} products loaded`;
+    let badgesHtml = '';
+    if (s.high > 0) badgesHtml += `<span class="badge high">${s.high} HIGH</span>`;
+    if (s.medium > 0) badgesHtml += `<span class="badge medium">${s.medium} MEDIUM</span>`;
+    if (s.low > 0) badgesHtml += `<span class="badge low">${s.low} COMPLIANT</span>`;
+    summaryBadges.innerHTML = badgesHtml;
+
+    // Update catalog with risk badges
+    renderCatalog();
+
+    // Update starter questions based on findings
+    updateStartersFromAudit(data);
+
+    // Add audit summary to chat
+    const msg = `Audit complete. **${s.total} products** analyzed:\n\n` +
+      (s.high > 0 ? `- **${s.high}** HIGH risk — need immediate changes\n` : '') +
+      (s.medium > 0 ? `- **${s.medium}** MEDIUM risk — need review\n` : '') +
+      (s.low > 0 ? `- **${s.low}** COMPLIANT — no changes needed\n` : '') +
+      `\nClick any product in the sidebar to discuss it, or ask a question below.`;
+    hideStarters();
+    appendMessage('assistant', msg);
+
+    auditBtn.textContent = 'Re-run audit';
+    auditBtn.disabled = false;
+  } catch (err) {
+    auditBtn.textContent = 'Audit failed — retry';
+    auditBtn.disabled = false;
+    summaryBadges.innerHTML = `<span class="badge none">Error: ${esc(err.message)}</span>`;
+  }
+
+  setTimeout(() => { progressEl.classList.remove('visible'); }, 800);
+}
+
+// ── Dynamic Starter Questions ──
+function updateStartersFromAudit(data) {
+  const questions = [];
+
+  // Count claim types
+  const claimTypes = {};
+  const uncertifiedGeneric = [];
+  let highCount = 0;
+
+  for (const r of data.results) {
+    if (r.overall_risk === 'HIGH') highCount++;
+    for (const cr of r.claim_results) {
+      const ct = cr.claim_type;
+      if (!claimTypes[ct]) claimTypes[ct] = [];
+      claimTypes[ct].push({ product: r.product_name, claim: cr.claim });
+    }
+    // Uncertified products with high risk
+    if (r.overall_risk === 'HIGH' && (!r.certifications_raw || r.certifications_raw.toLowerCase() === 'none')) {
+      uncertifiedGeneric.push(r.product_name);
+    }
+  }
+
+  // Build contextual questions
+  if (claimTypes.NEUTRALITY && claimTypes.NEUTRALITY.length > 0) {
+    const n = claimTypes.NEUTRALITY.length;
+    questions.push(`Fix all ${n} carbon neutral/climate claims`);
+  }
+
+  if (claimTypes.BLACKLISTED && claimTypes.BLACKLISTED.length > 0) {
+    const n = claimTypes.BLACKLISTED.length;
+    questions.push(`Give me replacement language for all ${n} banned generic claims`);
+  }
+
+  if (uncertifiedGeneric.length > 0) {
+    questions.push(`Which uncertified products need changes first?`);
+  }
+
+  if (highCount > 0) {
+    questions.push(`What's my highest priority before September 2026?`);
+  }
+
+  // Fill remaining slots with defaults
+  const defaults = [
+    "Which products are safe to sell in France right now?",
+    "Summarize all findings as a compliance report",
+    "What certifications should I get?",
+    "Give me a prioritized fix list",
+  ];
+  for (const d of defaults) {
+    if (questions.length >= 4) break;
+    if (!questions.includes(d)) questions.push(d);
+  }
+
+  renderStarters(questions.slice(0, 4));
+}
+
+// ── Chat ──
+function hideStarters() {
+  if (starters) starters.style.display = 'none';
+}
+
+async function sendMessage(e) {
+  e.preventDefault();
+  const text = chatInput.value.trim();
+  if (!text || isStreaming) return;
+
+  hideStarters();
+
+  // Add user message
+  conversationHistory.push({ role: 'user', content: text });
+  appendMessage('user', text);
+  chatInput.value = '';
+
+  // Prepare streaming
+  isStreaming = true;
+  sendBtn.disabled = true;
+  chatStatus.textContent = 'Thinking...';
+
+  // Create assistant message placeholder
+  const { contentEl } = appendMessage('assistant', '', true);
+
+  let fullResponse = '';
+
+  try {
+    const res = await fetch('/chat', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        messages: conversationHistory,
+        products: loadedProducts,
+      }),
+    });
+
+    const reader = res.body.getReader();
+    const decoder = new TextDecoder();
+    let buffer = '';
+
+    while (true) {
+      const { done, value } = await reader.read();
+      if (done) break;
+
+      buffer += decoder.decode(value, { stream: true });
+      const lines = buffer.split('\n');
+      buffer = lines.pop();
+
+      for (const line of lines) {
+        if (!line.startsWith('data: ')) continue;
+        const payload = line.slice(6).trim();
+        if (payload === '[DONE]') continue;
+
+        try {
+          const data = JSON.parse(payload);
+          if (data.error) {
+            fullResponse += `\n\n**Error:** ${data.error}`;
+          } else if (data.token) {
+            fullResponse += data.token;
+          }
+          contentEl.innerHTML = renderMarkdown(fullResponse);
+          highlightMentionedProducts(fullResponse);
+          messagesEl.scrollTop = messagesEl.scrollHeight;
+        } catch (e) { /* skip unparseable */ }
+      }
+    }
+  } catch (err) {
+    fullResponse += `\n\n**Error:** ${err.message}`;
+    contentEl.innerHTML = renderMarkdown(fullResponse);
+  }
+
+  // Finalize
+  contentEl.classList.remove('streaming-cursor');
+  conversationHistory.push({ role: 'assistant', content: fullResponse });
+  isStreaming = false;
+  sendBtn.disabled = false;
+  chatStatus.textContent = 'Ready';
+  messagesEl.scrollTop = messagesEl.scrollHeight;
+}
+
+// ── Product Highlighting ──
+function highlightMentionedProducts(text) {
+  // Clear all highlights
+  document.querySelectorAll('.product-card.highlighted').forEach(c => c.classList.remove('highlighted'));
+
+  if (!loadedProducts.length) return;
+
+  const textLower = text.toLowerCase();
+  for (let i = 0; i < loadedProducts.length; i++) {
+    const p = loadedProducts[i];
+    const name = (p.name || p.product_name || '').toLowerCase();
+    if (name && name.length > 3 && textLower.includes(name)) {
+      const card = catalogList.querySelector(`[data-index="${i}"]`);
+      if (card) {
+        card.classList.add('highlighted');
+        // Scroll into view in sidebar
+        card.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+      }
+    }
+  }
+}
+
+// ── Message Rendering ──
+function appendMessage(role, content, streaming = false) {
+  const avatar = role === 'user' ? 'U' : 'AI';
+  const label = role === 'user' ? 'You' : 'Compliance Advisor';
+  const rendered = content ? renderMarkdown(content) : '';
+  const cursorClass = streaming ? ' streaming-cursor' : '';
+
+  const wrapper = document.createElement('div');
+  wrapper.className = `message ${role}`;
+  wrapper.innerHTML = `
+    <div class="avatar">${avatar}</div>
+    <div class="body">
+      <div class="role-label">${label}</div>
+      <div class="content${cursorClass}">${rendered}</div>
+    </div>`;
+
+  messagesEl.appendChild(wrapper);
+  messagesEl.scrollTop = messagesEl.scrollHeight;
+
+  const contentEl = wrapper.querySelector('.content');
+  return { contentEl };
+}
+
+// ── Lightweight Markdown Renderer ──
+function renderMarkdown(text) {
+  if (!text) return '';
+
+  let html = text
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;');
+
+  // Code blocks
+  html = html.replace(/```(\w*)\n([\s\S]*?)```/g, (_, lang, code) => {
+    return `<pre><code>${code.trim()}</code></pre>`;
+  });
+
+  // Inline code
+  html = html.replace(/`([^`]+)`/g, '<code>$1</code>');
+
+  // Bold
+  html = html.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
+
+  // Italic
+  html = html.replace(/\*(.+?)\*/g, '<em>$1</em>');
+
+  // Headers
+  html = html.replace(/^#### (.+)$/gm, '<h4>$1</h4>');
+  html = html.replace(/^### (.+)$/gm, '<h3>$1</h3>');
+
+  // Blockquotes
+  html = html.replace(/^&gt; (.+)$/gm, '<blockquote>$1</blockquote>');
+
+  // Ordered lists
+  html = html.replace(/^(\d+)\. (.+)$/gm, '<li>$2</li>');
+
+  // Unordered lists
+  html = html.replace(/^[-*] (.+)$/gm, '<li>$1</li>');
+
+  // Wrap consecutive <li> in <ul>
+  html = html.replace(/((?:<li>.*<\/li>\n?)+)/g, '<ul>$1</ul>');
+
+  // Paragraphs
+  const blocks = html.split(/\n{2,}/);
+  html = blocks.map(block => {
+    block = block.trim();
+    if (!block) return '';
+    if (block.startsWith('<h') || block.startsWith('<pre') ||
+        block.startsWith('<ul') || block.startsWith('<ol') ||
+        block.startsWith('<blockquote')) {
+      return block;
+    }
+    return `<p>${block.replace(/\n/g, '<br>')}</p>`;
+  }).join('\n');
+
+  return html;
+}
+
+// ── Helpers ──
+function esc(s) {
+  if (!s) return '';
+  const d = document.createElement('div');
+  d.textContent = String(s);
+  return d.innerHTML;
+}
+
+function toggleSidebar() {
+  document.getElementById('sidebar').classList.toggle('open');
+}
+
+chatInput.addEventListener('keydown', e => {
+  if (e.key === 'Enter' && !e.shiftKey) {
+    sendMessage(e);
+  }
+});
+</script>
+</body>
+</html>

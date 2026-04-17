@@ -1,0 +1,1408 @@
+{
+  "timestamp": "2026-04-13T17:47:54.022332",
+  "total_cases": 50,
+  "scores": {
+    "risk_correct": 36,
+    "regulation_correct": 31,
+    "issues_correct": 24,
+    "all_correct": 14
+  },
+  "percentages": {
+    "risk": 72.0,
+    "regulation": 62.0,
+    "issues": 48.0,
+    "all": 28.0
+  },
+  "results": [
+    {
+      "case_id": "1",
+      "claim": "eco-friendly",
+      "certifications": "",
+      "result": {
+        "risk_level": "HIGH",
+        "primary_regulation": "ECGT Directive (EU) 2024/825",
+        "articles_cited": [
+          "Annex I point 4a"
+        ],
+        "issues": [
+          "Explicitly blacklisted term 'eco-friendly' — banned from September 27 2026 in all EU consumer-facing communications"
+        ],
+        "reasoning": "The claim 'eco-friendly' is a generic environmental claim that is explicitly blacklisted under the ECGT Directive (EU) 2024/825, Annex I. Without any certifications like EU Ecolabel or Nordic Swan, the claim is non-compliant and considered high risk."
+      },
+      "scores": {
+        "risk_pass": true,
+        "expected_risk": "HIGH",
+        "got_risk": "HIGH",
+        "reg_pass": true,
+        "expected_reg": "ECGT Directive (EU) 2024/825",
+        "got_reg": "ECGT Directive (EU) 2024/825",
+        "issues_pass": true,
+        "expected_article": "Annex I point 4a / Recital 9",
+        "all_pass": true
+      }
+    },
+    {
+      "case_id": "2",
+      "claim": "environmentally friendly",
+      "certifications": "",
+      "result": {
+        "risk_level": "HIGH",
+        "primary_regulation": "ECGT Directive (EU) 2024/825",
+        "articles_cited": [
+          "Annex I point 4a"
+        ],
+        "issues": [
+          "Explicitly blacklisted term 'environmentally friendly' — banned from September 27 2026 in all EU consumer-facing communications"
+        ],
+        "reasoning": "The claim 'environmentally friendly' is explicitly blacklisted under the ECGT Directive (EU) 2024/825, Annex I point 4a, as a generic environmental claim that cannot be substantiated without recognized excellent environmental performance. Since the product does not hold any certifications like EU Ecolabel or Nordic Swan, the claim is non-compliant and considered high risk."
+      },
+      "scores": {
+        "risk_pass": true,
+        "expected_risk": "HIGH",
+        "got_risk": "HIGH",
+        "reg_pass": true,
+        "expected_reg": "ECGT Directive (EU) 2024/825",
+        "got_reg": "ECGT Directive (EU) 2024/825",
+        "issues_pass": true,
+        "expected_article": "Annex I point 4a / Recital 9",
+        "all_pass": true
+      }
+    },
+    {
+      "case_id": "3",
+      "claim": "green",
+      "certifications": "",
+      "result": {
+        "risk_level": "HIGH",
+        "primary_regulation": "ECGT Directive (EU) 2024/825",
+        "articles_cited": [
+          "Annex I point 4a"
+        ],
+        "issues": [
+          "Explicitly blacklisted term 'green' — banned from September 27 2026 in all EU consumer-facing communications"
+        ],
+        "reasoning": "The claim 'green' is a generic environmental claim that is explicitly blacklisted under the ECGT Directive (EU) 2024/825, Annex I. Without any certifications like the EU Ecolabel or Nordic Swan, the claim is non-compliant and considered high risk."
+      },
+      "scores": {
+        "risk_pass": true,
+        "expected_risk": "HIGH",
+        "got_risk": "HIGH",
+        "reg_pass": true,
+        "expected_reg": "ECGT Directive (EU) 2024/825",
+        "got_reg": "ECGT Directive (EU) 2024/825",
+        "issues_pass": true,
+        "expected_article": "Annex I point 4a / Recital 9",
+        "all_pass": true
+      }
+    },
+    {
+      "case_id": "4",
+      "claim": "nature's friend",
+      "certifications": "",
+      "result": {
+        "risk_level": "HIGH",
+        "primary_regulation": "ECGT Directive (EU) 2024/825",
+        "articles_cited": [
+          "Annex I point 4a"
+        ],
+        "issues": [
+          "Explicitly blacklisted term 'nature's friend' — banned from September 27 2026 in all EU consumer-facing communications"
+        ],
+        "reasoning": "The claim 'nature's friend' is explicitly blacklisted under the ECGT Directive (EU) 2024/825, Annex I. It is considered a banned term for consumer-facing communications in the EU, and the product does not hold any certifications like EU Ecolabel or Nordic Swan that would allow for an exemption."
+      },
+      "scores": {
+        "risk_pass": true,
+        "expected_risk": "HIGH",
+        "got_risk": "HIGH",
+        "reg_pass": true,
+        "expected_reg": "ECGT Directive (EU) 2024/825",
+        "got_reg": "ECGT Directive (EU) 2024/825",
+        "issues_pass": true,
+        "expected_article": "Annex I point 4a / Recital 9",
+        "all_pass": true
+      }
+    },
+    {
+      "case_id": "5",
+      "claim": "ecological",
+      "certifications": "",
+      "result": {
+        "risk_level": "HIGH",
+        "primary_regulation": "ECGT Directive (EU) 2024/825",
+        "articles_cited": [
+          "Annex I point 4a"
+        ],
+        "issues": [
+          "Explicitly blacklisted term 'ecological' — banned from September 27 2026 in all EU consumer-facing communications"
+        ],
+        "reasoning": "The term 'ecological' is explicitly blacklisted under the ECGT Directive (EU) 2024/825, Annex I, and is banned from use in consumer-facing communications. The product does not hold any certifications like EU Ecolabel or Nordic Swan that would allow for an exemption. Therefore, the claim is non-compliant and poses a high risk."
+      },
+      "scores": {
+        "risk_pass": true,
+        "expected_risk": "HIGH",
+        "got_risk": "HIGH",
+        "reg_pass": true,
+        "expected_reg": "ECGT Directive (EU) 2024/825",
+        "got_reg": "ECGT Directive (EU) 2024/825",
+        "issues_pass": true,
+        "expected_article": "Annex I point 4a / Recital 9",
+        "all_pass": true
+      }
+    },
+    {
+      "case_id": "6",
+      "claim": "climate friendly",
+      "certifications": "",
+      "result": {
+        "risk_level": "HIGH",
+        "primary_regulation": "ECGT Directive (EU) 2024/825",
+        "articles_cited": [
+          "Annex I point 4a"
+        ],
+        "issues": [
+          "Explicitly blacklisted term 'climate friendly' — banned from September 27 2026 in all EU consumer-facing communications"
+        ],
+        "reasoning": "The claim 'climate friendly' is explicitly blacklisted under the ECGT Directive (EU) 2024/825, Annex I point 4a, as it is a generic environmental claim without substantiation. The product does not hold any certifications like EU Ecolabel or Nordic Swan that would allow for an exemption, making the claim non-compliant and high risk."
+      },
+      "scores": {
+        "risk_pass": true,
+        "expected_risk": "HIGH",
+        "got_risk": "HIGH",
+        "reg_pass": true,
+        "expected_reg": "ECGT Directive (EU) 2024/825",
+        "got_reg": "ECGT Directive (EU) 2024/825",
+        "issues_pass": true,
+        "expected_article": "Annex I point 4a / Recital 9",
+        "all_pass": true
+      }
+    },
+    {
+      "case_id": "7",
+      "claim": "carbon friendly",
+      "certifications": "",
+      "result": {
+        "risk_level": "HIGH",
+        "primary_regulation": "ECGT Directive (EU) 2024/825",
+        "articles_cited": [
+          "Annex I"
+        ],
+        "issues": [
+          "Explicitly blacklisted term 'carbon friendly' — banned from September 27 2026 in all EU consumer-facing communications"
+        ],
+        "reasoning": "The claim 'carbon friendly' is explicitly blacklisted under the ECGT Directive (EU) 2024/825, Annex I, and is banned from use in EU consumer-facing communications starting September 27, 2026. The product does not hold any certifications like EU Ecolabel or Nordic Swan that would allow for an exemption. Therefore, the claim is non-compliant and poses a high risk."
+      },
+      "scores": {
+        "risk_pass": true,
+        "expected_risk": "HIGH",
+        "got_risk": "HIGH",
+        "reg_pass": true,
+        "expected_reg": "ECGT Directive (EU) 2024/825",
+        "got_reg": "ECGT Directive (EU) 2024/825",
+        "issues_pass": false,
+        "expected_article": "Annex I point 4a / Recital 9",
+        "all_pass": false
+      }
+    },
+    {
+      "case_id": "8",
+      "claim": "gentle on the environment",
+      "certifications": "",
+      "result": {
+        "risk_level": "HIGH",
+        "primary_regulation": "Directive 2005/29/EC",
+        "articles_cited": [
+          "Annex I point 4a"
+        ],
+        "issues": [
+          "Making a generic environmental claim without demonstrating recognised excellent environmental performance relevant to the claim."
+        ],
+        "reasoning": "The claim 'gentle on the environment' is a generic environmental claim. Without any certifications like EU Ecolabel or Nordic Swan, the claim is considered misleading as it lacks substantiation of excellent environmental performance."
+      },
+      "scores": {
+        "risk_pass": true,
+        "expected_risk": "HIGH",
+        "got_risk": "HIGH",
+        "reg_pass": false,
+        "expected_reg": "ECGT Directive (EU) 2024/825",
+        "got_reg": "Directive 2005/29/EC",
+        "issues_pass": true,
+        "expected_article": "Annex I point 4a / Recital 9",
+        "all_pass": false
+      }
+    },
+    {
+      "case_id": "9",
+      "claim": "biodegradable",
+      "certifications": "",
+      "result": {
+        "risk_level": "HIGH",
+        "primary_regulation": "ECGT Directive (EU) 2024/825",
+        "articles_cited": [
+          "Annex I"
+        ],
+        "issues": [
+          "Explicitly blacklisted term 'biodegradable' — banned from September 27 2026 in all EU consumer-facing communications"
+        ],
+        "reasoning": "The claim 'biodegradable' is explicitly blacklisted under the ECGT Directive (EU) 2024/825, Annex I, and is banned from use in EU consumer-facing communications starting September 27, 2026. Since the product does not hold any certifications like EU Ecolabel or Nordic Swan that would allow for an exemption, the claim is non-compliant and poses a high risk."
+      },
+      "scores": {
+        "risk_pass": true,
+        "expected_risk": "HIGH",
+        "got_risk": "HIGH",
+        "reg_pass": true,
+        "expected_reg": "ECGT Directive (EU) 2024/825",
+        "got_reg": "ECGT Directive (EU) 2024/825",
+        "issues_pass": false,
+        "expected_article": "Annex I point 4a / Recital 9",
+        "all_pass": false
+      }
+    },
+    {
+      "case_id": "10",
+      "claim": "biobased",
+      "certifications": "",
+      "result": {
+        "risk_level": "HIGH",
+        "primary_regulation": "ECGT Directive (EU) 2024/825",
+        "articles_cited": [
+          "Annex I"
+        ],
+        "issues": [
+          "Explicitly blacklisted term 'biobased' — banned from September 27 2026 in all EU consumer-facing communications"
+        ],
+        "reasoning": "The claim 'biobased' is explicitly blacklisted under the ECGT Directive (EU) 2024/825, Annex I, and is banned from use in consumer-facing communications starting September 27, 2026. Since the product does not hold any certifications like EU Ecolabel or Nordic Swan that could exempt it from this restriction, the claim is non-compliant and poses a high risk."
+      },
+      "scores": {
+        "risk_pass": true,
+        "expected_risk": "HIGH",
+        "got_risk": "HIGH",
+        "reg_pass": true,
+        "expected_reg": "ECGT Directive (EU) 2024/825",
+        "got_reg": "ECGT Directive (EU) 2024/825",
+        "issues_pass": false,
+        "expected_article": "Annex I point 4a / Recital 9",
+        "all_pass": false
+      }
+    },
+    {
+      "case_id": "11",
+      "claim": "carbon neutral",
+      "certifications": "",
+      "result": {
+        "risk_level": "HIGH",
+        "primary_regulation": "ECGT Directive (EU) 2024/825",
+        "articles_cited": [
+          "Article 3(d)",
+          "Annex I point 4c"
+        ],
+        "issues": [
+          "Offset-based neutrality claim 'carbon neutral' — banned unless based on verified value-chain reductions not carbon credits"
+        ],
+        "reasoning": "The claim 'carbon neutral' is considered high risk as it is banned under the ECGT Directive unless it is based on verified value-chain reductions, which is not the case here as there are no certifications or verifications provided."
+      },
+      "scores": {
+        "risk_pass": true,
+        "expected_risk": "HIGH",
+        "got_risk": "HIGH",
+        "reg_pass": true,
+        "expected_reg": "ECGT Directive (EU) 2024/825",
+        "got_reg": "ECGT Directive (EU) 2024/825",
+        "issues_pass": false,
+        "expected_article": "Annex I point 4a and 4c / Recital 9 and 12",
+        "all_pass": false
+      }
+    },
+    {
+      "case_id": "12",
+      "claim": "carbon neutral via certified carbon credits",
+      "certifications": "Carbon credits",
+      "result": {
+        "risk_level": "HIGH",
+        "primary_regulation": "ECGT Directive (EU) 2024/825",
+        "articles_cited": [
+          "Article 3(d)",
+          "Annex I point 4c"
+        ],
+        "issues": [
+          "Offset-based neutrality claim 'carbon neutral' — banned unless based on verified value-chain reductions not carbon credits"
+        ],
+        "reasoning": "The claim 'carbon neutral via certified carbon credits' is considered high risk because it relies on offsetting greenhouse gas emissions through carbon credits, which is explicitly banned under the ECGT Directive unless it is based on verified value-chain reductions. The product does not hold an EU Ecolabel or Nordic Swan certification, which could have provided an exemption for generic environmental claims."
+      },
+      "scores": {
+        "risk_pass": true,
+        "expected_risk": "HIGH",
+        "got_risk": "HIGH",
+        "reg_pass": true,
+        "expected_reg": "ECGT Directive (EU) 2024/825",
+        "got_reg": "ECGT Directive (EU) 2024/825",
+        "issues_pass": true,
+        "expected_article": "Annex I point 4c / Recital 12",
+        "all_pass": true
+      }
+    },
+    {
+      "case_id": "13",
+      "claim": "climate neutral",
+      "certifications": "",
+      "result": {
+        "risk_level": "HIGH",
+        "primary_regulation": "ECGT Directive (EU) 2024/825",
+        "articles_cited": [
+          "Article 3(d)",
+          "Annex I point 4c"
+        ],
+        "issues": [
+          "Offset-based neutrality claim 'climate neutral' — banned unless based on verified value-chain reductions not carbon credits"
+        ],
+        "reasoning": "The claim 'climate neutral' is considered high risk as it is banned under the ECGT Directive unless it is based on verified value-chain reductions. The product does not hold any certifications like EU Ecolabel or Nordic Swan that would allow for an exemption."
+      },
+      "scores": {
+        "risk_pass": true,
+        "expected_risk": "HIGH",
+        "got_risk": "HIGH",
+        "reg_pass": true,
+        "expected_reg": "ECGT Directive (EU) 2024/825",
+        "got_reg": "ECGT Directive (EU) 2024/825",
+        "issues_pass": false,
+        "expected_article": "Annex I point 4a and 4c",
+        "all_pass": false
+      }
+    },
+    {
+      "case_id": "14",
+      "claim": "climate positive",
+      "certifications": "",
+      "result": {
+        "risk_level": "HIGH",
+        "primary_regulation": "ECGT Directive (EU) 2024/825",
+        "articles_cited": [
+          "Article 3(d)",
+          "Annex I point 4c"
+        ],
+        "issues": [
+          "Offset-based neutrality claim 'climate positive' — banned unless based on verified value-chain reductions not carbon credits"
+        ],
+        "reasoning": "The claim 'climate positive' is considered a banned offset-based neutrality claim under the ECGT Directive (EU) 2024/825, Article 3(d) and Annex I point 4c. It is prohibited unless it is based on verified value-chain reductions, which is not the case here as no certifications or verifications are provided."
+      },
+      "scores": {
+        "risk_pass": true,
+        "expected_risk": "HIGH",
+        "got_risk": "HIGH",
+        "reg_pass": true,
+        "expected_reg": "ECGT Directive (EU) 2024/825",
+        "got_reg": "ECGT Directive (EU) 2024/825",
+        "issues_pass": false,
+        "expected_article": "Annex I point 4a and 4c / Recital 9 and 12",
+        "all_pass": false
+      }
+    },
+    {
+      "case_id": "15",
+      "claim": "net zero",
+      "certifications": "",
+      "result": {
+        "risk_level": "HIGH",
+        "primary_regulation": "ECGT Directive (EU) 2024/825",
+        "articles_cited": [
+          "Article 3(d)",
+          "Annex I point 4c"
+        ],
+        "issues": [
+          "Offset-based neutrality claim 'net zero' — banned unless based on verified value-chain reductions not carbon credits"
+        ],
+        "reasoning": "The claim 'net zero' is considered a high-risk claim as it is banned under the ECGT Directive unless it is based on verified value-chain reductions rather than carbon credits. The product does not hold any certifications like EU Ecolabel or Nordic Swan that would allow for an exemption."
+      },
+      "scores": {
+        "risk_pass": true,
+        "expected_risk": "HIGH",
+        "got_risk": "HIGH",
+        "reg_pass": true,
+        "expected_reg": "ECGT Directive (EU) 2024/825",
+        "got_reg": "ECGT Directive (EU) 2024/825",
+        "issues_pass": false,
+        "expected_article": "Annex I point 4a and 4c",
+        "all_pass": false
+      }
+    },
+    {
+      "case_id": "16",
+      "claim": "sustainably made",
+      "certifications": "",
+      "result": {
+        "risk_level": "HIGH",
+        "primary_regulation": "ECGT Directive (EU) 2024/825",
+        "articles_cited": [
+          "Annex I point 4a"
+        ],
+        "issues": [
+          "Explicitly blacklisted term 'sustainably made' — banned from September 27 2026 in all EU consumer-facing communications"
+        ],
+        "reasoning": "The claim 'sustainably made' is explicitly blacklisted under the ECGT Directive (EU) 2024/825, Annex I. Without any certifications like EU Ecolabel or Nordic Swan to provide an exemption, the claim is non-compliant and considered high risk."
+      },
+      "scores": {
+        "risk_pass": true,
+        "expected_risk": "HIGH",
+        "got_risk": "HIGH",
+        "reg_pass": true,
+        "expected_reg": "ECGT Directive (EU) 2024/825",
+        "got_reg": "ECGT Directive (EU) 2024/825",
+        "issues_pass": true,
+        "expected_article": "Annex I point 4a / Article 2(p)",
+        "all_pass": true
+      }
+    },
+    {
+      "case_id": "17",
+      "claim": "sustainably made",
+      "certifications": "GOTS",
+      "result": {
+        "risk_level": "HIGH",
+        "primary_regulation": "ECGT Directive (EU) 2024/825",
+        "articles_cited": [
+          "Annex I point 4a"
+        ],
+        "issues": [
+          "Explicitly blacklisted term 'sustainably made' — banned from September 27 2026 in all EU consumer-facing communications"
+        ],
+        "reasoning": "The claim 'sustainably made' is explicitly blacklisted under the ECGT Directive (EU) 2024/825, Annex I. The product holds a GOTS certification, which does not cover the specific claim of 'sustainably made'. Therefore, the claim remains non-compliant and is considered high risk."
+      },
+      "scores": {
+        "risk_pass": false,
+        "expected_risk": "MEDIUM",
+        "got_risk": "HIGH",
+        "reg_pass": true,
+        "expected_reg": "ECGT Directive (EU) 2024/825",
+        "got_reg": "ECGT Directive (EU) 2024/825",
+        "issues_pass": true,
+        "expected_article": "Annex I point 4a / Article 2(p)",
+        "all_pass": false
+      }
+    },
+    {
+      "case_id": "18",
+      "claim": "100% of energy used to produce this packaging comes from renewable sources",
+      "certifications": "",
+      "result": {
+        "risk_level": "HIGH",
+        "primary_regulation": "ECGT Directive (EU) 2024/825",
+        "articles_cited": [
+          "Article 3(1)(b)",
+          "Article 3(1)(f)",
+          "Article 3(1)(d-e)",
+          "UCPD Annex I"
+        ],
+        "issues": [
+          "Comparative claim requires independent third-party verification.",
+          "Undefined baseline for the comparative claim.",
+          "Methodology for the claim is not publicly accessible."
+        ],
+        "reasoning": "The claim '100% of energy used to produce this packaging comes from renewable sources' is considered high risk due to multiple deficiencies. It lacks independent third-party verification, an explicitly defined baseline, and a publicly accessible methodology, all of which are required under the ECGT Directive. Without these elements, the claim cannot be substantiated and is misleading under the UCPD Annex I."
+      },
+      "scores": {
+        "risk_pass": false,
+        "expected_risk": "LOW",
+        "got_risk": "HIGH",
+        "reg_pass": true,
+        "expected_reg": "ECGT Directive (EU) 2024/825",
+        "got_reg": "ECGT Directive (EU) 2024/825",
+        "issues_pass": false,
+        "expected_article": "Recital 9",
+        "all_pass": false
+      }
+    },
+    {
+      "case_id": "19",
+      "claim": "climate-friendly packaging",
+      "certifications": "",
+      "result": {
+        "risk_level": "HIGH",
+        "primary_regulation": "Directive 2005/29/EC",
+        "articles_cited": [
+          "Annex I point 4c"
+        ],
+        "issues": [
+          "Claiming a product has a neutral, reduced or positive impact on the environment in terms of greenhouse gas emissions without substantiation."
+        ],
+        "reasoning": "The claim 'climate-friendly packaging' suggests a positive environmental impact related to greenhouse gas emissions. Without any certifications or substantiation, this falls under the banned practice of making unsubstantiated environmental claims about greenhouse gas emissions."
+      },
+      "scores": {
+        "risk_pass": true,
+        "expected_risk": "HIGH",
+        "got_risk": "HIGH",
+        "reg_pass": false,
+        "expected_reg": "ECGT Directive (EU) 2024/825",
+        "got_reg": "Directive 2005/29/EC",
+        "issues_pass": false,
+        "expected_article": "Annex I point 4a / Recital 9",
+        "all_pass": false
+      }
+    },
+    {
+      "case_id": "20",
+      "claim": "GOTS certified organic cotton",
+      "certifications": "GOTS",
+      "result": {
+        "risk_level": "LOW",
+        "primary_regulation": "Directive 2005/29/EC",
+        "articles_cited": [
+          "Article 6",
+          "Article 7"
+        ],
+        "issues": [],
+        "reasoning": "The claim 'GOTS certified organic cotton' is specific and substantiated by the GOTS certification, which is a recognized certification scheme. Therefore, it is compliant with the regulations on environmental claims."
+      },
+      "scores": {
+        "risk_pass": true,
+        "expected_risk": "LOW",
+        "got_risk": "LOW",
+        "reg_pass": false,
+        "expected_reg": "ECGT Directive (EU) 2024/825 / UCPD",
+        "got_reg": "Directive 2005/29/EC",
+        "issues_pass": true,
+        "expected_article": "None",
+        "all_pass": false
+      }
+    },
+    {
+      "case_id": "21",
+      "claim": "GRS certified recycled polyester",
+      "certifications": "GRS",
+      "result": {
+        "risk_level": "LOW",
+        "primary_regulation": "Directive 2005/29/EC",
+        "articles_cited": [
+          "Article 6",
+          "Annex I point 4a"
+        ],
+        "issues": [],
+        "reasoning": "The claim 'GRS certified recycled polyester' is specific and substantiated by the Global Recycled Standard (GRS) certification. This certification provides third-party verification of the recycled content, chain of custody, and environmental practices, making the claim compliant with the regulation."
+      },
+      "scores": {
+        "risk_pass": true,
+        "expected_risk": "LOW",
+        "got_risk": "LOW",
+        "reg_pass": false,
+        "expected_reg": "ECGT Directive (EU) 2024/825",
+        "got_reg": "Directive 2005/29/EC",
+        "issues_pass": true,
+        "expected_article": "None",
+        "all_pass": false
+      }
+    },
+    {
+      "case_id": "22",
+      "claim": "Bluesign certified production",
+      "certifications": "Bluesign",
+      "result": {
+        "risk_level": "HIGH",
+        "primary_regulation": "Directive 2005/29/EC",
+        "articles_cited": [
+          "Annex I point 4a"
+        ],
+        "issues": [
+          "Claim is not substantiated by held certifications",
+          "Bluesign certification does not cover the full scope of the claim"
+        ],
+        "reasoning": "The claim 'Bluesign certified production' is not fully substantiated by the Bluesign certification, as it does not cover all aspects implied by the claim. According to Annex I point 4a of Directive 2005/29/EC, making a generic environmental claim without demonstrating recognized excellent environmental performance relevant to the claim is prohibited."
+      },
+      "scores": {
+        "risk_pass": false,
+        "expected_risk": "LOW",
+        "got_risk": "HIGH",
+        "reg_pass": false,
+        "expected_reg": "ECGT Directive (EU) 2024/825",
+        "got_reg": "Directive 2005/29/EC",
+        "issues_pass": false,
+        "expected_article": "None",
+        "all_pass": false
+      }
+    },
+    {
+      "case_id": "23",
+      "claim": "FSC certified viscose",
+      "certifications": "FSC",
+      "result": {
+        "risk_level": "HIGH",
+        "primary_regulation": "Directive 2005/29/EC",
+        "articles_cited": [
+          "Article 6",
+          "Article 12"
+        ],
+        "issues": [
+          "Claim 'FSC certified viscose' is not substantiated by held certifications."
+        ],
+        "reasoning": "The claim 'FSC certified viscose' is misleading as it is not substantiated by the FSC certification held by the product. FSC certification covers responsibly sourced wood and FSC viscose, but not specifically 'FSC certified viscose'. This lack of substantiation makes the claim misleading under Directive 2005/29/EC, Article 6, which prohibits misleading actions, and Article 12, which requires substantiation of claims."
+      },
+      "scores": {
+        "risk_pass": false,
+        "expected_risk": "LOW",
+        "got_risk": "HIGH",
+        "reg_pass": false,
+        "expected_reg": "ECGT Directive (EU) 2024/825",
+        "got_reg": "Directive 2005/29/EC",
+        "issues_pass": false,
+        "expected_article": "None",
+        "all_pass": false
+      }
+    },
+    {
+      "case_id": "24",
+      "claim": "TENCEL lyocell — closed loop production 99% solvent reused",
+      "certifications": "TENCEL",
+      "result": {
+        "risk_level": "HIGH",
+        "primary_regulation": "ECGT Directive (EU) 2024/825",
+        "articles_cited": [
+          "Article 3(1)(b)",
+          "Article 3(1)(f)",
+          "Article 3(1)(d-e)"
+        ],
+        "issues": [
+          "Comparative claim requires independent third-party verification.",
+          "Undefined baseline for the comparative claim.",
+          "Methodology for the claim is not publicly accessible."
+        ],
+        "reasoning": "The claim 'TENCEL lyocell — closed loop production 99% solvent reused' lacks independent third-party verification, a defined baseline, and publicly accessible methodology, all of which are required under the ECGT Directive. The TENCEL certification does not provide the necessary exemption for these deficiencies."
+      },
+      "scores": {
+        "risk_pass": false,
+        "expected_risk": "LOW",
+        "got_risk": "HIGH",
+        "reg_pass": true,
+        "expected_reg": "ECGT Directive (EU) 2024/825",
+        "got_reg": "ECGT Directive (EU) 2024/825",
+        "issues_pass": false,
+        "expected_article": "None",
+        "all_pass": false
+      }
+    },
+    {
+      "case_id": "25",
+      "claim": "organic cotton",
+      "certifications": "GOTS",
+      "result": {
+        "risk_level": "LOW",
+        "primary_regulation": "Directive 2005/29/EC",
+        "articles_cited": [
+          "Article 6",
+          "Article 7"
+        ],
+        "issues": [],
+        "reasoning": "The claim 'organic cotton' is specific and substantiated by the GOTS certification, which is a recognized certification scheme. This ensures compliance with environmental standards, making the claim compliant with EU regulations."
+      },
+      "scores": {
+        "risk_pass": true,
+        "expected_risk": "LOW",
+        "got_risk": "LOW",
+        "reg_pass": false,
+        "expected_reg": "ECGT Directive (EU) 2024/825 / UCPD Article 2",
+        "got_reg": "Directive 2005/29/EC",
+        "issues_pass": true,
+        "expected_article": "None",
+        "all_pass": false
+      }
+    },
+    {
+      "case_id": "26",
+      "claim": "organic",
+      "certifications": "",
+      "result": {
+        "risk_level": "HIGH",
+        "primary_regulation": "Directive 2005/29/EC",
+        "articles_cited": [
+          "Article 6",
+          "Annex I point 4a"
+        ],
+        "issues": [
+          "Making a generic environmental claim without recognized excellent environmental performance."
+        ],
+        "reasoning": "The claim 'organic' is a generic environmental claim. Without any certifications like EU Ecolabel or Nordic Swan, the claim lacks substantiation of recognized excellent environmental performance, making it non-compliant with the regulation."
+      },
+      "scores": {
+        "risk_pass": false,
+        "expected_risk": "MEDIUM",
+        "got_risk": "HIGH",
+        "reg_pass": true,
+        "expected_reg": "UCPD Article 6",
+        "got_reg": "Directive 2005/29/EC",
+        "issues_pass": false,
+        "expected_article": "None",
+        "all_pass": false
+      }
+    },
+    {
+      "case_id": "27",
+      "claim": "80% less water than conventional denim — based on internal testing",
+      "certifications": "",
+      "result": {
+        "risk_level": "HIGH",
+        "primary_regulation": "ECGT Directive (EU) 2024/825",
+        "articles_cited": [
+          "Article 3(1)(b)",
+          "Article 3(1)(f)",
+          "Article 3(1)(d-e)"
+        ],
+        "issues": [
+          "Comparative claim requires independent third-party verification. Internal data alone is insufficient.",
+          "Undefined baseline 'conventional' is used, which is not a specific comparator.",
+          "Methodology for the claim is not publicly accessible."
+        ],
+        "reasoning": "The claim '80% less water than conventional denim — based on internal testing' is non-compliant due to lack of independent verification, use of an undefined baseline, and absence of publicly accessible methodology. These deficiencies violate multiple articles of the ECGT Directive, making the claim misleading and unsubstantiated."
+      },
+      "scores": {
+        "risk_pass": true,
+        "expected_risk": "HIGH",
+        "got_risk": "HIGH",
+        "reg_pass": false,
+        "expected_reg": "UCPD Directive 2005/29/EC",
+        "got_reg": "ECGT Directive (EU) 2024/825",
+        "issues_pass": false,
+        "expected_article": "Article 6(1) and Article 7(7)",
+        "all_pass": false
+      }
+    },
+    {
+      "case_id": "28",
+      "claim": "80% less water than conventional denim — verified by SGS lifecycle assessment published at URL",
+      "certifications": "SGS LCA",
+      "result": {
+        "risk_level": "HIGH",
+        "primary_regulation": "ECGT Directive (EU) 2024/825",
+        "articles_cited": [
+          "Article 3(1)(b)",
+          "Article 3(1)(f)",
+          "Article 3(1)(d-e)"
+        ],
+        "issues": [
+          "Comparative claim requires independent third-party verification. Internal data alone is never sufficient under ECGT Article 3.",
+          "Undefined baseline 'conventional'. Terms like 'conventional', 'standard', 'average', and 'traditional' are not defined comparators.",
+          "Comparative claim requires publicly accessible methodology."
+        ],
+        "reasoning": "The claim '80% less water than conventional denim' is non-compliant due to lack of independent verification, undefined baseline, and non-public methodology. These deficiencies violate ECGT Directive (EU) 2024/825 requirements for substantiated and transparent environmental claims."
+      },
+      "scores": {
+        "risk_pass": false,
+        "expected_risk": "LOW",
+        "got_risk": "HIGH",
+        "reg_pass": false,
+        "expected_reg": "UCPD Directive 2005/29/EC",
+        "got_reg": "ECGT Directive (EU) 2024/825",
+        "issues_pass": false,
+        "expected_article": "Article 7(7)",
+        "all_pass": false
+      }
+    },
+    {
+      "case_id": "29",
+      "claim": "we are committed to becoming climate positive by 2030",
+      "certifications": "",
+      "result": {
+        "risk_level": "HIGH",
+        "primary_regulation": "ECGT Directive (EU) 2024/825",
+        "articles_cited": [
+          "Article 3(d)",
+          "Annex I point 4c"
+        ],
+        "issues": [
+          "Offset-based neutrality claim 'climate positive' — banned unless based on verified value-chain reductions not carbon credits"
+        ],
+        "reasoning": "The claim 'we are committed to becoming climate positive by 2030' is considered high risk because it involves an offset-based neutrality claim, which is banned under the ECGT Directive unless it is based on verified value-chain reductions and not on carbon credits. The product does not hold any certifications like EU Ecolabel or Nordic Swan that could exempt it from this regulation."
+      },
+      "scores": {
+        "risk_pass": true,
+        "expected_risk": "HIGH",
+        "got_risk": "HIGH",
+        "reg_pass": true,
+        "expected_reg": "UCPD Directive 2005/29/EC as amended by ECGT",
+        "got_reg": "ECGT Directive (EU) 2024/825",
+        "issues_pass": false,
+        "expected_article": "Article 6(2)(d)",
+        "all_pass": false
+      }
+    },
+    {
+      "case_id": "30",
+      "claim": "committed to net zero by 2040 with SBTi target",
+      "certifications": "SBTi",
+      "result": {
+        "risk_level": "HIGH",
+        "primary_regulation": "ECGT Directive (EU) 2024/825",
+        "articles_cited": [
+          "Article 3(d)",
+          "Annex I point 4c"
+        ],
+        "issues": [
+          "Offset-based neutrality claim 'net zero' — banned unless based on verified value-chain reductions not carbon credits"
+        ],
+        "reasoning": "The claim 'committed to net zero by 2040 with SBTi target' is considered high risk because it involves an offset-based neutrality claim. According to the ECGT Directive, such claims are banned unless they are based on verified value-chain reductions and not on carbon credits. The product holds an SBTi certification, which does not exempt it from this regulation."
+      },
+      "scores": {
+        "risk_pass": true,
+        "expected_risk": "HIGH",
+        "got_risk": "HIGH",
+        "reg_pass": true,
+        "expected_reg": "UCPD Directive 2005/29/EC as amended by ECGT",
+        "got_reg": "ECGT Directive (EU) 2024/825",
+        "issues_pass": false,
+        "expected_article": "Article 6(2)(d)",
+        "all_pass": false
+      }
+    },
+    {
+      "case_id": "31",
+      "claim": "RefScale verified — 56% less carbon than conventional dress",
+      "certifications": "",
+      "result": {
+        "risk_level": "HIGH",
+        "primary_regulation": "ECGT Directive (EU) 2024/825",
+        "articles_cited": [
+          "Article 3(1)(b)",
+          "Article 3(1)(f)",
+          "Article 3(1)(d-e)"
+        ],
+        "issues": [
+          "Comparative claim requires independent third-party verification.",
+          "Undefined baseline 'conventional' used in the claim.",
+          "Methodology for the claim is not publicly accessible."
+        ],
+        "reasoning": "The claim 'RefScale verified — 56% less carbon than conventional dress' is non-compliant due to lack of independent verification, use of an undefined baseline, and absence of publicly accessible methodology. These deficiencies violate the ECGT Directive requirements for substantiated and transparent environmental claims."
+      },
+      "scores": {
+        "risk_pass": true,
+        "expected_risk": "HIGH",
+        "got_risk": "HIGH",
+        "reg_pass": true,
+        "expected_reg": "ECGT Directive (EU) 2024/825",
+        "got_reg": "ECGT Directive (EU) 2024/825",
+        "issues_pass": false,
+        "expected_article": "Annex I point 4b",
+        "all_pass": false
+      }
+    },
+    {
+      "case_id": "32",
+      "claim": "B Corp certified",
+      "certifications": "B Corp",
+      "result": {
+        "risk_level": "HIGH",
+        "primary_regulation": "Directive 2005/29/EC on Unfair Commercial Practices",
+        "articles_cited": [
+          "Annex I point 4",
+          "Article 6"
+        ],
+        "issues": [
+          "Claim 'B Corp certified' is not substantiated by held certifications",
+          "Misleading claim about certification status"
+        ],
+        "reasoning": "The claim 'B Corp certified' is misleading as it is not substantiated by the actual certifications held. According to Annex I point 4 of Directive 2005/29/EC, claiming a product has been approved or certified when it has not is considered unfair. Additionally, Article 6 considers misleading actions that deceive consumers about the nature of the product or its certifications."
+      },
+      "scores": {
+        "risk_pass": false,
+        "expected_risk": "MEDIUM",
+        "got_risk": "HIGH",
+        "reg_pass": false,
+        "expected_reg": "ECGT Directive (EU) 2024/825",
+        "got_reg": "Directive 2005/29/EC on Unfair Commercial Practices",
+        "issues_pass": false,
+        "expected_article": "Annex I point 4b",
+        "all_pass": false
+      }
+    },
+    {
+      "case_id": "33",
+      "claim": "naturally biodegradable wool",
+      "certifications": "",
+      "result": {
+        "risk_level": "HIGH",
+        "primary_regulation": "ECGT Directive (EU) 2024/825",
+        "articles_cited": [
+          "Annex I point 4a"
+        ],
+        "issues": [
+          "Explicitly blacklisted term 'biodegradable' — banned from September 27 2026 in all EU consumer-facing communications"
+        ],
+        "reasoning": "The claim 'naturally biodegradable wool' uses the term 'biodegradable', which is explicitly blacklisted and banned for use in consumer-facing communications under the ECGT Directive. Since the product does not hold any EU Ecolabel or Nordic Swan certification, the claim is non-compliant and considered high risk."
+      },
+      "scores": {
+        "risk_pass": true,
+        "expected_risk": "HIGH",
+        "got_risk": "HIGH",
+        "reg_pass": true,
+        "expected_reg": "ECGT Directive (EU) 2024/825",
+        "got_reg": "ECGT Directive (EU) 2024/825",
+        "issues_pass": true,
+        "expected_article": "Annex I point 4a / Recital 9",
+        "all_pass": true
+      }
+    },
+    {
+      "case_id": "34",
+      "claim": "eco-friendly",
+      "certifications": "EU Ecolabel",
+      "result": {
+        "risk_level": "LOW",
+        "primary_regulation": "ECGT Directive (EU) 2024/825",
+        "articles_cited": [
+          "Annex I point 4a"
+        ],
+        "issues": [
+          "Explicitly blacklisted term 'eco-friendly' — banned from September 27 2026 in all EU consumer-facing communications"
+        ],
+        "reasoning": "The claim 'eco-friendly' is generally considered high risk due to its inclusion in the ECGT Directive blacklist. However, the product holds the EU Ecolabel certification, which exempts it from this restriction, allowing the use of generic environmental claims. Therefore, the risk level is assessed as LOW."
+      },
+      "scores": {
+        "risk_pass": true,
+        "expected_risk": "LOW",
+        "got_risk": "LOW",
+        "reg_pass": true,
+        "expected_reg": "ECGT Directive (EU) 2024/825",
+        "got_reg": "ECGT Directive (EU) 2024/825",
+        "issues_pass": true,
+        "expected_article": "Annex I point 4a / Article 2(s)",
+        "all_pass": true
+      }
+    },
+    {
+      "case_id": "35",
+      "claim": "green",
+      "certifications": "Nordic Swan",
+      "result": {
+        "risk_level": "LOW",
+        "primary_regulation": "ECGT Directive (EU) 2024/825",
+        "articles_cited": [
+          "Annex I point 4a"
+        ],
+        "issues": [
+          "Explicitly blacklisted term 'green' — banned from September 27 2026 in all EU consumer-facing communications"
+        ],
+        "reasoning": "The claim 'green' is generally considered high risk due to its inclusion in the ECGT blacklist. However, the product holds the Nordic Swan certification, which is an EN ISO 14024 Type I ecolabel. This certification allows for the use of generic environmental claims, making the claim compliant and thus low risk."
+      },
+      "scores": {
+        "risk_pass": true,
+        "expected_risk": "LOW",
+        "got_risk": "LOW",
+        "reg_pass": true,
+        "expected_reg": "ECGT Directive (EU) 2024/825",
+        "got_reg": "ECGT Directive (EU) 2024/825",
+        "issues_pass": true,
+        "expected_article": "Annex I point 4a / Article 2(s)",
+        "all_pass": true
+      }
+    },
+    {
+      "case_id": "36",
+      "claim": "EcoDesigned collection",
+      "certifications": "",
+      "result": {
+        "risk_level": "HIGH",
+        "primary_regulation": "Directive 2005/29/EC",
+        "articles_cited": [
+          "Annex I point 4a"
+        ],
+        "issues": [
+          "Making a generic environmental claim without demonstrating recognised excellent environmental performance relevant to the claim."
+        ],
+        "reasoning": "The claim 'EcoDesigned collection' is a generic environmental claim. Without any certifications like EU Ecolabel or Nordic Swan, the claim lacks substantiation of recognised excellent environmental performance, making it non-compliant with the regulation."
+      },
+      "scores": {
+        "risk_pass": true,
+        "expected_risk": "HIGH",
+        "got_risk": "HIGH",
+        "reg_pass": false,
+        "expected_reg": "ECGT Directive (EU) 2024/825",
+        "got_reg": "Directive 2005/29/EC",
+        "issues_pass": true,
+        "expected_article": "Annex I point 4a / Article 2(p) and Q3",
+        "all_pass": false
+      }
+    },
+    {
+      "case_id": "37",
+      "claim": "sustainable collection",
+      "certifications": "",
+      "result": {
+        "risk_level": "HIGH",
+        "primary_regulation": "ECGT Directive (EU) 2024/825",
+        "articles_cited": [
+          "Annex I point 4a"
+        ],
+        "issues": [
+          "Explicitly blacklisted term 'sustainable' — banned from September 27 2026 in all EU consumer-facing communications"
+        ],
+        "reasoning": "The claim 'sustainable collection' is considered a generic environmental claim that is explicitly blacklisted under the ECGT Directive (EU) 2024/825, Annex I. Without any certifications like the EU Ecolabel or Nordic Swan, the claim is non-compliant and poses a high risk of misleading consumers."
+      },
+      "scores": {
+        "risk_pass": true,
+        "expected_risk": "HIGH",
+        "got_risk": "HIGH",
+        "reg_pass": true,
+        "expected_reg": "ECGT Directive (EU) 2024/825",
+        "got_reg": "ECGT Directive (EU) 2024/825",
+        "issues_pass": true,
+        "expected_article": "Annex I point 4a / Q3",
+        "all_pass": true
+      }
+    },
+    {
+      "case_id": "38",
+      "claim": "green leaf logo on packaging without text",
+      "certifications": "",
+      "result": {
+        "risk_level": "HIGH",
+        "primary_regulation": "ECGT Directive (EU) 2024/825",
+        "articles_cited": [
+          "Annex I point 2a",
+          "Annex I point 4a"
+        ],
+        "issues": [
+          "Explicitly blacklisted term 'green' — banned from September 27 2026 in all EU consumer-facing communications",
+          "Displaying a sustainability label that is not based on a certification scheme or not established by public authorities"
+        ],
+        "reasoning": "The use of a 'green leaf logo' without text is considered a generic environmental claim. Without certification such as the EU Ecolabel or Nordic Swan, this claim is banned under the ECGT Directive. The logo implies environmental benefits without substantiation, violating Annex I points 2a and 4a."
+      },
+      "scores": {
+        "risk_pass": false,
+        "expected_risk": "LOW",
+        "got_risk": "HIGH",
+        "reg_pass": true,
+        "expected_reg": "ECGT Directive (EU) 2024/825",
+        "got_reg": "ECGT Directive (EU) 2024/825",
+        "issues_pass": false,
+        "expected_article": "Article 2(o) / Q5",
+        "all_pass": false
+      }
+    },
+    {
+      "case_id": "39",
+      "claim": "green leaf logo combined with sustainably made text",
+      "certifications": "",
+      "result": {
+        "risk_level": "HIGH",
+        "primary_regulation": "ECGT Directive (EU) 2024/825",
+        "articles_cited": [
+          "Annex I point 4a"
+        ],
+        "issues": [
+          "Explicitly blacklisted term 'green' — banned from September 27 2026 in all EU consumer-facing communications"
+        ],
+        "reasoning": "The claim uses the term 'green', which is explicitly blacklisted and banned for use in consumer-facing communications under the ECGT Directive. Without any certifications like EU Ecolabel or Nordic Swan to provide an exemption, the claim is non-compliant and poses a high risk."
+      },
+      "scores": {
+        "risk_pass": true,
+        "expected_risk": "HIGH",
+        "got_risk": "HIGH",
+        "reg_pass": true,
+        "expected_reg": "ECGT Directive (EU) 2024/825",
+        "got_reg": "ECGT Directive (EU) 2024/825",
+        "issues_pass": true,
+        "expected_article": "Annex I point 4a / Q5",
+        "all_pass": true
+      }
+    },
+    {
+      "case_id": "40",
+      "claim": "chrome-free leather — better for the environment",
+      "certifications": "",
+      "result": {
+        "risk_level": "HIGH",
+        "primary_regulation": "Directive 2005/29/EC",
+        "articles_cited": [
+          "Annex I point 4a"
+        ],
+        "issues": [
+          "Making a generic environmental claim without demonstrating recognised excellent environmental performance relevant to the claim."
+        ],
+        "reasoning": "The claim 'chrome-free leather — better for the environment' is a generic environmental claim. Without any certifications like EU Ecolabel or Nordic Swan, and without evidence of recognised excellent environmental performance, this claim is considered misleading and non-compliant under Annex I point 4a of Directive 2005/29/EC."
+      },
+      "scores": {
+        "risk_pass": true,
+        "expected_risk": "HIGH",
+        "got_risk": "HIGH",
+        "reg_pass": false,
+        "expected_reg": "ECGT Directive (EU) 2024/825",
+        "got_reg": "Directive 2005/29/EC",
+        "issues_pass": false,
+        "expected_article": "Annex I point 4d / Recital 13",
+        "all_pass": false
+      }
+    },
+    {
+      "case_id": "41",
+      "claim": "recycled polyester",
+      "certifications": "GRS",
+      "result": {
+        "risk_level": "LOW",
+        "primary_regulation": "Directive 2005/29/EC",
+        "articles_cited": [
+          "Article 6",
+          "Annex I point 4a"
+        ],
+        "issues": [],
+        "reasoning": "The claim 'recycled polyester' is specific and substantiated by the GRS (Global Recycled Standard) certification, which is a recognized certification scheme. This ensures that the claim is based on verified environmental performance, making it compliant with the regulation."
+      },
+      "scores": {
+        "risk_pass": true,
+        "expected_risk": "LOW",
+        "got_risk": "LOW",
+        "reg_pass": false,
+        "expected_reg": "ECGT Directive (EU) 2024/825 / UCPD",
+        "got_reg": "Directive 2005/29/EC",
+        "issues_pass": true,
+        "expected_article": "None",
+        "all_pass": false
+      }
+    },
+    {
+      "case_id": "42",
+      "claim": "100% recycled materials",
+      "certifications": "GRS",
+      "result": {
+        "risk_level": "HIGH",
+        "primary_regulation": "ECGT Directive (EU) 2024/825",
+        "articles_cited": [
+          "Article 3(1)(b)",
+          "Article 3(1)(f)",
+          "Article 3(1)(d-e)"
+        ],
+        "issues": [
+          "Comparative claim '100% recycled materials' requires independent third-party verification. Internal data alone is never sufficient under ECGT Article 3 — environmental claims must be substantiated by widely recognised scientific evidence.",
+          "Comparative claim '100% recycled materials' requires an explicitly defined baseline. The comparator must specify exactly what is being compared against.",
+          "Comparative claim '100% recycled materials' requires publicly accessible methodology. Even if the underlying data is accurate, the claim cannot be defended if consumers and regulators cannot review how the comparison was calculated."
+        ],
+        "reasoning": "The claim '100% recycled materials' is considered high risk due to the lack of independent third-party verification, undefined baseline, and non-public methodology. The GRS certification does not provide the necessary exemption for these deficiencies under the ECGT Directive."
+      },
+      "scores": {
+        "risk_pass": false,
+        "expected_risk": "LOW",
+        "got_risk": "HIGH",
+        "reg_pass": false,
+        "expected_reg": "UCPD Article 6",
+        "got_reg": "ECGT Directive (EU) 2024/825",
+        "issues_pass": false,
+        "expected_article": "None",
+        "all_pass": false
+      }
+    },
+    {
+      "case_id": "43",
+      "claim": "made with sustainable materials",
+      "certifications": "",
+      "result": {
+        "risk_level": "HIGH",
+        "primary_regulation": "ECGT Directive (EU) 2024/825",
+        "articles_cited": [
+          "Annex I point 4a"
+        ],
+        "issues": [
+          "Explicitly blacklisted term 'sustainable' — banned from September 27 2026 in all EU consumer-facing communications"
+        ],
+        "reasoning": "The claim 'made with sustainable materials' is considered a generic environmental claim that is explicitly blacklisted under the ECGT Directive. Without any certification like the EU Ecolabel or Nordic Swan, the claim is non-compliant and poses a high risk of misleading consumers."
+      },
+      "scores": {
+        "risk_pass": true,
+        "expected_risk": "HIGH",
+        "got_risk": "HIGH",
+        "reg_pass": true,
+        "expected_reg": "ECGT Directive (EU) 2024/825",
+        "got_reg": "ECGT Directive (EU) 2024/825",
+        "issues_pass": true,
+        "expected_article": "Annex I point 4a / Article 2(p)",
+        "all_pass": true
+      }
+    },
+    {
+      "case_id": "44",
+      "claim": "vegan",
+      "certifications": "",
+      "result": {
+        "risk_level": "MEDIUM",
+        "primary_regulation": "Directive 2005/29/EC",
+        "articles_cited": [
+          "Article 6",
+          "Annex I point 4b"
+        ],
+        "issues": [
+          "The claim 'vegan' may imply environmental benefits without specific substantiation."
+        ],
+        "reasoning": "The claim 'vegan' is not inherently misleading but could imply environmental benefits. Without certification or specific substantiation, it may be considered a generic environmental claim, which requires recognized excellent environmental performance to be compliant."
+      },
+      "scores": {
+        "risk_pass": false,
+        "expected_risk": "LOW",
+        "got_risk": "MEDIUM",
+        "reg_pass": false,
+        "expected_reg": "ECGT Directive (EU) 2024/825",
+        "got_reg": "Directive 2005/29/EC",
+        "issues_pass": false,
+        "expected_article": "Article 2(o) / Q15",
+        "all_pass": false
+      }
+    },
+    {
+      "case_id": "45",
+      "claim": "vegan — better for the planet",
+      "certifications": "",
+      "result": {
+        "risk_level": "HIGH",
+        "primary_regulation": "Directive 2005/29/EC",
+        "articles_cited": [
+          "Article 6",
+          "Annex I point 4a"
+        ],
+        "issues": [
+          "Generic environmental claim without substantiation",
+          "Lack of certification to support environmental claim"
+        ],
+        "reasoning": "The claim 'better for the planet' is a generic environmental claim that implies a positive environmental impact. Without certification or substantiation, such claims are considered misleading and are prohibited under Directive 2005/29/EC."
+      },
+      "scores": {
+        "risk_pass": true,
+        "expected_risk": "HIGH",
+        "got_risk": "HIGH",
+        "reg_pass": false,
+        "expected_reg": "ECGT Directive (EU) 2024/825",
+        "got_reg": "Directive 2005/29/EC",
+        "issues_pass": true,
+        "expected_article": "Annex I point 4a / Q15",
+        "all_pass": false
+      }
+    },
+    {
+      "case_id": "46",
+      "claim": "uses less energy than previous model",
+      "certifications": "",
+      "result": {
+        "risk_level": "MEDIUM",
+        "primary_regulation": "Directive 2005/29/EC",
+        "articles_cited": [
+          "Article 6",
+          "Article 7"
+        ],
+        "issues": [
+          "The claim lacks specific quantifiable data to substantiate the energy efficiency improvement."
+        ],
+        "reasoning": "The claim 'uses less energy than previous model' is potentially misleading as it does not provide specific, verifiable information about the extent of energy savings. Without quantifiable data or third-party verification, the claim may deceive consumers into making a transactional decision based on incomplete information."
+      },
+      "scores": {
+        "risk_pass": false,
+        "expected_risk": "LOW",
+        "got_risk": "MEDIUM",
+        "reg_pass": true,
+        "expected_reg": "UCPD Directive 2005/29/EC",
+        "got_reg": "Directive 2005/29/EC",
+        "issues_pass": false,
+        "expected_article": "Article 7(7)",
+        "all_pass": false
+      }
+    },
+    {
+      "case_id": "47",
+      "claim": "energy efficient",
+      "certifications": "",
+      "result": {
+        "risk_level": "HIGH",
+        "primary_regulation": "ECGT Directive (EU) 2024/825",
+        "articles_cited": [
+          "Annex I"
+        ],
+        "issues": [
+          "Explicitly blacklisted term 'energy efficient' — banned from September 27 2026 in all EU consumer-facing communications"
+        ],
+        "reasoning": "The claim 'energy efficient' is explicitly blacklisted under the ECGT Directive (EU) 2024/825, Annex I, and is banned from use in consumer-facing communications starting September 27, 2026. The product does not hold any certifications like EU Ecolabel or Nordic Swan that would allow for an exemption. Therefore, the claim is non-compliant and poses a high risk."
+      },
+      "scores": {
+        "risk_pass": true,
+        "expected_risk": "HIGH",
+        "got_risk": "HIGH",
+        "reg_pass": true,
+        "expected_reg": "ECGT Directive (EU) 2024/825",
+        "got_reg": "ECGT Directive (EU) 2024/825",
+        "issues_pass": false,
+        "expected_article": "Annex I point 4a / Recital 9",
+        "all_pass": false
+      }
+    },
+    {
+      "case_id": "48",
+      "claim": "responsibly sourced materials",
+      "certifications": "FSC",
+      "result": {
+        "risk_level": "HIGH",
+        "primary_regulation": "Directive 2005/29/EC",
+        "articles_cited": [
+          "Annex I point 4a"
+        ],
+        "issues": [
+          "Claim 'responsibly sourced materials' is not substantiated by held certifications (FSC)."
+        ],
+        "reasoning": "The claim 'responsibly sourced materials' is not fully substantiated by the FSC certification, which covers specific materials like FSC certified wood but does not cover all materials. Therefore, the claim is considered misleading as it implies a broader scope than what is certified, violating Annex I point 4a of Directive 2005/29/EC."
+      },
+      "scores": {
+        "risk_pass": false,
+        "expected_risk": "MEDIUM",
+        "got_risk": "HIGH",
+        "reg_pass": false,
+        "expected_reg": "ECGT Directive (EU) 2024/825",
+        "got_reg": "Directive 2005/29/EC",
+        "issues_pass": true,
+        "expected_article": "Annex I point 4a / Article 2(p)",
+        "all_pass": false
+      }
+    },
+    {
+      "case_id": "49",
+      "claim": "designed for circularity",
+      "certifications": "",
+      "result": {
+        "risk_level": "MEDIUM",
+        "primary_regulation": "Directive 2005/29/EC",
+        "articles_cited": [
+          "Article 6",
+          "Annex I point 4b"
+        ],
+        "issues": [
+          "The claim 'designed for circularity' is vague and may mislead consumers if not substantiated with specific details about the product's circularity features."
+        ],
+        "reasoning": "The claim 'designed for circularity' is a specific environmental claim that requires substantiation. Without certifications or detailed information on how the product achieves circularity, it may mislead consumers about the product's environmental benefits, thus posing a medium risk of non-compliance."
+      },
+      "scores": {
+        "risk_pass": false,
+        "expected_risk": "HIGH",
+        "got_risk": "MEDIUM",
+        "reg_pass": false,
+        "expected_reg": "ECGT Directive (EU) 2024/825",
+        "got_reg": "Directive 2005/29/EC",
+        "issues_pass": false,
+        "expected_article": "Annex I point 4a / Article 2(p)",
+        "all_pass": false
+      }
+    },
+    {
+      "case_id": "50",
+      "claim": "this product is carbon compensated",
+      "certifications": "",
+      "result": {
+        "risk_level": "HIGH",
+        "primary_regulation": "Directive 2005/29/EC",
+        "articles_cited": [
+          "Annex I point 4c"
+        ],
+        "issues": [
+          "Claiming, based on the offsetting of greenhouse gas emissions, that a product has a neutral, reduced or positive impact on the environment in terms of greenhouse gas emissions."
+        ],
+        "reasoning": "The claim 'this product is carbon compensated' suggests a neutral or positive environmental impact based on carbon offsetting. Without any certifications like EU Ecolabel or Nordic Swan, this claim is considered misleading and is explicitly prohibited under Annex I point 4c of Directive 2005/29/EC."
+      },
+      "scores": {
+        "risk_pass": true,
+        "expected_risk": "HIGH",
+        "got_risk": "HIGH",
+        "reg_pass": false,
+        "expected_reg": "ECGT Directive (EU) 2024/825",
+        "got_reg": "Directive 2005/29/EC",
+        "issues_pass": true,
+        "expected_article": "Annex I point 4c / Recital 12",
+        "all_pass": false
+      }
+    }
+  ]
+}

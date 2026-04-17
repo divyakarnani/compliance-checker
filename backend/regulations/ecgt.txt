@@ -1,0 +1,334 @@
+DIRECTIVE (EU) 2024/825 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL
+
+of 28 February 2024
+
+amending Directives 2005/29/EC and 2011/83/EU as regards empowering consumers for the green transition through better protection against unfair practices and through better information
+
+(Text with EEA relevance)
+
+THE EUROPEAN PARLIAMENT AND THE COUNCIL OF THE EUROPEAN UNION,
+Having regard to the Treaty on the Functioning of the European Union, and in particular Article 114 thereof,
+Having regard to the proposal from the European Commission,
+After transmission of the draft legislative act to the national parliaments,
+Having regard to the opinion of the European Economic and Social Committee (1),
+Acting in accordance with the ordinary legislative procedure (2),
+Whereas:
+(1)
+In order to contribute to the proper functioning of the internal market, based on a high level of consumer protection and environmental protection, and to make progress in the green transition, it is essential that consumers can make informed purchasing decisions and thus contribute to more sustainable consumption patterns. That implies that traders have a responsibility to provide clear, relevant and reliable information. Therefore, specific rules should be introduced in Union consumer law to tackle unfair commercial practices that mislead consumers and prevent them from making sustainable consumption choices, such as practices associated with the early obsolescence of goods, misleading environmental claims (‘greenwashing’), misleading information about the social characteristics of products or traders’ businesses, or non-transparent and non-credible sustainability labels. Those rules will enable competent national bodies to effectively address such practices. Ensuring that environmental claims are fair, understandable and reliable will allow traders to operate on a level playing field and will enable consumers to choose products that are genuinely better for the environment than competing products. This will encourage competition leading to more environmentally sustainable products, thereby reducing the negative impact on the environment.
+(2)
+Those new rules should be introduced through amending Articles 6 and 7 of Directive 2005/29/EC of the European Parliament and of the Council (3) with regard to commercial practices that are considered to be misleading, and therefore prohibited, on the basis of a case-by-case assessment, and through amending Annex I to Directive 2005/29/EC, with the addition of specific misleading practices which are in all circumstances considered unfair, and therefore prohibited. As already laid down in Directive 2005/29/EC, it should still be possible to consider that a commercial practice is unfair on the basis of Articles 5 to 9 of that Directive, even though that particular practice is not listed as an unfair commercial practice in Annex I to Directive 2005/29/EC.
+(3)
+In order for consumers to be empowered to take better-informed decisions and thus stimulate the demand for, and the supply of, more sustainable goods, they should not be misled about a product’s environmental or social characteristics or circularity aspects, such as durability, reparability or recyclability, through the overall presentation of a product. Article 6(1) of Directive 2005/29/EC should therefore be amended by adding environmental and social characteristics and circularity aspects to the list of the main characteristics of a product in respect of which a trader’s practices can be considered misleading, following a case-by-case assessment. Information provided by traders on the social characteristics of a product throughout its value chain can relate, for example, to the quality and fairness of working conditions of the workforce involved, such as adequate wages, social protection, the safety of the work environment and social dialogue. Such information can also relate to respect for human rights, to equal treatment and opportunities for all, including gender equality, inclusion and diversity, to contributions to social initiatives or to ethical commitments, such as animal welfare. The environmental and social characteristics of a product can be understood in a broad sense, encompassing the environmental and social aspects, impact and performance of a product.
+(4)
+Environmental claims, in particular climate-related claims, increasingly relate to future performance in the form of a transition to carbon or climate neutrality, or a similar objective, by a certain date. Through such claims, traders create the impression that consumers contribute to a low-carbon economy by purchasing their products. To ensure the fairness and credibility of such claims, Article 6(2) of Directive 2005/29/EC should be amended to prohibit such claims, following a case-by-case assessment, where they are not supported by clear, objective, publicly available and verifiable commitments and targets given by the trader and set out in a detailed and realistic implementation plan that shows how those commitments and targets will be achieved and that allocates resources to that end. That implementation plan should include all the relevant elements necessary to fulfil the commitments, such as budgetary resources and technological developments, where appropriate and in accordance with Union law. Such claims should also be verified by a third party expert, who should be independent from the trader, free from any conflicts of interest, with experience and competence in environmental issues and who should be able to monitor the progress of the trader regularly with regard to the commitments and targets, including the milestones for achieving them. Traders should ensure that the regular findings of the third party expert are available to consumers.
+(5)
+Another potentially misleading commercial practice to be added to the specific practices referred to in Article 6(2) of Directive 2005/29/EC is advertising benefits to consumers that are irrelevant and not directly related to any feature of that specific product or business and which could mislead consumers into believing that they are more beneficial to consumers, the environment or society than other products or traders’ businesses of the same type, for example, claiming that a particular brand of bottled water is gluten-free or claiming that paper sheets do not contain plastic.
+(6)
+Comparing products based on their environmental or social characteristics or circularity aspects, such as durability, reparability or recyclability, is an increasingly common marketing technique that could mislead consumers, who are not always able to assess the reliability of that information. In order to ensure that such comparisons do not mislead consumers, Article 7 of Directive 2005/29/EC should be amended to require traders to provide consumers with information about the method of comparison, the products which are the object of comparison and the suppliers of those products, and the measures to keep information up to date. This should ensure that consumers make better-informed transactional decisions when relying on such comparisons. It should be ensured that such comparisons are objective by, in particular, comparing products which serve the same function, using a common method and common assumptions, and comparing material and verifiable features of the products being compared.
+(7)
+Sustainability labels can relate to many characteristics of a product, process or business, and it is essential to ensure their transparency and credibility. Therefore, the displaying of sustainability labels which are not based on a certification scheme, or which have not been established by public authorities should be prohibited by including such practices in the list in Annex I to Directive 2005/29/EC. Before displaying a sustainability label, the trader should ensure that, according to the publicly available terms of the certification scheme, it meets minimum conditions of transparency and credibility, including the existence of objective monitoring of compliance with the requirements of the scheme. Such monitoring should be carried out by a third party whose competence and independence from both the scheme owner and the trader are ensured based on international, Union or national standards and procedures, for example by demonstrating compliance with relevant international standards, such as ISO 17065 ‘Conformity assessment – Requirements for bodies certifying products, processes and services’ or through the mechanisms provided for in Regulation (EC) No 765/2008 of the European Parliament and of the Council (4). The displaying of sustainability labels remains possible without a certification scheme when such labels are established by a public authority, or where additional forms of expression and presentation of food are used in accordance with Article 35 of Regulation (EU) No 1169/2011 of the European Parliament and of the Council (5).
+Examples of sustainability labels established by public authorities are logos awarded when complying with the requirements of Regulations (EC) No 1221/2009 (6) or (EC) No 66/2010 (7) of the European Parliament and of the Council. Some certification marks, as defined in Article 27 of Directive (EU) 2015/2436 of the European Parliament and of the Council (8), can also operate as sustainability labels if they promote a product, process or business with reference, for example, to its environmental or social characteristics or both. The trader should be able to display such certification marks only if they are established by public authorities or based on a certification scheme. That rule complements Annex I, point (4), to Directive 2005/29/EC, which prohibits the making of a claim that a trader, the commercial practices of a trader or a product have been approved, endorsed or authorised by a public or private body when that is not the case, or the making of such a claim without complying with the terms of the approval, endorsement or authorisation. Voluntary market-based standards and voluntary public standards for green and sustainable bonds do not primarily target retail investors and are subject to specific laws. For those reasons, those standards should not be considered to be sustainability labels under this Directive. It is important that public authorities, as far as possible and in compliance with Union law, promote measures to facilitate access to sustainability labels for small and medium-sized enterprises.
+(8)
+In cases where the displaying of a sustainability label involves a commercial communication that suggests or creates the impression that a product has a positive or zero impact on the environment, or is less damaging to the environment than competing products, that sustainability label should also be considered as constituting an environmental claim.
+(9)
+Annex I to Directive 2005/29/EC should also be amended to prohibit the making of a generic environmental claim without recognised excellent environmental performance which is relevant to the claim. Examples of generic environmental claims include ‘environmentally friendly’, ‘eco-friendly’, ‘green’, ‘nature’s friend’, ‘ecological’, ‘environmentally correct’, ‘climate friendly’, ‘gentle on the environment’, ‘carbon friendly’, ‘ energy efficient’, ‘biodegradable’, ‘biobased’ or similar statements that suggest or create the impression of excellent environmental performance. Such generic environmental claims should be prohibited when recognised excellent environmental performance cannot be demonstrated. Whenever the specification of the environmental claim is provided in clear and prominent terms on the same medium, such as the same advertising spot, the product’s packaging or online selling interface, the environmental claim is not considered to be a generic environmental claim. For example, the claim ‘climate-friendly packaging’ would be a generic claim, whilst claiming that ‘100 % of energy used to produce this packaging comes from renewable sources’ would be a specific claim, which would not fall under this prohibition, without prejudice to other provisions of Directive 2005/29/EC remaining applicable to those specific claims. Furthermore, a claim made in written form or orally combined with implicit claims such as colours or images could constitute a generic environmental claim.
+(10)
+Recognised excellent environmental performance can be demonstrated by compliance with Regulation (EC) No 66/2010 or with officially recognised EN ISO 14024 ecolabelling schemes in the Member States, or by corresponding to top environmental performance for a specific environmental characteristic in accordance with other applicable Union laws, such as class A in accordance with Regulation (EU) 2017/1369 of the European Parliament and of the Council (9). The recognised excellent environmental performance in question should be relevant to the entire claim. For example, a generic environmental claim such as ‘energy efficient’ could be made based on recognised excellent environmental performance in accordance with Regulation (EU) 2017/1369. By contrast, a generic environmental claim such as ‘biodegradable’ could not be made based on recognised excellent environmental performance in accordance with Regulation (EC) No 66/2010, insofar as there are no requirements for biodegradability in the specific EU Ecolabel criteria related to the product in question. Similarly, a trader should not make a generic claim such as ‘conscious’, ‘sustainable’ or ‘responsible’ based exclusively on recognised excellent environmental performance, because such claims relate to other characteristics in addition to environmental characteristics, such as social characteristics.
+(11)
+Another misleading commercial practice, which should be prohibited in all circumstances and thus added to the list in Annex I to Directive 2005/29/EC, is making an environmental claim about the entire product or the trader’s entire business when it actually concerns only a certain aspect of the product or a specific, unrepresentative activity of the trader’s business. That ban would apply, for example, when a product is marketed as ‘made with recycled material’ giving the impression that the entire product is made of recycled material, when in fact only the packaging is made of recycled material, or when a trader gives the impression that it is only using renewable energy sources when in fact several of the trader’s business facilities still use fossil fuels. Accordingly, the ban should not prevent a trader from making environmental claims about its entire business, provided that those claims are accurate and verifiable and that they do not overstate the environmental benefit, such as would be the case in the second of those examples, if that trader were to report a decrease in the use of fossil fuels for its business as a whole.
+(12)
+It is particularly important to prohibit the making of claims, based on the offsetting of greenhouse gas emissions, that a product, either a good or service has a neutral, reduced, or positive impact on the environment in terms of greenhouse gas emissions. Such claims should be prohibited in all circumstances and added to the list in Annex I to Directive 2005/29/EC as they mislead consumers by making them believe that such claims relate to the product itself or to the supply and production of that product, or as they give the false impression to consumers that the consumption of that product does not have an environmental impact. Examples of such claims are ‘climate neutral’, ‘CO2 neutral certified’, ‘carbon positive’, ‘climate net zero’, ‘climate compensated’, ‘reduced climate impact’ and ‘limited CO2 footprint’. Such claims should only be allowed when they are based on the actual lifecycle impact of the product in question, and not based on the offsetting of greenhouse gas emissions outside the product’s value chain, as the former and the latter are not equivalent. Such a prohibition should not prevent companies from advertising their investments in environmental initiatives, including carbon credit projects, as long as they provide such information in a way that is not misleading and that complies with the requirements laid down in Union law.
+(13)
+Additional requirements on environmental claims will have to be set in specific Union legal acts. Those new requirements will contribute to the objective of the communication of the Commission of 11 December 2019 on The European Green Deal of enabling buyers to make more sustainable decisions and reduce the risk of greenwashing through reliable, comparable and verifiable information.
+(14)
+Marketing across the Member States of goods as being identical when, in reality, they have a significantly different composition or significantly different characteristics could mislead consumers and cause them to take a transactional decision that they would not otherwise have taken. Such marketing practices are expressly addressed in Article 6(2), point (c), of Directive 2005/29/EC, introduced by Directive (EU) 2019/2161 of the European Parliament and of the Council (10) that Member States have had to apply as of 28 May 2022. The Commission will assess and report in 2024 on the application of Directive (EU) 2019/2161, including Article 6(2), point (c), of Directive 2005/29/EC and whether those practices should be subject to more stringent requirements, including prohibition in Annex I. The new provisions against greenwashing practices in this Directive should also apply to such practices where versions of the same product are marketed as being identical in different Member States despite having significant differences as referred to in Article 6(2), point (c), of Directive 2005/29/EC.
+(15)
+Presenting requirements that are imposed by law on all products within the relevant product category on the Union market, including imported products, as a distinctive feature of the trader’s offer, should be prohibited in all circumstances and thus added to the list in Annex I to Directive 2005/29/EC. This prohibition should apply, for example, where a trader advertises a given product as not including a specific chemical substance when that substance is already forbidden by law for all products within that product category in the Union. Conversely, the prohibition should not cover commercial practices promoting traders’ or products’ compliance with legal requirements that only apply to some products but not to other competing products of the same category on the Union market, such as products of non-Union origin. It could be the case that certain products on the market are required to comply with certain legal requirements while other products in the same product category are not required to comply with those requirements. For example, as regards fish products produced sustainably in accordance with Union law, it would be allowed to promote the sustainability characteristics of those products that comply with Union legal requirements, if fish products of third country origin offered on the Union market are not required to comply with those Union legal requirements.
+(16)
+In order to improve the welfare of consumers, the amendments to Directive 2005/29/EC should also address several practices associated with early obsolescence, including planned early obsolescence practices, understood as a commercial policy involving deliberately planning or designing a product with a limited lifespan so that it prematurely becomes obsolete or non-functional after a certain period or after a predetermined intensity of use. Purchasing products that are expected to last longer than they actually do causes consumer detriment. Furthermore, early obsolescence practices have an overall negative impact on the environment in the form of increased waste and increased use of energy and materials. Therefore, addressing information related to early obsolescence practices is also likely to reduce the amount of waste, contributing to a more sustainable consumption.
+(17)
+It should also be prohibited under Annex I to Directive 2005/29/EC to withhold information from consumers about the fact that a software update will negatively impact the functioning of goods with digital elements or the use of digital content or digital services. In general, traders responsible for the development of software updates are expected to have such information, while in other cases traders can rely on reliable information provided by, for example, software developers, suppliers or competent national authorities. For example, when inviting consumers to update the operating system on their smartphone, the trader should not withhold information from the consumer that such an update will negatively impact the functioning of any of the features of the smartphone, such as the battery, the performance of certain applications or cause a complete slowdown of the smartphone. The prohibition should apply to any update, including security and functionality updates. For updates, including security updates, that are necessary to keep the good, digital content and digital service in conformity, Article 8 of Directive (EU) 2019/770 of the European Parliament and of the Council (11)and Article 7 of Directive (EU) 2019/771 of the European Parliament and of the Council (12) should also apply. This is without prejudice to Article 19 of Directive (EU) 2019/770.
+(18)
+Software updates that are security updates are necessary for the secure use of the product while updates related to enhancing functionality features are not. Therefore, Directive 2005/29/EC should prohibit the presentation of a software update as necessary to keep the product in conformity where that update only enhances functionality features.
+(19)
+Commercial communications for goods that contain a feature introduced to limit their durability is a commercial practice that is detrimental to consumers and the environment as they encourage the sale of such goods which leads to higher costs for consumers and unnecessary use of resources, waste production and greenhouse gas emissions. Such commercial communications should therefore be prohibited when information on the feature and its effects on the durability of the good are available to the trader. Examples of such features could be software which stops or downgrades the functionality of the good after a particular period, or a piece of hardware which is designed to fail after a particular period. It could also be a design or manufacturing flaw which, although not introduced as a feature for that purpose, leads to the premature failure of the good, if it is not fixed once information about the existence and effect of the feature has become available to the trader. In the context of that prohibition, commercial communications include communications designed to promote, directly or indirectly, the goods. The manufacturing of goods and making them available on the market do not constitute commercial communications. That prohibition should aim to cover mainly traders who are also the producers of the goods, as it is they who determine the durability of the goods.
+Therefore, in general, when a good is identified as containing a feature to limit the durability, the producer of that good should be expected to be aware of that feature and its effect on the durability of that good. Nevertheless, traders who are not the producers of the goods, such as the sellers, should be targeted by that prohibition where reliable information is available to them about the feature and its effects on durability, such as a statement from a competent national authority or information provided by the producer. Therefore, as soon as such information is available to the trader, the prohibition should apply irrespective of whether the trader is actually aware or unaware of that information, for example by neglecting it. For such a commercial practice to be considered unfair, it should not be necessary to demonstrate that the purpose of the feature is to stimulate the replacement of the respective good, but it would be sufficient to prove that the feature has been introduced to limit the durability of the good. This prohibition complements and does not affect the remedies available to consumers in the event of a lack of conformity under Directive (EU) 2019/771. The use of features limiting the durability of the goods should be distinguished from manufacturing practices using materials or processes of general low quality resulting in limited durability of the goods. Lack of conformity of a good resulting from the use of low quality materials or processes should continue to be governed by the rules on the conformity of goods set out in Directive (EU) 2019/771.
+(20)
+Another practice which should be prohibited under Annex I to Directive 2005/29/EC is the practice of falsely claiming that a good has a certain durability in terms of usage time or intensity under normal conditions of use. That would be the case, for instance, if a trader informs consumers that a washing machine is expected to last a certain number of washing cycles, in accordance with normal expected use indicated in the instructions, while the actual use of the washing machine under the prescribed conditions shows that is not the case. Such claims are largely made by the producers, as it is they who determine the durability of the goods. Therefore, in general, traders who are also the producers of the goods are expected to be aware of false claims regarding the durability of the goods, whereas other traders such as sellers should rely on reliable information available to them, for instance based on a statement from a competent national authority or information provided by the producer. Lack of conformity of a good resulting from occasional faults in the manufacturing of a good should continue to be governed by the rules on the conformity of goods set out in Directive (EU) 2019/771.
+(21)
+Similarly, Annex I to Directive 2005/29/EC should also be amended to prohibit the presentation of products as allowing repair when such repair is not possible.
+(22)
+The prohibition of those practices in relation to durability and reparability in Directive 2005/29/EC would provide the consumer protection authorities of Member States with an additional enforcement tool for better protection of consumers’ interests in cases where traders fail to comply with requirements on the durability and reparability of goods under product-specific Union law.
+(23)
+Another practice associated with early obsolescence which should be prohibited and added to the list in Annex I to Directive 2005/29/EC is inducing the consumer to replace or replenish the consumables of a product earlier than would otherwise be necessary for technical reasons. Such practices mislead the consumer into believing that the goods will no longer function unless their consumables are replaced, thus leading the consumer to purchase more consumables than necessary. For example, the practice of urging the consumer, via the settings of the printer, to replace the printer ink cartridges before they are actually empty in order to stimulate the purchase of additional ink cartridges should be prohibited.
+(24)
+Annex I to Directive 2005/29/EC should also be amended to prohibit the withholding of information from the consumer about the impairment of the functionality of a good when using consumables, spare parts or accessories that are not provided by the original producer. For example, if a printer is designed in such a way that its functionality is limited when using ink cartridges not provided by the original producer of the printer, that information should not be hidden from the consumer because such a practice could mislead the consumer into purchasing an alternative ink cartridge which cannot be used for that printer, thus leading to unnecessary waste streams or additional costs for the consumer. Similarly, if a smart device is designed in such a way that its functionality is limited when using chargers or spare parts that are not provided by the original producer, that information should not be hidden from the consumer at the time of purchase. It should also be prohibited to mislead the consumer into believing that using consumables, spare parts or accessories not supplied by the original producer will impair the functionality of a good when this is not the case. In general, traders who are also the producers of the goods are expected to have that information, whereas other traders such as sellers should rely on reliable information available to them, for instance based on a statement from a competent national authority or information provided by the producer.
+(25)
+In order for consumers to take better informed decisions and stimulate demand for, and supply of, more durable goods, specific information about a product’s durability and reparability should be provided for all types of goods before concluding the contract. Moreover, as regards goods with digital elements, digital content and digital services, consumers should be informed about the period during which free software updates are available. Therefore, Directive 2011/83/EU of the European Parliament and of the Council (13) should be amended to provide consumers with pre-contractual information about durability, reparability and the availability of updates. Information should be provided to consumers in a clear and comprehensible manner and in line with the accessibility requirements of Directive (EU) 2019/882 of the European Parliament and of the Council (14). The obligation to provide this information to consumers complements and does not affect the rights of consumers provided in Directives (EU) 2019/770 and (EU) 2019/771.
+(26)
+A good indicator of a good’s durability is the producer’s commercial guarantee of durability within the meaning of Article 17 of Directive (EU) 2019/771. The producer’s commercial guarantee of durability is a commitment from a producer to the consumer on the durability of a good. More specifically, it is a commitment that a good will maintain its required functions and performance through normal use. In order to inform consumers about the fact that a guarantee of durability is offered for a particular good, that information should be provided to the consumer using a harmonised label. Traders selling goods should be required, where the producer makes the information available to the trader, to inform consumers about the existence and duration of any commercial guarantee of durability, offered by the producer at no additional cost, covering the entire good, and with a duration of more than two years. The trader should not be required to actively seek such information from the producer, for example, by searching on product-specific websites. To avoid confusing consumers between the commercial guarantee of durability and the legal guarantee of conformity, consumers should be reminded on the harmonised label that they also benefit from the legal guarantee of conformity.
+(27)
+Recent reports have shown that consumers are often unaware of their legal rights under Directive (EU) 2019/771. Therefore, a harmonised notice should remind consumers about the existence and the main elements of the legal guarantee of conformity, including its minimum duration of two years and a general reference to the possibility that the duration of the legal guarantee of conformity can be longer under national law. This will prevent possible confusion with the information on the commercial guarantee of durability.
+(28)
+The harmonised label should be displayed in a prominent manner and used in a way that allows consumers to easily identify which particular good benefits from a commercial guarantee of durability offered by the producer at no additional cost, covering the entire good, and with a duration of more than two years, for example by placing the label directly on the packaging of a particular good, by displaying the label in a prominent manner on the shelf where the goods covered by such a guarantee are placed or by placing it directly next to the picture of the good in the case of online sale. Producers offering such commercial guarantees of durability can themselves place the harmonised label directly on the particular good or on its packaging, with the aim of benefitting from a commercial advantage. Traders should ensure that the harmonised label is clearly visible. Meanwhile, the harmonised notice should provide a general reminder to the consumers about the legal guarantee of conformity applicable to all goods in accordance with Directive (EU) 2019/771. The harmonised notice should be displayed in a prominent manner, for example, on a poster in an eye-catching way on a wall in the shop, next to the checkout counter or, in cases of online sale, placed as a general reminder on the website of the trader selling goods.
+(29)
+Implementing powers should be conferred on the Commission as regards the design and content of the harmonised label and the harmonised notice. Those powers should be exercised in accordance with Regulation (EU) No 182/2011 of the European Parliament and of the Council (15).
+(30)
+In view of the minimum duration of two years of the legal guarantee of conformity as provided in Directive (EU) 2019/771 and the fact that many product failures occur after that time, the trader’s obligation to inform consumers about the existence and duration of the producer’s commercial guarantee of durability using a harmonised label should only apply to commercial guarantees of durability that are offered for a period longer than two years. In addition, the harmonised label should also remind consumers of the existence of the legal guarantee of conformity.
+(31)
+In order to make it easier for consumers to take an informed transactional decision when comparing goods before concluding a contract, traders should inform consumers about the existence and duration of the producer’s commercial guarantee of durability for the entire good and not for specific components of the good.
+(32)
+The producer and the seller should remain free to offer other types of commercial guarantees and after-sales services. However, the information provided to the consumer about other commercial guarantees or services should not confuse the consumer with regard to the existence and duration of the commercial guarantee of durability offered at no additional cost by the producer, covering the entire good and with a duration of more than two years, and for which a harmonised label is used.
+(33)
+In order for consumers to make better-informed decisions and to promote competition between producers as regards the durability of goods with digital elements, the traders selling those goods should inform consumers about the minimum period during which the producer commits to provide software updates for such goods, whether expressed as a period of time or by reference to a date. Likewise, traders offering digital content and digital services should inform consumers about the minimum period during which the provider of the digital content or digital service commits to provide software updates, including security updates, necessary to keep the digital content and digital services in conformity. This obligation should ensure that consumers receive this information in a simple and clear manner allowing them to compare different minimum periods. This is without prejudice to the obligations set out in Union law, in particular in Directives (EU) 2019/770 and (EU) 2019/771 and, where applicable, product-specific Union law. The information on software updates should be provided in a manner that is not misleading under Directive 2005/29/EC. The trader should be obliged to provide this information only where the producer or provider has made such information available.
+(34)
+Pursuant to Article 5(1), point (e), and Article 6(1), point (m), of Directive 2011/83/EU, before consumers are bound by a contract, traders are obliged to provide consumers with information on the existence and the conditions of after-sales services, including repair services, where such services are provided. In addition, to allow consumers to make an informed transactional decision and choose goods that are easier to repair, traders should, where applicable, provide, before consumers are bound by the contract, the reparability score for the good as provided by the producer and as established at Union level.
+(35)
+In order to ensure that consumers are well informed about the reparability of the goods they purchase, where a reparability score is not established at Union level, traders should provide other relevant information on repair that is made available by the producer, such as information about the availability, estimated cost and procedure for ordering spare parts that are necessary to keep the goods in conformity, the availability of repair and maintenance instructions and repair restrictions.
+(36)
+Traders should provide consumers with the harmonised label, information about the minimum period for updates and information on repair other than the reparability score, where the producer or provider of the digital content or digital service, if different from the trader, makes the relevant information available. In particular, as regards goods, the trader should convey to consumers the information that the producer has provided to the trader or has otherwise intended to make readily available to the consumer before the conclusion of the contract, by indicating it on the product itself, its packaging or tags and labels that the consumer would normally consult before concluding the contract. The trader should not be required to actively seek such information from the producer, for example, by searching on the product-specific websites. At the same time, it would be in the interest of the producers to proactively provide such information to benefit from a commercial advantage.
+(37)
+Traders should, where applicable, inform consumers about the availability of environmentally friendly delivery options, such as the delivery of goods by cargo bike or electric delivery vehicle or the possibility of bundled shipping options.
+(38)
+If a distance contract that is to be concluded by electronic means places the consumer under an obligation to pay, the trader should make the consumer aware of the harmonised label, whenever provided, in a clear and prominent manner, and directly before the consumer places an order to ensure the consumer takes that information into account.
+(39)
+Directives 2005/29/EC and 2011/83/EU should continue to function as a ‘safety net’, ensuring that a high level of consumer protection can be maintained in all sectors by complementing sector and product-specific Union law that prevail in case of conflict.
+(40)
+Since the objectives of this Directive, namely, enabling better-informed transactional decisions by consumers to promote sustainable consumption, eliminating practices that cause damage to the sustainable economy and prevent consumers from making sustainable consumption choices, and ensuring a better and consistent application of the Union consumer legal framework, cannot be sufficiently achieved by the Member States but can rather, by reason of the Union-wide character of the problem, be better achieved at Union level, the Union may adopt measures, in accordance with the principle of subsidiarity as set out in Article 5 of the Treaty on European Union. In accordance with the principle of proportionality as set out in that Article, this Directive does not go beyond what is necessary to achieve those objectives.
+(41)
+In accordance with the Joint Political Declaration of 28 September 2011 of Member States and the Commission on explanatory documents (16), Member States have undertaken to accompany, in justified cases, the notification of their transposition measures with one or more documents explaining the relationship between the components of a directive and the corresponding parts of national transposition instruments. With regard to this Directive, the legislator considers the transmission of such documents to be justified.
+(42)
+To facilitate the proper application of this Directive, it is important that the Commission keeps the guidance documents on Directives 2005/29/EC and 2011/83/EU updated to take into account the content of this Directive,
+HAVE ADOPTED THIS DIRECTIVE:
+Article 1
+
+Amendments to Directive 2005/29/EC
+
+Directive 2005/29/EC is amended as follows:
+(1)
+in Article 2, the first paragraph is amended as follows:
+(a)
+the following point is inserted:
+‘(ca)
+“goods” means goods as defined in Article 2, point (5), of Directive (EU) 2019/771 of the European Parliament and of the Council (*1);
+(*1)  Directive (EU) 2019/771 of the European Parliament and of the Council of 20 May 2019 on certain aspects concerning contracts for the sale of goods, amending Regulation (EU) 2017/2394 and Directive 2009/22/EC, and repealing Directive 1999/44/EC (OJ L 136, 22.5.2019, p. 28).’;"
+(b)
+the following points are added:
+‘(o)
+“environmental claim” means any message or representation which is not mandatory under Union or national law, in any form, including text, pictorial, graphic or symbolic representation, such as labels, brand names, company names or product names, in the context of a commercial communication, and which states or implies that a product, product category, brand or trader has a positive or zero impact on the environment or is less damaging to the environment than other products, product categories, brands or traders, or has improved its impact over time;
+(p)
+“generic environmental claim” means any environmental claim made in written or oral form, including through audiovisual media, that is not included on a sustainability label and where the specification of the claim is not provided in clear and prominent terms on the same medium;
+(q)
+“sustainability label” means any voluntary trust mark, quality mark or equivalent, either public or private, that aims to set apart and promote a product, a process or a business by reference to its environmental or social characteristics, or both, and excludes any mandatory label required under Union or national law;
+(r)
+“certification scheme” means a third-party verification scheme that certifies that a product, process or business complies with certain requirements, that allows for the use of a corresponding sustainability label, and the terms of which, including its requirements, are publicly available and meet the following criteria:
+(i)
+the scheme is open under transparent, fair, and non-discriminatory terms to all traders willing and able to comply with the scheme’s requirements;
+(ii)
+the scheme’s requirements are developed by the scheme owner in consultation with relevant experts and stakeholders;
+(iii)
+the scheme sets out procedures for dealing with non-compliance with the scheme’s requirements and provides for the withdrawal or suspension of the use of the sustainability label by the trader in case of non-compliance with the scheme’s requirements; and
+(iv)
+the monitoring of a trader’s compliance with the scheme’s requirements is subject to an objective procedure and is carried out by a third party whose competence and independence from both the scheme owner and the trader are based on international, Union or national standards and procedures;
+(s)
+“recognised excellent environmental performance” means environmental performance compliant with Regulation (EC) No 66/2010 of the European Parliament and of the Council (*2) or with national or regional EN ISO 14024 type I ecolabelling schemes officially recognised in the Member States, or top environmental performance in accordance with other applicable Union law;
+(t)
+“durability” means durability as defined in Article 2, point (13), of Directive (EU) 2019/771;
+(u)
+“software update” means an update that is necessary to keep goods with digital elements, digital content and digital services in conformity in accordance with Directive (EU) 2019/770 of the European Parliament and of the Council (*3) and Directive (EU) 2019/771, including a security update, or a functionality update;
+(v)
+“consumable” means any component of a good that is used up recurrently and that needs to be replaced or replenished for the good to function as intended;
+(w)
+“functionality” means functionality as defined in Article 2, point (9), of Directive (EU) 2019/771.
+(*2)  Regulation (EC) No 66/2010 of the European Parliament and of the Council of 25 November 2009 on the EU Ecolabel (OJ L 27, 30.1.2010, p. 1)."
+(*3)  Directive (EU) 2019/770 of the European Parliament and of the Council of 20 May 2019 on certain aspects concerning contracts for the supply of digital content and digital services (OJ L 136, 22.5.2019, p. 1).’;"
+(2)
+Article 6 is amended as follows:
+(a)
+in paragraph 1, point (b) is replaced by the following:
+‘(b)
+the main characteristics of the product, such as its availability, benefits, risks, execution, composition, environmental or social characteristics, accessories, circularity aspects, such as durability, reparability or recyclability, after-sale customer assistance and complaint handling, method and date of manufacture or provision, delivery, fitness for purpose, usage, quantity, specification, geographical or commercial origin or the results to be expected from its use, or the results and material features of tests or checks carried out on the product.’;
+(b)
+in paragraph 2, the following points are added:
+‘(d)
+making an environmental claim related to future environmental performance without clear, objective, publicly available and verifiable commitments set out in a detailed and realistic implementation plan that includes measurable and time-bound targets and other relevant elements necessary to support its implementation, such as allocation of resources, and that is regularly verified by an independent third party expert, whose findings are made available to consumers;
+(e)
+advertising benefits to consumers that are irrelevant and do not result from any feature of the product or business.’;
+(3)
+in Article 7, the following paragraph is added:
+‘7.
+Where a trader provides a service which compares products and provides the consumer with information on environmental or social characteristics or on circularity aspects, such as durability, reparability or recyclability, of the products or suppliers of those products, information about the method of comparison, the products which are the object of comparison and the suppliers of those products, as well as the measures in place to keep that information up to date, shall be regarded as material information.’;
+(4)
+Annex I is amended in accordance with the Annex to this Directive.
+Article 2
+
+Amendments to Directive 2011/83/EU
+
+Directive 2011/83/EU is amended as follows:
+(1)
+in Article 2, the following points are inserted:
+‘(14a)
+“commercial guarantee of durability” means a producer’s commercial guarantee of durability as referred to in Article 17 of Directive (EU) 2019/771, under which the producer is directly liable to the consumer during the entire period of the commercial guarantee of durability for repair or replacement of the goods in accordance with Article 14 of Directive (EU) 2019/771, whenever the goods do not maintain their durability;
+(14b)
+“durability” means durability as defined in Article 2, point (13), of Directive (EU) 2019/771;
+(14c)
+“producer” means producer as defined in Article 2, point (4), of Directive (EU) 2019/771;
+(14d)
+“reparability score” means a score expressing the capacity of a good to be repaired, based on harmonised requirements established at Union level;
+(14e)
+“software update” means a free update, including a security update, that is necessary to keep goods with digital elements, digital content and digital services in conformity in accordance with Directives (EU) 2019/770 and (EU) 2019/771;’;
+(2)
+in Article 5, paragraph 1 is amended as follows:
+(a)
+point (e) is replaced by the following:
+‘(e)
+a reminder of the existence of the legal guarantee of conformity for goods and its main elements, including its minimum duration of two years as provided in Directive (EU) 2019/771, in a prominent manner, using the harmonised notice referred to in Article 22a of this Directive;’;
+(b)
+the following points are inserted:
+‘(ea)
+where the producer offers the consumer a commercial guarantee of durability at no additional cost, covering the entire good and with a duration of more than two years and makes that information available to the trader, the information that that good benefits from such a guarantee, its duration and a reminder of the existence of the legal guarantee of conformity, in a prominent manner, using the harmonised label referred to in Article 22a;
+(eb)
+a reminder of the existence of the legal guarantee of conformity for digital content and digital services;
+(ec)
+where applicable, the existence and the conditions of after-sales services and commercial guarantees;
+(ed)
+for goods with digital elements, for digital content and for digital services, where the producer or provider makes the information available to the trader, the minimum period, whether expressed as a period of time or by reference to a date, during which the producer or the provider provides software updates.’;
+(c)
+the following points are added:
+‘(i)
+where applicable, the reparability score for the goods;
+(j)
+where point (i) is not applicable and provided that the producer makes the information available to the trader, information about the availability and estimated cost of, and procedure for ordering, spare parts that are necessary to keep the goods in conformity, about the availability of repair and maintenance instructions and about repair restrictions.’;
+(3)
+in Article 6, paragraph 1 is amended as follows:
+(a)
+point (g) is replaced by the following:
+‘(g)
+the arrangements for payment, delivery, including environmentally friendly delivery options where available, performance, the time by which the trader undertakes to deliver the goods or to perform the services and, where applicable, the trader’s complaint handling policy;’;
+(b)
+point (l) is replaced by the following:
+‘(l)
+a reminder of the existence of the legal guarantee of conformity for goods and its main elements, including its minimum duration of two years as provided in Directive (EU) 2019/771, in a prominent manner, using the harmonised notice referred to in Article 22a of this Directive;’;
+(c)
+the following points are inserted:
+‘(la)
+where the producer offers the consumer a commercial guarantee of durability at no additional cost, covering the entire good and with a duration of more than two years, and makes that information available to the trader, the information that that good benefits from such a guarantee, its duration and a reminder of the existence of the legal guarantee of conformity, in a prominent manner, using the harmonised label referred to in Article 22a;
+(lb)
+a reminder of the existence of the legal guarantee of conformity for digital content and digital services;
+(lc)
+for goods with digital elements, for digital content and for digital services, where the producer or the provider makes the information available to the trader, the minimum period, whether expressed as a period of time or by reference to a date, during which the producer or the provider provides software updates.’;
+(d)
+the following points are added:
+‘(u)
+where applicable, the reparability score for the goods;
+(v)
+where point (u) is not applicable and provided that the producer makes the information available to the trader, information about the availability and estimated cost of, and procedure for ordering, spare parts that are necessary to keep the goods in conformity, about the availability of repair and maintenance instructions and about repair restrictions.’;
+(4)
+in Article 8(2), the first subparagraph is replaced by the following:
+‘2.
+If a distance contract to be concluded by electronic means places the consumer under an obligation to pay, the trader shall make the consumer aware in a clear and prominent manner, and directly before the consumer places his order, of the information provided for in Article 6(1), points (a), (e), (la), (o) and (p).’;
+(5)
+the following article is inserted in Chapter V:
+‘Article 22a
+
+Harmonised notice and harmonised label
+
+1.   In order to ensure that consumers are well informed and can easily understand their rights throughout the Union, a harmonised notice shall be used for the provision of information pursuant to Article 5(1), point (e), and Article 6(1), point (l), and a harmonised label shall be used for the provision of information pursuant to Article 5(1), point (ea), and Article 6(1), point (la).
+2.   By 27 September 2025 the Commission shall, by means of implementing acts, specify the design and content of the harmonised notice referred to in paragraph 1.
+3.   The harmonised notice shall contain the main elements of the legal guarantee of conformity, including its minimum duration of two years as provided in Directive (EU) 2019/771 and a general reference to the possibility that the duration of the legal guarantee of conformity is longer under national law.
+4.   By 27 September 2025 the Commission shall, by means of implementing acts, specify the design and content of the harmonised label referred to in paragraph 1.
+5.   The harmonised notice and the harmonised label shall be easily recognisable and understandable for consumers and easy to use and reproduce for traders.
+6.   Those implementing acts shall be adopted in accordance with the examination procedure referred to in Article 27a.’
+;
+(6)
+the following article is inserted:
+‘Article 27a
+
+Committee procedure
+
+1.   The Commission shall be assisted by a committee. That committee shall be a committee within the meaning of Regulation (EU) No 182/2011 of the European Parliament and of the Council (*4).
+2.   Where reference is made to this paragraph, Article 5 of Regulation (EU) No 182/2011 shall apply.
+(*4)  Regulation (EU) No 182/2011 of the European Parliament and of the Council of 16 February 2011 laying down the rules and general principles concerning mechanisms for control by Member States of the Commission’s exercise of implementing powers (OJ L 55, 28.2.2011, p. 13).’."
+Article 3
+
+Reporting by the Commission and review
+
+By 27 September 2031, the Commission shall submit a report on the application of this Directive to the European Parliament and to the Council.
+That report shall include an assessment of this Directive’s contribution to enhancing consumer rights, in particular the effectiveness of the harmonised label and the harmonised notice with regard to improving the availability of commercial guarantees of durability and consumers’ understanding thereof, as well as consumers’ awareness of their rights under the legal guarantee of conformity. Furthermore, the report shall assess this Directive’s overall contribution to the participation of consumers in the green transition and its impact on traders.
+That report shall be accompanied, where appropriate, by relevant legislative proposals.
+Article 4
+
+Transposition
+
+1.   By 27 March 2026, Member States shall adopt and publish the measures necessary to comply with this Directive. They shall immediately inform the Commission thereof.
+They shall apply those measures from 27 September 2026.
+When Member States adopt those measures, they shall contain a reference to this Directive or shall be accompanied by such reference on the occasion of their official publication. The methods of making such reference shall be laid down by Member States.
+2.   Member States shall communicate to the Commission the text of the main measures of national law which they adopt in the field covered by this Directive.
+Article 5
+
+Entry into force
+
+This Directive shall enter into force on the twentieth day following its publication in the Official Journal of the European Union.
+Article 6
+
+Addressees
+
+This Directive is addressed to the Member States.
+Done at Strasbourg, 28 February 2024.
+For the European Parliament
+The President
+R. METSOLA
+For the Council
+The President
+M. MICHEL
+(1)   OJ C 443, 22.11.2022, p. 75.
+(2)  Position of the European Parliament of 17 January 2024 (not yet published in the Official Journal) and decision of the Council of 20 February 2024.
+(3)  Directive 2005/29/EC of the European Parliament and of the Council of 11 May 2005 concerning unfair business-to-consumer commercial practices in the internal market and amending Council Directive 84/450/EEC, Directives 97/7/EC, 98/27/EC and 2002/65/EC of the European Parliament and of the Council and Regulation (EC) No 2006/2004 of the European Parliament and of the Council (‘Unfair Commercial Practices Directive’) (OJ L 149, 11.6.2005, p. 22).
+(4)  Regulation (EC) No 765/2008 of the European Parliament and of the Council of 9 July 2008 setting out the requirements for accreditation and repealing Regulation (EEC) No 339/93 (OJ L 218, 13.8.2008, p. 30).
+(5)  Regulation (EU) No 1169/2011 of the European Parliament and of the Council of 25 October 2011 on the provision of food information to consumers, amending Regulations (EC) No 1924/2006 and (EC) No 1925/2006 of the European Parliament and of the Council, and repealing Commission Directive 87/250/EEC, Council Directive 90/496/EEC, Commission Directive 1999/10/EC, Directive 2000/13/EC of the European Parliament and of the Council, Commission Directives 2002/67/EC and 2008/5/EC and Commission Regulation (EC) No 608/2004 (OJ L 304, 22.11.2011, p. 18).
+(6)  Regulation (EC) No 1221/2009 of the European Parliament and of the Council of 25 November 2009 on the voluntary participation by organisations in a Community eco-management and audit scheme (EMAS), repealing Regulation (EC) No 761/2001 and Commission Decisions 2001/681/EC and 2006/193/EC (OJ L 342, 22.12.2009, p. 1).
+(7)  Regulation (EC) No 66/2010 of the European Parliament and of the Council of 25 November 2009 on the EU Ecolabel (OJ L 27, 30.1.2010, p. 1).
+(8)  Directive (EU) 2015/2436 of the European Parliament and of the Council of 16 December 2015 to approximate the laws of the Member States relating to trade marks (OJ L 336, 23.12.2015, p. 1).
+(9)  Regulation (EU) 2017/1369 of the European Parliament and of the Council of 4 July 2017 setting a framework for energy labelling and repealing Directive 2010/30/EU (OJ L 198, 28.7.2017, p. 1).
+(10)  Directive (EU) 2019/2161 of the European Parliament and of the Council of 27 November 2019 amending Council Directive 93/13/EEC and Directives 98/6/EC, 2005/29/EC and 2011/83/EU of the European Parliament and of the Council as regards the better enforcement and modernisation of Union consumer protection rules (OJ L 328, 18.12.2019, p. 7).
+(11)  Directive (EU) 2019/770 of the European Parliament and of the Council of 20 May 2019 on certain aspects concerning contracts for the supply of digital content and digital services (OJ L 136, 22.5.2019, p. 1).
+(12)  Directive (EU) 2019/771 of the European Parliament and of the Council of 20 May 2019 on certain aspects concerning contracts for the sale of goods, amending Regulation (EU) 2017/2394 and Directive 2009/22/EC, and repealing Directive 1999/44/EC (OJ L 136, 22.5.2019, p. 28).
+(13)  Directive 2011/83/EU of the European Parliament and of the Council of 25 October 2011 on consumer rights, amending Council Directive 93/13/EEC and Directive 1999/44/EC of the European Parliament and of the Council and repealing Council Directive 85/577/EEC and Directive 97/7/EC of the European Parliament and of the Council (OJ L 304, 22.11.2011, p. 64).
+(14)  Directive (EU) 2019/882 of the European Parliament and of the Council of 17 April 2019 on the accessibility requirements for products and services (OJ L 151, 7.6.2019, p. 70).
+(15)  Regulation (EU) No 182/2011 of the European Parliament and of the Council of 16 February 2011 laying down the rules and general principles concerning mechanisms for control by Member States of the Commission’s exercise of implementing powers (OJ L 55, 28.2.2011, p. 13).
+(16)   OJ C 369, 17.12.2011, p. 14.
+ANNEX
+
+Annex I to Directive 2005/29/EC is amended as follows:
+(1)
+the following point is inserted:
+‘2a.
+Displaying a sustainability label that is not based on a certification scheme or not established by public authorities.’;
+(2)
+the following points are inserted:
+‘4a.
+‘Making a generic environmental claim for which the trader is not able to demonstrate recognised excellent environmental performance relevant to the claim.
+4b.
+Making an environmental claim about the entire product or the trader’s entire business when it concerns only a certain aspect of the product or a specific activity of the trader’s business.
+4c.
+Claiming, based on the offsetting of greenhouse gas emissions, that a product has a neutral, reduced or positive impact on the environment in terms of greenhouse gas emissions.’;
+(3)
+the following point is inserted:
+‘10a.
+Presenting requirements imposed by law on all products within the relevant product category on the Union market as a distinctive feature of the trader’s offer.’;
+(4)
+the following points are inserted:
+‘23d.
+Withholding information from the consumer about the fact that a software update will negatively impact the functioning of goods with digital elements or the use of digital content or digital services.
+23e.
+Presenting a software update as necessary when it only enhances functionality features.
+23f.
+Any commercial communication in relation to a good containing a feature introduced to limit its durability despite information on the feature and its effects on the durability of the good being available to the trader.
+23g.
+Falsely claiming that under normal conditions of use a good has a certain durability in terms of usage time or intensity.
+23h.
+Presenting a good as allowing repair when it does not.
+23i.
+Inducing the consumer to replace or replenish the consumables of a good earlier than necessary for technical reasons.
+23j.
+Withholding information concerning the impairment of the functionality of a good when consumables, spare parts or accessories not supplied by the original producer are used, or falsely claiming that such impairment will happen.’.
