@@ -931,6 +931,9 @@ Rules:
 """
 
 
+_chat_cache: dict[tuple, dict] = {}
+
+
 def build_chat_context(user_message: str, products: list[dict]) -> str:
     """Run rules engine on all products, format results + RAG text as context."""
     sections = []
@@ -945,10 +948,20 @@ def build_chat_context(user_message: str, products: list[dict]) -> str:
             certs = _parse_certifications(certs_text)
 
             for claim_str in claims:
-                result = analyze_claim(claim_str, certs, name)
+                key = (claim_str, tuple(certs), name)
+                if key in _chat_cache:
+                    result = _chat_cache[key]
+                else:
+                    result = analyze_claim(claim_str, certs, name)
+                    _chat_cache[key] = result
                 all_results.append(result)
     else:
-        result = analyze_claim(user_message, [], "")
+        key = (user_message, (), "")
+        if key in _chat_cache:
+            result = _chat_cache[key]
+        else:
+            result = analyze_claim(user_message, [], "")
+            _chat_cache[key] = result
         all_results.append(result)
 
     # Format gate results

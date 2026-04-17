@@ -19,6 +19,9 @@ from analyze import (
 
 _executor = ThreadPoolExecutor(max_workers=8)
 
+# Cache: (claim, tuple(certs), product_name) -> result
+_claim_cache: dict[tuple, dict] = {}
+
 app = FastAPI(title="EU Fashion Compliance Checker")
 
 FRONTEND_DIR = Path(__file__).parent / "frontend"
@@ -69,9 +72,17 @@ async def audit(request: Request):
         for claim_str in claims:
             tasks.append((i, claim_str, certs, name))
 
+    def _cached_analyze(claim_str, certs, name):
+        key = (claim_str, tuple(certs), name)
+        if key in _claim_cache:
+            return _claim_cache[key]
+        result = analyze_claim(claim_str, certs, name)
+        _claim_cache[key] = result
+        return result
+
     # Run all claim analyses concurrently via thread pool
     futures = [
-        loop.run_in_executor(_executor, analyze_claim, claim_str, certs, name)
+        loop.run_in_executor(_executor, _cached_analyze, claim_str, certs, name)
         for (_, claim_str, certs, name) in tasks
     ]
     claim_results_flat = await asyncio.gather(*futures)
@@ -132,8 +143,11 @@ async def chat(request: Request):
             latest_msg = msg.get("content", "")
             break
 
-    # Build regulation context from balanced retrieval
-    context = build_chat_context(latest_msg, products)
+    # Build regulation context in thread pool to avoid blocking the event loop
+    loop = asyncio.get_event_loop()
+    context = await loop.run_in_executor(
+        _executor, build_chat_context, latest_msg, products
+    )
 
     # System prompt with regulation context appended
     system_content = CHAT_SYSTEM_PROMPT + context
